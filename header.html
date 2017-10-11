@@ -2,17 +2,15 @@
 <html>
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 <script type='text/javascript' src='assets/js/jquery.min.js'></script>
-<script type='text/javascript' src='assets/js/jquery.validateEngine-en.js'></script>
-<script type='text/javascript' src='assets/js/jquery.validateEngine.js'></script>
+<script type='text/javascript' src='assets/js/jquery.validate.min.js'></script>
+<script type='text/javascript' src='assets/js/jquery.validationEngine-en.js'></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZAV7auKjTBBza1E7o88dLQCcVhxDrEWc&v=3.exp"></script>
 
-<script type="text/javascript" src="./index_files/jscripts-ftr-min.js"></script>
-<script type="text/javascript" src="./index_files/jquery.prettyPhoto.min.js"></script>
+<script type="text/javascript" src="assets/js/jscripts-ftr-min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.prettyPhoto.min.js"></script>
 
 <!-- META SETTINGS  -->
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -29,10 +27,28 @@
 	title="MD Health Clinics » Comments Feed"
 	href="comments/feed/">
 <script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/index_files/wp-emoji-release.min.js?ver=4.8"}};
-			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-<script src="./index_files/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
+/*
+			window._wpemojiSettings = {
+					"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/",
+					"ext":".png",
+					"svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/",
+					"svgExt":".svg",
+					"source":{"concatemoji":"http:\/\/localhost\/assets\/js\/wp-emoji-release.min.js?ver=4.8"}};
+			
+			!function(a,b,c){
+				function d(a){
+					var b,c,d,e,f=String.fromCharCode;
+					if(!k||!k.fillText)
+						return!1;
+					
+					switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a) {
+					case"flag":
+						return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);
+					case"emoji4":
+						return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+*/
+</script>
+<script src="assets/js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
 <style type="text/css">
 img.wp-smiley, img.emoji {
 	display: inline !important;
@@ -46,23 +62,23 @@ img.wp-smiley, img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel="stylesheet" id="contact-form-7-css" href="./index_files/styles.css" type="text/css" media="all">
-<link rel="stylesheet" id="style2-os-css-css" href="./index_files/style2-os.css" type="text/css" media="all">
-<link rel="stylesheet" id="lightbox-css-css" href="./index_files/lightbox.css" type="text/css" media="all">
-<link rel="stylesheet" id="fontawesome-css-css" href="./index_files/font-awesome.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-maps-builder-plugin-styles-css" href="./index_files/google-maps-builder.min.css" type="text/css" media="all"> 
-<link rel="stylesheet" id="google-maps-builder-map-icons-css" href="./index_files/map-icons.css" type="text/css" media="all">
-<link rel="stylesheet" id="js_composer_front-css" href="./index_files/js_composer.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="plethora-icons-css" href="./index_files/plethora_icons.css" type="text/css" media="all">
-<link rel="stylesheet" id="owlcarousel2-css" href="./index_files/owl.carousel.css" type="text/css" media="all">
-<link rel="stylesheet" id="owlcarousel2-theme-css" href="./index_files/owl.theme.default.css" type="text/css" media="all">
-<link rel="stylesheet" id="animate-css" href="./index_files/animate.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="plethora-custom-bootstrap-css" href="./index_files/theme_custom_bootstrap.css" type="text/css" media="all">
-<link rel="stylesheet" id="plethora-dynamic-style-css" href="./index_files/stylesbig.css" type="text/css" media="all">
-<link rel="stylesheet" id="plethora-style-css" href="./index_files/style.css" type="text/css" media="all">
-<link rel="stylesheet" id="redux-google-fonts-plethora_options-css" href="./index_files/css.css" type="text/css" media="all">
-<link rel="stylesheet" id="fasc-buttons-style-css" href="./index_files/button-styles.css" type="text/css" media="all">
-<link rel="stylesheet" id="font-awesome-style-css" href="./index_files/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="assets/css/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="style2-os-css-css" href="assets/css/style2-os.css" type="text/css" media="all">
+<link rel="stylesheet" id="lightbox-css-css" href="assets/css/lightbox.css" type="text/css" media="all">
+<link rel="stylesheet" id="fontawesome-css-css" href="assets/css/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="google-maps-builder-plugin-styles-css" href="assets/css/google-maps-builder.min.css" type="text/css" media="all"> 
+<link rel="stylesheet" id="google-maps-builder-map-icons-css" href="assets/css/map-icons.css" type="text/css" media="all">
+<link rel="stylesheet" id="js_composer_front-css" href="assets/css/js_composer.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="plethora-icons-css" href="assets/css/plethora_icons.css" type="text/css" media="all">
+<link rel="stylesheet" id="owlcarousel2-css" href="assets/css/owl.carousel.css" type="text/css" media="all">
+<link rel="stylesheet" id="owlcarousel2-theme-css" href="assets/css/owl.theme.default.css" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css" href="assets/css/animate.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="plethora-custom-bootstrap-css" href="assets/css/theme_custom_bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="plethora-dynamic-style-css" href="assets/css/stylesbig.css" type="text/css" media="all">
+<link rel="stylesheet" id="plethora-style-css" href="assets/css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="redux-google-fonts-plethora_options-css" href="assets/css/css.css" type="text/css" media="all">
+<link rel="stylesheet" id="fasc-buttons-style-css" href="assets/css/button-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-style-css" href="assets/css/font-awesome.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="dashicons" href="assets/css/dashicons.min.css" type="text/css" media="all">
 
 
@@ -341,7 +357,7 @@ p#si_captcha_code_p {
     <div class="container">
      <div class="logo">
       <a href="" class="brand"> <img
-       src="./index_files/md-health-cllinics-logo-header.png"
+       src="images/md-health-cllinics-logo-header.png"
        alt="HealthFlex">
       </a>
      </div>
@@ -462,3 +478,4 @@ p#si_captcha_code_p {
    </div>
 
   </div> 
+  </div>

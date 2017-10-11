@@ -3,7 +3,7 @@
 	      <div class="brand-colors"> </div>
     <div class="head_panel">
 
-   <div style="background-image: url(&quot;wp-content/uploads/2015/09/slider-6-1.jpg&quot;)" class="full_width_photo bg_vtop parallax-window ">
+   <div style="background-image: url('images/slider-6-1.jpg')" class="full_width_photo bg_vtop parallax-window ">
 
        <div class="hgroup">
 
@@ -81,7 +81,7 @@
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="366" height="1024" src="http://localhost/wp-content/uploads/2015/09/AboutUsImage5-366x1024.jpg" class="vc_single_image-img attachment-large" alt="" srcset="wp-content/uploads/2015/09/AboutUsImage5-366x1024.jpg 366w, wp-content/uploads/2015/09/AboutUsImage5-107x300.jpg 107w, wp-content/uploads/2015/09/AboutUsImage5.jpg 625w" sizes="(max-width: 366px) 100vw, 366px"></div>
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="366" height="1024" src="http://localhost/images/AboutUsImage5-366x1024.jpg" class="vc_single_image-img attachment-large" alt="" srcset="images/AboutUsImage5-366x1024.jpg 366w, images/AboutUsImage5-107x300.jpg 107w, images/AboutUsImage5.jpg 625w" sizes="(max-width: 366px) 100vw, 366px"></div>
 			
 		</figure>
 	</div>
@@ -93,7 +93,7 @@
 </section>
 
 
-<section style="background-image: url(wp-content/uploads/2015/09/family1-1.jpg)" class="vc_row wpb_row vc_row-fluid secondary_section transparent_film vcenter bgimage bg_vcenter">
+<section style="background-image: url('images/family1-1.jpg')" class="vc_row wpb_row vc_row-fluid secondary_section transparent_film vcenter bgimage bg_vcenter">
 	<div class="container">
 		<div class="row">
             <div class="wpb_column vc_column_container col-sm-12 text-center">
