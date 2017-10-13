@@ -42,6 +42,9 @@ header("Access-Control-Allow-Origin: *");
 				</div>
 
 
+<script type="text/javascript">
+<?php require 'assets/js/contact_form.js';?>
+</script>
 				<form action="sendmail.php" method="post" id="contactform">
 					<font color="#31849b">Talk To Us</font><span class="color2">
 						*</span>

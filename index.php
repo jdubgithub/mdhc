@@ -2,17 +2,18 @@
 	<?php include 'header.html';?>
 
 		<div class="brand-colors"></div>
-				
+		
+		
+					
 <div class="head_panel">
   <div class="slider_wrapper">
     <div id="head_panel_slider" class="owl-carousel">
-
 
       <!-- ============================ SLIDE ==========================-->
 
        <div class="stretchy_wrapper ratio_slider"> 
 
-        <div style="background-image: url(images/staff-2-1-e1462142733270.jpg);" aria-hidden="true" class="item    ">
+        <div style="background-image: url('images/staff-2-1-e1462142733270.jpg');" aria-hidden="true" class="item    ">
           <div class="container">
 
 
@@ -26,7 +27,7 @@
                  <p class="desc hidden-xxs">From Pain Mangement to Addiction Medicine our inhouse team is focused to provide you with a diagnosis and treatment quickly and effectively.</p> 
 
                   <div>
-                  <a href="about-us/" target="_self" class="btn btn-primary">
+                  <a href="about-us.php" target="_self" class="btn btn-primary">
                     Learn More
                   </a>
                   </div>
@@ -46,7 +47,7 @@
 
        <div class="stretchy_wrapper ratio_slider"> 
 
-        <div style="background-image: url(images/slider-2.jpg);" aria-hidden="true" class="item    ">
+        <div style="background-image: url(images/slider-6-1.jpg);" aria-hidden="true" class="item    ">
           <div class="container">
 
 
@@ -60,7 +61,7 @@
                  <p class="desc hidden-xxs">We accept most insurances to include Medicare, Medicaid, and Veterans Choice. Directions and Maps. Downloadable Patient Forms. </p> 
 
                   <div>
-                  <a href="visit-guide/" target="_self" class="btn btn-primary">
+                  <a href="visit-guide.php" target="_self" class="btn btn-primary">
                     Learn More
                   </a>
                   </div>
@@ -78,276 +79,207 @@
 
       <!-- ============================ SLIDE ==========================-->
 
-       <div class="stretchy_wrapper ratio_slider"> 
-
-        <div style="background-image: url(images/Appointments2.jpg);" aria-hidden="true" class="item    ">
-          <div class="container">
-
-
-            <div class="caption caption_left caption_fancy  text-left">
-
-              <div class="inner black_section transparent_film animated slideInUp">
-
-                 <div class="t1">APPOINTMENTS</div> 
-                 <div class="t2">Let Us Help You</div> 
-                
-                 <p class="desc hidden-xxs">At MD Health Clinics our multiple services and highly skilled medical professionals provide the best in healthcare with individuality and compassion in mind.</p> 
-
-                  <div>
-                  <a href="appointment-booking/" target="_self" class="btn btn-primary">
-                    Learn More
-                  </a>
-                  </div>
-
-              </div>
-            </div>
-
-
-          </div>
-        </div>
-
-       </div> 
-
       <!-- END========================= SLIDE ==========================-->
 
     </div>
   </div>
 </div>
 
-					<div class="owl-stage-outer">
-					<div class="owl-controls">
-						<div class="owl-nav">
-							<div class="owl-prev" style="">prev</div>
-							<div class="owl-next" style="">next</div>
-						</div>
-						<div class="owl-dots" style="display: none;"></div>
-					</div>
-				</div>
-
 		<!--    ========================= MAIN WRAPPER STARTT ========================  -->
 		<div class="main foo" data-colorset="foo">
 			<!--    >> START ========================= CONTENT AREA ========================  -->
 
 			<!--   START >> ========================= MAIN COLUMN ========================  -->
+			
+				  <div class="main foo" data-colorset="foo"><section class="vc_row wpb_row vc_row-fluid no_padding no_cols_padding elevate folded_section transparent">
+	<div class="container">
+		<div class="row">
+            <div class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1446619389066">
+                <div class="wpb_wrapper">
+<!-- ========================== TEASER BOX ==========================-->
 
-			<section
-				class="vc_row wpb_row vc_row-fluid no_padding no_cols_padding elevate folded_section transparent separator_top separator_bottom">
-				<div class="container">
-					<div class="row">
-						<div
-							class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1446619389066 sep_triangular_downhill_top sep_triangular_downhill_bottom"
-							style="border-color: rgb(8, 142, 255);">
-							<div class="separator_top" style="border-left-width: 289px;">
-								<div></div>
-							</div>
-							<div class="wpb_wrapper">
-								<!-- ========================== TEASER BOX ==========================-->
+<div class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button   ">
 
-								<div
-									class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button "
-									style="height: auto; min-height: 215px;">
+  <div class="figure transparent">
 
-									<div class="figure transparent">
 
+      <a href="services/" title="" target=""> 
 
-										<a href="services/" title=""
-											target=""> <img
-											src="./index_files/icon_med_book_white.png"
-											alt="Veterans Choice">
+        
+        
+        
+         <img src="images/icon_med_book_white.png" alt="Veterans Choice">   
 
+        
 
+    </a>
 
-										</a>
+  </div>
 
-									</div>
 
+  <div class="content text-center   with_button ">
+    
+    <div class="hgroup">
+       <h4 class="neutralize_links">
+       Veterans Choice
+       </h4>
+       <p>Veterans For Veterans</p> 
+    </div>
 
-									<div class="content text-center   with_button ">
+    
 
-										<div class="hgroup">
-											<h4>Veterans Choice</h4>
-											<p>Veterans For Veterans</p>
-										</div>
+    <div class="link centered">
+        <a href="services/"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
+    </div>
 
+  </div>
 
+</div>
 
-										<div class="link centered">
-											<a href="services/"
-												class="btn btn-xs btn-default"><strong>More</strong></a>
-										</div>
+<!-- END======================= TEASER BOX ==========================-->
+                </div>
+            </div>
+            <div class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1447875610924">
+                <div class="wpb_wrapper">
+<!-- ========================== TEASER BOX ==========================-->
 
-									</div>
+<div class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button   ">
 
-								</div>
 
-								<!-- END======================= TEASER BOX ==========================-->
+  <div class="figure transparent">
 
-							</div>
-							<div class="separator_bottom" style="border-left-width: 289px;">
-								<div></div>
-							</div>
-						</div>
-						<div
-							class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1447875610924 sep_triangular_uphill_top sep_triangular_uphill_bottom"
-							style="border-color: rgb(38, 156, 255);">
-							<div class="separator_top" style="border-left-width: 288px;">
-								<div></div>
-							</div>
-							<div class="wpb_wrapper">
-								<!-- ========================== TEASER BOX ==========================-->
+      <a href="pain-management.php" title="" target=""> 
 
-								<div
-									class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button "
-									style="height: auto; min-height: 215px;">
+        
 
+        
 
-									<div class="figure transparent">
+        <i class="wmi icon-i-immunizations"></i>
 
-										<a
-											href="departments/pain-management/"
-											title="" target=""> <i class="wmi icon-i-immunizations"></i>
 
+    </a>
 
-										</a>
 
+  </div>
 
-									</div>
+  <div class="content text-center   with_button ">
+    
+    <div class="hgroup">
+       <h4 class="neutralize_links">
+       Pain
+       </h4>
+       <p>Multidisciplinary Approach</p> 
+    </div>
 
-									<div class="content text-center   with_button ">
+    
 
-										<div class="hgroup">
-											<h4>Pain</h4>
-											<p>Multidisciplinary Approach</p>
-										</div>
+    <div class="link centered">
+        <a href="pain-management.php"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
+    </div>
 
+  </div>
 
+</div>
 
-										<div class="link centered">
-											<a
-												href="departments/pain-management/"
-												class="btn btn-xs btn-default"><strong>More</strong></a>
-										</div>
+<!-- END======================= TEASER BOX ==========================-->
+                </div>
+            </div>
+            <div class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1447875785935">
+                <div class="wpb_wrapper">
+<!-- ========================== TEASER BOX ==========================-->
 
-									</div>
+<div class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button   ">
 
-								</div>
 
-								<!-- END======================= TEASER BOX ==========================-->
+  <div class="figure transparent">
 
-							</div>
-							<div class="separator_bottom" style="border-left-width: 288px;">
-								<div></div>
-							</div>
-						</div>
-						<div
-							class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1447875785935 sep_triangular_downhill_top sep_triangular_downhill_bottom"
-							style="border-color: rgb(69, 170, 255);">
-							<div class="separator_top" style="border-left-width: 289px;">
-								<div></div>
-							</div>
-							<div class="wpb_wrapper">
-								<!-- ========================== TEASER BOX ==========================-->
+      <a href="addiction-medicine.php" title="" target=""> 
 
-								<div
-									class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button "
-									style="height: auto; min-height: 215px;">
+        
 
+        
 
-									<div class="figure transparent">
+        <i class="wmi icon-neurology"></i>
 
-										<a
-											href="departments/addiction-medicine/"
-											title="" target=""> <i class="wmi icon-neurology"></i>
 
+    </a>
 
-										</a>
 
+  </div>
 
-									</div>
+  <div class="content text-center   with_button ">
+    
+    <div class="hgroup">
+       <h4 class="neutralize_links">
+       Addictions
+       </h4>
+       <p>The Next Good Step</p> 
+    </div>
 
-									<div class="content text-center   with_button ">
+    
 
-										<div class="hgroup">
-											<h4>Addictions</h4>
-											<p>The Next Good Step</p>
-										</div>
+    <div class="link centered">
+        <a href="addiction-medicine.php"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
+    </div>
 
+  </div>
 
+</div>
 
-										<div class="link centered">
-											<a
-												href="departments/addiction-medicine/"
-												class="btn btn-xs btn-default"><strong>More</strong></a>
-										</div>
+<!-- END======================= TEASER BOX ==========================-->
+                </div>
+            </div>
+            <div class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1447875797423">
+                <div class="wpb_wrapper">
+<!-- ========================== TEASER BOX ==========================-->
 
-									</div>
+<div class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button   ">
 
-								</div>
+  <div class="figure transparent">
 
-								<!-- END======================= TEASER BOX ==========================-->
 
-							</div>
-							<div class="separator_bottom" style="border-left-width: 289px;">
-								<div></div>
-							</div>
-						</div>
-						<div
-							class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1447875797423 sep_triangular_uphill_top sep_triangular_uphill_bottom"
-							style="border-color: rgb(100, 184, 255);">
-							<div class="separator_top" style="border-left-width: 288px;">
-								<div></div>
-							</div>
-							<div class="wpb_wrapper">
-								<!-- ========================== TEASER BOX ==========================-->
+      <a href="appointment-booking.php" title="" target=""> 
 
-								<div
-									class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button "
-									style="height: auto; min-height: 215px;">
+        
+        
+        
+         <img src="images/icon_help_desk1.png" alt="Request an appointment">   
 
-									<div class="figure transparent">
+        
 
+    </a>
 
-										<a href="appointment-booking/"
-											title="" target=""> <img
-											src="./index_files/icon_help_desk1.png"
-											alt="Request an appointment">
+  </div>
 
 
+  <div class="content text-center   with_button ">
+    
+    <div class="hgroup">
+       <h4 class="neutralize_links">
+       Request an appointment
+       </h4>
+       <p>Call us or fill in a form</p> 
+    </div>
 
-										</a>
+    
 
-									</div>
+    <div class="link centered">
+        <a href="appointment-booking.php"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
+    </div>
 
+  </div>
 
-									<div class="content text-center   with_button ">
+</div>
 
-										<div class="hgroup">
-											<h4>Request an appointment</h4>
-											<p>Call us or fill in a form</p>
-										</div>
-
-
-
-										<div class="link centered">
-											<a href="appointment-booking/"
-												class="btn btn-xs btn-default"><strong>More</strong></a>
-										</div>
-
-									</div>
-
-								</div>
-
-								<!-- END======================= TEASER BOX ==========================-->
-
-							</div>
-							<div class="separator_bottom" style="border-left-width: 288px;">
-								<div></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
+<!-- END======================= TEASER BOX ==========================-->
+                </div>
+            </div>
+		</div>
+	</div>
+</section>
+</div>
+			
+			
 
 			<section
 				class="vc_row wpb_row vc_row-fluid no_top_padding separator_bottom sep_angled_positive_bottom">
@@ -413,7 +345,7 @@
 									</div>
 								</div>
 								<div class="plethora_button wpb_content_element text-left ">
-									<a href="contact/"
+									<a href="contact.php"
 										class="btn btn-primary with-icon icon-left" title=""
 										target="_self"> <i class="fa fa-hospital-o"></i> Checkout
 										our Facilities
@@ -433,17 +365,7 @@
 									<div class="figure ">
 
 
-										<a href="visit-guide/" title=""
-											target="">
-
-
-											<div class="figure  stretchy_wrapper ratio_16-9"
-												style="background-image: url(images/medicalbuilding.png)"></div>
-
-
-
-
-
+										<a href="visit-guide.php" title="" target="" class="figure stretchy_wrapper ratio_16-9" style="background-image: url('images/medicalbuilding.png')">
 										</a>
 
 									</div>
@@ -459,7 +381,7 @@
 
 
 										<div class="link centered">
-											<a href="visit-guide/"
+											<a href="visit-guide.php"
 												class="btn btn-xs btn-default"><strong>More</strong></a>
 										</div>
 
@@ -477,7 +399,8 @@
 					<div></div>
 				</div>
 			</section>
-
+			
+			
 
 			<section class="vc_row wpb_row vc_row-fluid secondary_section">
 				<div class="container">
@@ -522,7 +445,7 @@
 
 
 													<a
-														href="departments/pain-management/"
+														href="pain-management.php"
 														title="" target="">
 
 
@@ -549,7 +472,7 @@
 
 													<div class="link centered">
 														<a
-															href="departments/pain-management/"
+															href="pain-management.php"
 															class="btn btn-xs btn-default"><strong>More</strong></a>
 													</div>
 
@@ -571,9 +494,7 @@
 												<div class="figure transparent">
 
 
-													<a
-														href="departments/addiction-medicine/"
-														title="" target="">
+													<a href="addiction-medicine.php" title="" target="">
 
 
 														<div class="figure transparent stretchy_wrapper ratio_4-3"
@@ -598,9 +519,7 @@
 
 
 													<div class="link centered">
-														<a
-															href="departments/addiction-medicine/"
-															class="btn btn-xs btn-default"><strong>More</strong></a>
+														<a href="addiction-medicine.php" class="btn btn-xs btn-default"><strong>More</strong></a>
 													</div>
 
 												</div>
@@ -748,9 +667,9 @@
 												<div class="figure transparent">
 
 
-													<a href="appointment-booking/"
+													<a href="appointment-booking.php"
 														title="" target=""> <img
-														src="./index_files/icon_med_book.png"
+														src="images/icon_med_book.png"
 														alt="Veterans Choice">
 
 
@@ -770,7 +689,7 @@
 
 
 													<div class="link centered">
-														<a href="appointment-booking/"
+														<a href="appointment-booking.php"
 															class="btn btn-xs btn-default"><strong>More</strong></a>
 													</div>
 
@@ -793,7 +712,7 @@
 
 												<div class="figure secondary_section">
 
-													<a href="appointment-booking/"
+													<a href="appointment-booking.php"
 														title="" target=""> <i
 														class="wmi icon-i-immunizations"></i>
 
@@ -813,7 +732,7 @@
 
 
 													<div class="link centered">
-														<a href="appointment-booking/"
+														<a href="appointment-booking.php"
 															class="btn btn-xs btn-default"><strong>More</strong></a>
 													</div>
 
@@ -836,7 +755,7 @@
 
 												<div class="figure secondary_section">
 
-													<a href="appointment-booking/"
+													<a href="appointment-booking.php"
 														title="" target=""> <i class="wmi icon-neurology"></i>
 
 
@@ -855,7 +774,7 @@
 
 
 													<div class="link centered">
-														<a href="appointment-booking/"
+														<a href="appointment-booking.php"
 															class="btn btn-xs btn-default"><strong>More</strong></a>
 													</div>
 
@@ -971,6 +890,8 @@
 					<div></div>
 				</div>
 			</section>
+			
+			
 
 
 			<section
@@ -1002,7 +923,7 @@
 
 
 								<div class="plethora_button wpb_content_element text-center ">
-									<a href="contact/"
+									<a href="contact.php"
 										class="btn btn-success with-icon " title="" target="_self">
 
 

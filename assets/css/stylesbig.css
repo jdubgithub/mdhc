@@ -2869,8 +2869,8 @@ a.social_links {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 128px;
-  padding-bottom: 128px;
+  padding-top: 88px;
+  padding-bottom: 0;
 }
 @media only screen and (max-width: 480px) {
   .main > section {
