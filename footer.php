@@ -1,5 +1,4 @@
-<?php
-?>
+<?php?>
 <!DOCTYPE <footer class="sep_angled_positive_top separator_top ">
 			<div class="separator_top">
 				<div></div>
@@ -16,7 +15,7 @@
 
 								<p>
 									<img
-										src="./index_files/md-health-cllinics-logo-header-original.png"
+										src="images/md-health-cllinics-logo-header-original.png"
 										alt="logo">
 								</p>
 
@@ -48,11 +47,6 @@
 										CA 92780</span>
 								</p>
 
-
-
-
-
-
 							</div>
 
 						</aside>
@@ -64,17 +58,20 @@
 						<aside id="text-2" class="widget widget_text">
 							<h4>As seen on…</h4>
 							<div class="textwidget">
+								
 								<a class="assenlogos"
-									href="http://www.nbcrightnow.com/story/34888513/doctor-robert-r-kutzner-offers-new-addiction-help-program-due-to-prop-57"
+									href="blog.php"
 									target="_blank"><img
 									class="alignleft wp-image-2812 size-full"
-									src="./index_files/NBC3.png" alt="NBC" width="93"
-									style="width: 93px !important; margin-right: 28px;"></a><a
+									src="images/NBC3.png" alt="NBC" width="93"
+									style="width: 93px !important; margin-right: 28px;"></a>
+									
+									<a
 									class="assenlogos"
-									href="http://www.abc-7.com/story/34888513/doctor-robert-r-kutzner-offers-new-addiction-help-program-due-to-prop-57"
+									href="blog.php"
 									target="_blank" rel="attachment wp-att-2821"><img
 									class="alignleft wp-image-2821 size-full"
-									src="./index_files/abc3.png" alt="ABC" width="131" height="79"></a>
+									src="images/abc3.png" alt="ABC" width="131" height="79"></a>
 							</div>
 						</aside>
 					</div>
@@ -126,12 +123,6 @@
 							<div class="pl_about_us_widget">
 
 
-
-
-
-
-
-
 								<p class="social">
 
 									<a href="https://twitter.com/MDHealthClinics" target="_blank"
@@ -142,19 +133,21 @@
 										target="_blank" title="Google+"><i
 										class="fa fa-google-plus"></i></a> <a
 										href="http://instagram.com/mdhealthclinics" target="_blank"
-										title="Instagram"><i class="fa fa-instagram"></i></a> <a
+										title="Instagram"><i class="fa fa-instagram"></i></a> 
+<!--										
+										<a
 										href="https://www.linkedin.com/company/md-health-clinics"
 										target="_blank" title="Linkedin"><i
-										class="fa fa-linkedin-square"></i></a> <a
+										class="fa fa-linkedin-square"></i></a>
+-->										
+										<a
 										href="https://www.yelp.com/biz/md-health-clinics-tustin"
 										target="_blank" title="Yelp"><i class="fa fa-yelp"></i></a> <a
 										href="https://www.youtube.com/channel/UCEJ9ePgqP2Cvp86jVbTi6kA"
 										target="_blank" title="YouTube"><i class="fa fa-youtube"></i></a>
-									<a href="contact/" target="_blank"
+									<a href="contact.php" target="_blank"
 										title="Send Us An Email"><i class="fa fa-envelope"></i></a>
 								</p>
-
-
 
 							</div>
 

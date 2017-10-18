@@ -1,467 +1,461 @@
-
+<?php include_once 'header.html';?>
 
 	      <div class="brand-colors"> </div>
-    
+    <div class="head_panel">
+    <div style="background-image: url('images/patients.jpg'); height: 130px;" class="full_width_photo   ">
+
+
+      <div class="hgroup">
+
+        <div class="title diagonal-bgcolor-trans   ">
+          <div class="container">
+            <h1>Testimonials</h1>
+          </div>
+        </div>
+
+        <div class="subtitle body-bg_section   ">
+          <div class="container">   
+            <p>What Our Patients Say</p>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+</div>
+
 <!--    ========================= MAIN WRAPPER START ========================  -->
-<div class="main secondary_section" data-colorset="secondary_section">
+<span class="progress_ball"><i class="fa fa-refresh"></i></span>
+
+      <div class="loader-modal"></div>
+       <div id="loader" data-opening="m -5,-5 0,70 90,0 0,-70 z m 5,35 c 0,0 15,20 40,0 25,-20 40,0 40,0 l 0,0 C 80,30 65,10 40,30 15,50 0,30 0,30 z" class="pageload-overlay">
+   
+   <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
+          <path d="m -5,-5 0,70 90,0 0,-70 z m 5,5 c 0,0 7.9843788,0 40,0 35,0 40,0 40,0 l 0,60 c 0,0 -3.944487,0 -40,0 -30,0 -40,0 -40,0 z"></path>
+</svg>
+ <!-- 
+        <desc>Created with Snap</desc><defs></defs>
+-->
+      </div><div class="main foo" data-colorset="foo">
 <!--    >> START ========================= CONTENT AREA ========================  -->
 
 <!--   START >> ========================= MAIN COLUMN ========================  -->
 
-<section class="vc_row wpb_row vc_row-fluid secondary_section vc_custom_1463117303230">
+<section class="vc_row wpb_row vc_row-fluid">
 	<div class="container">
 		<div class="row">
             <div class="wpb_column vc_column_container col-sm-12">
                 <div class="wpb_wrapper">
-<!-- ========================== HEADING SHORTCODE ELEMENT ==========================-->
-
-<div class="section_header  subtitle_bottom  vc_custom_1463119781537 fancy text-center">
-
-    <!--     
-    -->
-
-
-    <!--  -->
-        <h2>Patient Testimonials – Video Gallery</h2>
-
-    <!--  -->
-
-        <p>Patients speak out about their care. These are short testimonials. Click on one to see.</p>
-    
+<div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
+<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>Our Patients</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 </div>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><font><b>Don't just rely on typed testimonials.</b></font></p>
+			
+<p style="text-align: center;"><font><b>Click on a patient and see what they say, in their own words, face to face.</b></font></p>
 
-<!-- END======================= HEADING SHORTCODE ELEMENT ==========================-->
+		</div>
+	</div>
+<div class="team_members_grid row">
 
 
-<!-- ========================== HEADING SHORTCODE ELEMENT ==========================-->
-
-<div class="section_header  subtitle_bottom  vc_custom_1500441554976 fancy text-center">
-
-    <!--     
-    -->
-
-
-    <!--  -->
-        <script>
-	var lightbox_transition = 'elastic';
-	var lightbox_speed = 800;
-	var lightbox_fadeOut = 300;
-	var lightbox_title = false;
-	var lightbox_scalePhotos = true;
-	var lightbox_scrolling = false;
-	var lightbox_opacity = 0.201;
-	var lightbox_open = false;
-	var lightbox_returnFocus = true;
-	var lightbox_trapFocus = true;
-	var lightbox_fastIframe = true;
-	var lightbox_preloading = true;
-	var lightbox_overlayClose = true;
-	var lightbox_escKey = false;
-	var lightbox_arrowKey = false;
-	var lightbox_loop = true;
-	var lightbox_closeButton = true;
-	var lightbox_previous = "previous";
-	var lightbox_next = "next";
-	var lightbox_close = "close";
-	var lightbox_html = false;
-	var lightbox_photo = false;
-	var lightbox_width = "800";
-	var lightbox_height = "600";
-	var lightbox_innerWidth = 'false';
-	var lightbox_innerHeight = 'false';
-	var lightbox_initialWidth = '300';
-	var lightbox_initialHeight = '100';
-	
-        var maxwidth=jQuery(window).width();
-        if(maxwidth > 800 ){ maxwidth= 800 ; }
-        var lightbox_maxWidth = maxwidth;
-        var lightbox_maxHeight = 600;
+    <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
         
-	var lightbox_slideshow = false;
-	var lightbox_slideshowSpeed = 2500;
-	var lightbox_slideshowAuto = true;
-	var lightbox_slideshowStart = "start slideshow";
-	var lightbox_slideshowStop = "stop slideshow";
-	var lightbox_fixed = true;
-			var lightbox_top = false;
-		var lightbox_bottom = false;
-		var lightbox_left = false;
-		var lightbox_right = false;
-		
-	var lightbox_reposition = false;
-	var lightbox_retinaImage = true;
-	var lightbox_retinaUrl = false;
-	var lightbox_retinaSuffix = "@2x.$1";
-	
-				jQuery(document).ready(function(){
-				jQuery("#huge_it_videogallery_content a[href$='.jpg'], #huge_it_videogallery_content a[href$='.jpeg'], #huge_it_videogallery_content a[href$='.png'], #huge_it_videogallery_content a[href$='.gif']").addClass('videogroup1');
-				
-				jQuery(".videogroup1").vcolorbox({rel:'videogroup1'});
-				jQuery(".vyoutube").vcolorbox({iframe:true, innerWidth:640, innerHeight:390});
-				jQuery(".vvimeo").vcolorbox({iframe:true, innerWidth:640, innerHeight:390});
-				jQuery(".iframe").vcolorbox({iframe:true, width:"80%", height:"80%"});
-				jQuery(".inline").vcolorbox({inline:true, width:"50%"});
-				jQuery(".callbacks").vcolorbox({
-					onOpen:function(){ alert('onOpen: vcolorbox is about to open'); },
-					onLoad:function(){ alert('onLoad: vcolorbox has started to load the targeted content'); },
-					onComplete:function(){ alert('onComplete: vcolorbox has displayed the loaded content'); },
-					onCleanup:function(){ alert('onCleanup: vcolorbox has begun the close process'); },
-					onClosed:function(){ alert('onClosed: vcolorbox has completely closed'); }
-				});
+        <a href="profile/dr-robert-kutzner/" style="background-image: url('images/doctors-featured-image-dr-kutnzer.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        
+        <div class="content boxed  with_button ">
 
-				jQuery('.non-retina').vcolorbox({rel:'group5', transition:'none'})
-				jQuery('.retina').vcolorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
-				
-				jQuery("#click").click(function(){ 
-					jQuery('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-					return false;
-				});
-			});
-		
-</script>
-<!--Huge IT videogallery START-->
-	<!-- videogallery CONTENT POPUP -->
-		<link href="./index_files/colorbox-1.css" rel="stylesheet" type="text/css">
-		
-	<script src="./index_files/jquery.colorbox.js"></script>
-	<script src="./index_files/jquery.hugeitmicro.min.js"></script>
-	
-<style type="text/css"> 
+          <div class="hgroup">
+            <h4>Dr. Robert R. Kutzner M.D.</h4>
+             <p>Interventionalist - Pain &amp; Addiction</p> 
+          </div>
 
-.videoelement_1 {
-	width: 100%;
-	max-width:275px;
-	margin:0px 0px 10px 0px;
-	border:0px solid #eeeeee;
-	border-radius:3px;
-	outline:none;
-	overflow:hidden;
-}
+          <div class="team_social">
+            <a href="https://twitter.com/MDHealthClinics"><i class="fa fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/MD-Health-Clinics-680477241962836/"><i class="fa fa fa-facebook"></i></a>
+            <a href="https://plus.google.com/112716722803564110392"><i class="fa fa fa-google-plus"></i></a>
+            <a href="https://www.youtube.com/user/DocKutz"><i class="fa fa fa-youtube"></i></a>
+          </div>
 
-.videoelement_1 .image-block_1 {
-	position:relative;
-	width: 100%;
-	max-width:275px;
-}
+          <div class="desc">       
+            <p></p>
+          </div>
 
-.videoelement_1 .image-block_1 a {display:block;}
+          <div class="link">
+            <a href="profile/dr-robert-kutzner/" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
 
-.videoelement_1 .image-block_1 img {
-	width:275px !important;
-	height:auto;
-	display:block;
-	border-radius: 0px !important;
-	box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important; 
-}
+        </div>
 
-.videoelement_1 .image-block_1 img:hover {
-	cursor: -webkit-zoom-in; cursor: -moz-zoom-in;
-}
-
-.videoelement_1 .image-block_1 .play-icon {
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:100%;
-	height:100%;	
-}
-
-.videoelement_1 .image-block_1  .play-icon.youtube-icon {background:url(http://mdhealthclinics.com/wp-content/plugins/gallery-video/Front_end/../images/play.youtube.png) center center no-repeat;}
-
-.videoelement_1 .image-block_1  .play-icon.vimeo-icon {background:url(http://mdhealthclinics.com/wp-content/plugins/gallery-video/Front_end/../images/play.vimeo.png) center center no-repeat;}
+      </div>
+    </div>
 
 
-.videoelement_1 .title-block_1 {
-	position:absolute;
-	text-overflow: ellipsis;
-	overflow: hidden; 	
-	left:0px;
-	width:100%;
-	height:30px;
-	bottom:-35px;
-	color:#c02121;
-	background: rgba(0,0,0,0.8)  !important;
-	 -webkit-transition: bottom 0.3s ease-out 0.1s;
-     -moz-transition: bottom 0.3s ease-out 0.1s;
-     -o-transition: bottom 0.3s ease-out 0.1s;
-     transition: bottom 0.3s ease-out 0.1s;
-}
+    <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+        
+        <a href="profile/greg-amenta/" style="background-image: url('images/GregArmenta2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        
+        <div class="content boxed  with_button ">
 
-.videoelement_1:hover .title-block_1 {bottom:0px;}
+          <div class="hgroup">
+            <h4>Mr. Greg Armenta</h4>
+             <p>Chief Operating Officer</p> 
+          </div>
 
-.videoelement_1 .title-block_1 a, .videoelement_1 .title-block_1 a:link, .videoelement_1 .title-block_1 a:visited {
-	position:relative;
-	margin:0px;
-	padding:0px 1% 0px 2%;
-	width:97%;
-	text-decoration:none;
-	text-overflow: ellipsis;
-	overflow: hidden; 
-	white-space:nowrap;
-	z-index:20;
-	font-size: 16px;
-	color:#c02121;
-	font-weight:normal;
-}
+          <div class="team_social">
+          </div>
 
-.videoelement_1 .title-block_1 a:hover, .videoelement_1 .title-block_1 a:focus, .videoelement_1 .title-block_1 a:active {
-	color:#FF2C2C;
-	text-decoration:none;
-}
-.load_more4 {
-		margin: 10px 0;
-		position:relative;
-		text-align:center;
-		width:100%;
-	}
-.entry-content a{
-	border-bottom: none;
-}
-	.load_more_button4 {
-		border-radius: 10px;
-		display:inline-block;
-		padding:5px 15px;
-		font-size:16px !important;;
-		color:#FF0D0D !important;;
-		background:#5CADFF !important;
-		cursor:pointer;
+          <div class="desc">       
+            <p></p>
+          </div>
 
-	}
-	.load_more_button4:hover{
-		color:#FF4040 !important;
-		background:#99C5FF !important;
-	}
+          <div class="link">
+            <a href="profile/greg-amenta/" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
 
-	.loading4 {
-		display:none;
-	}
-	.paginate4{
-		font-size:19px !important;
-		color:#FF2C2C !important;
-		text-align: center;
-		margin-top: 25px;
-	}
-	.paginate4 a{
-		border-bottom: none !important;
-	}
-	.icon-style4{
-		font-size: 21px !important;
-		color:#B82020 !important;
-	}
-	.clear{
-		clear:both;
-	}
+        </div>
 
-</style>
-<section id="huge_it_videogallery_content_1">
-  <div id="huge_it_videogallery_container_1" class="super-list variable-sizes clearfix hugeitmicro" style="position: relative; overflow: hidden; height: 193px;">
-  	<input type="hidden" class="pagenum" value="1">
-  				<input type="hidden" id="total" value="1">
-  			<div class="videoelement_1 hugeitmicro-item" tabindex="0" data-symbol="Man it hurt" data-category="alkaline-earth" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
-			<div class="image-block_1">
-																		<a class="vyoutube huge_it_videogallery_item videogroup1 vcboxElement" href="https://www.youtube.com/embed/KSGZthkf63o" title="Man it hurt">
-									<img src="./index_files/facilities_3.jpg" alt="Man it hurt">
-									<div class="play-icon youtube-icon"></div>
-								</a>								
-														</div>
-						<div class="title-block_1">
-				<a href="https://www.youtube.com/watch?v=KSGZthkf63o" target="_blank">Man it hurt</a>
-			</div>
-					</div>	
-				<div class="videoelement_1 hugeitmicro-item" tabindex="0" data-symbol="My shoulders were killing me." data-category="alkaline-earth" style="position: absolute; left: 0px; top: 0px; transform: translate3d(285px, 0px, 0px);">
-			<div class="image-block_1">
-																		<a class="vyoutube huge_it_videogallery_item videogroup1 vcboxElement" href="https://www.youtube.com/embed/8BN31pOHSiE" title="My shoulders were killing me.">
-									<img src="./index_files/facilities_3.jpg" alt="My shoulders were killing me.">
-									<div class="play-icon youtube-icon"></div>
-								</a>								
-														</div>
-						<div class="title-block_1">
-				<a href="https://www.youtube.com/watch?v=KSGZthkf63o" target="_blank">My shoulders were killing me.</a>
-			</div>
-					</div>	
-			<!-- <div style="clear:both;"></div> -->
-  </div>
+      </div>
+    </div>
 
-</section>
 
-<script> 
- jQuery(function(){
-	var defaultBlockWidth=275+20+550;
-    var $container = jQuery('#huge_it_videogallery_container_1');
+    <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+        
+        <a href="profile/dr-renda-dionne-phd/" style="background-image: url('images/RendaDionne.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        
+        <div class="content boxed  with_button ">
+
+          <div class="hgroup">
+            <h4>Dr. Renda Dionne Ph.D.</h4>
+             <p>Psychologist - Pain &amp; Addiction</p> 
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+          <div class="link">
+            <a href="profile/dr-renda-dionne-phd/" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+        
+        <a href="profile/randy-fruchter/" style="background-image: url('images/RandyFruchter2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        
+        <div class="content boxed  with_button ">
+
+          <div class="hgroup">
+            <h4>Randy Fruchter</h4>
+             <p>Myofascial Release Specialist</p> 
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+          <div class="link">
+            <a href="profile/randy-fruchter/" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+<div><p>&nbsp;</p></div>
+    <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+        
+        <a href="profile/eric-eagle-hartmans-esq/" style="background-image: url('images/EricHartmans-1.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        
+        <div class="content boxed  with_button ">
+
+          <div class="hgroup">
+            <h4>Eric Eagle Hartmans Esq.</h4>
+             <p>Corporate Attorney</p> 
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+          <div class="link">
+            <a href="profile/eric-eagle-hartmans-esq/" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
+        <a href="" style="background-image: url('images/RogerQuestin2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
     
-      // add randomish size classes
-      $container.find('.videoelement_1').each(function(){
-        var $this = jQuery(this),
-            number = parseInt( $this.find('.number').text(), 10 );
-			//alert(number);
-        if ( number % 7 % 2 === 1 ) {
-          $this.addClass('width2');
-        }
-        if ( number % 3 === 0 ) {
-          $this.addClass('height2');
-        }
-      });
+        <div class="content boxed  with_button ">
+
+          <div class="hgroup">
+            <h4>Roger Questin</h4>
+             <p>Psychologist</p> 
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+          <div class="link">
+            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+      <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
-$container.hugeitmicro({
-  itemSelector : '.videoelement_1',
-  masonry : {
-	columnWidth : 275+10+0  },
-  masonryHorizontal : {
-	rowHeight: 'auto'
-  },
-  cellsByRow : {
-	columnWidth : 275,
-	rowHeight : 'auto'
-  },
-  cellsByColumn : {
-	columnWidth : 275,
-	rowHeight : 'auto'
-  },
-  getSortData : {
-	symbol : function( $elem ) {
-	  return $elem.attr('data-symbol');
-	},
-	category : function( $elem ) {
-	  return $elem.attr('data-category');
-	},
-	number : function( $elem ) {
-	  return parseInt( $elem.find('.number').text(), 10 );
-	},
-	weight : function( $elem ) {
-	  return parseFloat( $elem.find('.weight').text().replace( /[\(\)]/g, '') );
-	},
-	name : function ( $elem ) {
-	  return $elem.find('.name').text();
-	}
-  }
-});
- reSortImages();	  //add hugitmicro function
-   	  function reSortImages() { 
-		$container.hugeitmicro({
-		  itemSelector : '.videoelement_1',
-		  masonry : {
-			columnWidth : 275+10+0		  },
-		  masonryHorizontal : {
-			rowHeight: 'auto'
-		  },
-		  cellsByRow : {
-			columnWidth : 275,
-			rowHeight : 'auto'
-		  },
-		  cellsByColumn : {
-			columnWidth : 275,
-			rowHeight : 'auto'
-		  },
-		  getSortData : {
-			symbol : function( $elem ) {
-			  return $elem.attr('data-symbol');
-			},
-			category : function( $elem ) {
-			  return $elem.attr('data-category');
-			},
-			number : function( $elem ) {
-			  return parseInt( $elem.find('.number').text(), 10 );
-			},
-			weight : function( $elem ) {
-			  return parseFloat( $elem.find('.weight').text().replace( /[\(\)]/g, '') );
-			},
-			name : function ( $elem ) {
-			  return $elem.find('.name').text();
-			}
-		  }
-		});
-} 
-jQuery(window).resize(function(){
-	reSortImages(); // add
-});    
+        <a href="" style="background-image: url('images/William2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
     
-      var $optionSets = jQuery('#huge_it_videogallery_options .option-set'),
-          $optionLinks = $optionSets.find('a');
+        <div class="content boxed  with_button ">
 
-      $optionLinks.click(function(){
-        var $this = jQuery(this);
+          <div class="hgroup">
+            <h4>William</h4>
+             <p>Myofascial Release Specialist</p> 
+          </div>
 
-        if ( $this.hasClass('selected') ) {
-          return false;
-        }
-        var $optionSet = $this.parents('.option-set');
-        $optionSet.find('.selected').removeClass('selected');
-        $this.addClass('selected');
-  
+          <div class="team_social">
+          </div>
 
-        var options = {},
-            key = $optionSet.attr('data-option-key'),
-            value = $this.attr('data-option-value');
+          <div class="desc">       
+            <p></p>
+          </div>
 
-        value = value === 'false' ? false : value;
-        options[ key ] = value;
-        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+          <div class="link">
+            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
 
-          changeLayoutMode( $this, options )
-        } else {
+        </div>
 
-          $container.hugeitmicro( options );
-        }
-
-        return false;
-      });
-
-      var isHorizontal = false;
-      function changeLayoutMode( $link, options ) {
-        var wasHorizontal = isHorizontal;
-        isHorizontal = $link.hasClass('horizontal');
-
-        if ( wasHorizontal !== isHorizontal ) {
-
-          var style = isHorizontal ? 
-            { height: '100%', width: $container.width() } : 
-            { width: 'auto' };
-
-          $container.filter(':animated').stop();
-
-          $container.addClass('no-transition').css( style );
-          setTimeout(function(){
-            $container.removeClass('no-transition').hugeitmicro( options );
-          }, 100 )
-        } else {
-          $container.hugeitmicro( options );
-        }
-      }
-     
-    var $sortBy = jQuery('#sort-by');
-    jQuery('#shuffle a').click(function(){
-      $container.hugeitmicro('shuffle');
-      $sortBy.find('.selected').removeClass('selected');
-      $sortBy.find('[data-option-value="random"]').addClass('selected');
-      return false;
-    });
-
-	  jQuery(window).load(function(){
-		$container.hugeitmicro('reLayout');
-	  });
-  });
-  
-
-</script>
+      </div>
+    </div>
 
 
-    <!--  -->
-
-        <p></p>
+      <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
+        <a href="" style="background-image: url('images/VeronicaG2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+    
+        <div class="content boxed  with_button ">
+
+          <div class="hgroup">
+            <h4>Veronica</h4>
+             <p>Myofascial Release Specialist</p> 
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+          <div class="link">
+            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+ 
+ <div><p>&nbsp;</p></div>                
+      <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+    
+        <a href="" style="background-image: url('images/FareedaA2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+    
+        <div class="content boxed  with_button ">
+
+          <div class="hgroup">
+            <h4>Fareeda</h4>
+             <p>Medical Administrative Specialist</p> 
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+          <div class="link">
+            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+      <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+    
+        <a href="" style="background-image: url('images/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+    
+        <div class="content boxed  with_button ">
+
+          <div class="hgroup">
+            <h4>Glen</h4>
+             <p>Social Media</p> 
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+          <div class="link">
+            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+      <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+    
+        <a href="" style="background-image: url('images/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+    
+        <div class="content boxed  with_button ">
+
+          <div class="hgroup">
+            <h4>Brad Jones</h4>
+             <p>Network Administrator</p> 
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+          <div class="link">
+            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+     <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+    
+        <a href="" style="background-image: url('images/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+    
+        <div class="content boxed  with_button ">
+
+          <div class="hgroup">
+            <h4>Justin White</h4>
+             <p>IT Specialist</p> 
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+          <div class="link">
+            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
 </div>
-
-<!-- END======================= HEADING SHORTCODE ELEMENT ==========================-->
-
-
-
                 </div>
             </div>
 		</div>
 	</div>
+	
+<div><p>&nbsp;</p><p>&nbsp;</p></div>	
+	
 </section>
 
+<!--
+
+
+<div class="section_header  subtitle_bottom  fancy text-center">
+
+
+
+        <h2 style="text-align: center;">CONFUSED ABOUT TREATMENT?</h2>
+
+
+        <p>Let us know, we will help explain.</p>
+    
+</div>
+
+
+
+
+<div class="plethora_button wpb_content_element text-center ">
+    <a href="contact.php" class="btn btn-success with-icon " title="" target="_self">
+
+        
+        Ask Us!
+         <i class="fa fa-check"></i> 
+
+    </a>
+</div>
+                </div>
+            </div>
+		</div>
+	</div>
+	
+	
+<div><p>&nbsp;</p><p>&nbsp;</p></div>	
+</section>
+-->
 
       
       <div id="new_comment">
@@ -475,5 +469,4 @@ jQuery(window).resize(function(){
 <!--    << END ========================= CONTENT AREA ========================  -->
 </div>
 <!--    END ========================= MAIN WRAPPER FINISH ========================  -->
-
-<?php include 'footer.html'; ?>
+<?php include_once 'footer.html';?>

@@ -1,4 +1,4 @@
-<?php include 'header.html'; ?>
+<?php include_once 'header.html'; ?>
 	      <div class="brand-colors"> </div>
     <div class="head_panel skincolored_section diagonal-bgcolor-trans">
     <div class="diagonal_headings_layout" style="height: 130px;">
@@ -71,12 +71,15 @@ Steroids and local anesthesia injections are administered by Doctors and anti-in
 	<div class="vc_toggle_title"><h4>Do you have parking facilities?</h4><i class="vc_toggle_icon"></i></div>
 	<div class="vc_toggle_content"><p>Yes.</p>
 <p>Free Parking is available in front and around MD Health Clinics.</p>
+
+
 </div>
 </div>
 
                 </div>
             </div>
 		</div>
+<div><p>&nbsp;</p><p>&nbsp;</p></div>		
 </section>
 
 
@@ -98,15 +101,9 @@ Steroids and local anesthesia injections are administered by Doctors and anti-in
 
   <div class="figure ">
 
+      <a href="visit-guide.php" title="" target=""> 
 
-      <a href="visit-guide/" title="" target=""> 
-
-        
-         <div class="figure  stretchy_wrapper ratio_16-9" style="background-image:url('wp-content/uploads/2016/04/medicalbuilding.png')"></div> 
-        
-          
-
-        
+         <div class="figure  stretchy_wrapper ratio_16-9" style="background-image:url('images/medicalbuilding.png')"></div> 
 
     </a>
 
@@ -140,4 +137,4 @@ Steroids and local anesthesia injections are administered by Doctors and anti-in
 <!--    << END ========================= CONTENT AREA ========================  -->
 </div>
 <!--    END ========================= MAIN WRAPPER FINISH ========================  -->
-<?php include 'footer.html'; ?>
+<?php include_once 'footer.html'; ?>

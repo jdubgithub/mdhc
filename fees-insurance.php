@@ -1,4 +1,4 @@
-<?php include 'header.html'; ?>
+<?php include_once 'header.html'; ?>
 
 	      <div class="brand-colors"> </div>
     <div class="head_panel skincolored_section diagonal-bgcolor-trans">
@@ -43,7 +43,7 @@
 <h2>Insurance</h2>
 <p>MD Health Clinics insurance staff is available to answer your questions.</p>
 <p>We accept the majority of Health Care Insurances to include Medicare, Medicaid, Medical, CalOptima, Tricare Veterans Choice, and most MPN’s.</p>
-
+<p>&nbsp;</p><p>&nbsp;</p>
 		</div>
 	</div>
 
@@ -83,13 +83,10 @@
   <div class="figure ">
 
 
-      <a href="http://mdhealthclinics.com/visit-guide/" title="" target=""> 
+      <a href="visit-guide.php" title="" target=""> 
 
         
-         <div class="figure  stretchy_wrapper ratio_16-9" style="background-image:url(&#39;http://mdhealthclinics.com/wp-content/uploads/2016/04/medicalbuilding.png&#39;)"></div> 
-        
-          
-
+         <div class="figure  stretchy_wrapper ratio_16-9" style="background-image:url('images/medicalbuilding.png')"></div> 
         
 
     </a>
@@ -107,7 +104,7 @@
     
 
     <div class="link centered">
-        <a href="http://mdhealthclinics.com/visit-guide/" class="btn btn-xs btn-secondary"><strong>More</strong></a>
+        <a href="visit-guide.php" class="btn btn-xs btn-secondary"><strong>More</strong></a>
     </div>
 
   </div>
@@ -124,4 +121,4 @@
 <!--    << END ========================= CONTENT AREA ========================  -->
 </div>
 <!--    END ========================= MAIN WRAPPER FINISH ========================  -->
-<?php include 'footer.html'; ?>
+<?php include_once 'footer.html'; ?>

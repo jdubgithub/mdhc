@@ -1,4 +1,4 @@
-<?php include 'header.html'; ?>
+<?php include_once 'header.html'; ?>
 
 <div class="brand-colors"></div>
 
@@ -667,7 +667,7 @@
   </section>
 
 
-  <section style="background-image: url(&#39;/wp-content/uploads/2015/09/facilities_7-1.jpg&#39;)"
+  <section style="background-image: url('images/facilities_7-1.jpg')"
     class="vc_row wpb_row vc_row-fluid secondary_section text-center transparent_film bgimage bg_vcenter">
     <div class="container">
       <div class="row">
@@ -731,4 +731,4 @@
   <!--    << END ========================= CONTENT AREA ========================  -->
 </div>
 <!--    END ========================= MAIN WRAPPER FINISH ========================  -->
-<?php include 'footer.html' ?>
+<?php include_once 'footer.html' ?>

@@ -1,0 +1,52 @@
+
+<html>
+<head>
+    
+  <!-- ******* Modal PopUp -->
+
+<script type="text/javascript">
+
+$('.button').on('click', function(e) {
+  // Show the modal.
+  var elem = new Foundation.Reveal($('#videoModal'), {
+    vOffset: 0
+  });
+
+	// open the model.
+  elem.open();
+
+  // Get the URL.
+  var url = $(this).attr('href');
+
+  // Call embedly
+  $.embedly.oembed(url, {
+      key: 'internal'
+    })
+    .progress(function(obj) {
+      $('#videoModal h2').text(obj.title);
+      $('#videoModal div').html('<div class="flex-video">' + obj.html + '</div>');
+    });
+
+  // So the link isn't followed.
+  return false;
+});
+
+</script>
+
+  <!-- ******* End Modal PopUp -->
+    
+    <style>
+        
+ .reveal {
+  margin-top: 10px;
+  top: 50px !important;
+}       
+        
+    </style>
+
+</head> 
+
+
+<body>
+
+

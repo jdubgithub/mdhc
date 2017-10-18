@@ -1,5 +1,5 @@
  
-	<?php include 'header.html';?>
+	<?php include_once 'header.html';?>
 
 		<div class="brand-colors"></div>
 		
@@ -77,7 +77,38 @@
 
       <!-- END========================= SLIDE ==========================-->
 
+
       <!-- ============================ SLIDE ==========================-->
+
+       <div class="stretchy_wrapper ratio_slider"> 
+
+        <div style="background-image: url(images/Appointments2.jpg);" aria-hidden="true" class="item    ">
+          <div class="container">
+
+
+            <div class="caption caption_left caption_fancy  text-left">
+
+              <div class="inner black_section transparent_film animated slideInUp">
+
+                 <div class="t1">APPOINTMENTS</div> 
+                 <div class="t2">Let Us Help You</div> 
+                
+                 <p class="desc hidden-xxs">At MD Health Clinics our multiple services and highly skilled medical professionals provide the best in healthcare with individuality and compassion in mind.</p> 
+
+                  <div>
+                  <a href="contact.php" target="_self" class="btn btn-primary">
+                    Learn More
+                  </a>
+                  </div>
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+       </div> 
 
       <!-- END========================= SLIDE ==========================-->
 
@@ -86,13 +117,21 @@
 </div>
 
 		<!--    ========================= MAIN WRAPPER STARTT ========================  -->
-		<div class="main foo" data-colorset="foo">
+
 			<!--    >> START ========================= CONTENT AREA ========================  -->
 
 			<!--   START >> ========================= MAIN COLUMN ========================  -->
 			
-				  <div class="main foo" data-colorset="foo"><section class="vc_row wpb_row vc_row-fluid no_padding no_cols_padding elevate folded_section transparent">
+				  <div class="main foo" data-colorset="foo">
+<section class="vc_row wpb_row vc_row-fluid no_padding no_cols_padding elevate folded_section transparent">
+    
+ <div><p>&nbsp;</p>
+<p>&nbsp;</p></div>	    
+	       
+    
+    
 	<div class="container">
+	    
 		<div class="row">
             <div class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1446619389066">
                 <div class="wpb_wrapper">
@@ -103,14 +142,9 @@
   <div class="figure transparent">
 
 
-      <a href="services/" title="" target=""> 
-
-        
-        
-        
+      <a href="services.php" title="" target=""> 
+       
          <img src="images/icon_med_book_white.png" alt="Veterans Choice">   
-
-        
 
     </a>
 
@@ -127,9 +161,8 @@
     </div>
 
     
-
     <div class="link centered">
-        <a href="services/"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
+        <a href="services.php"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
     </div>
 
   </div>
@@ -150,12 +183,7 @@
 
       <a href="pain-management.php" title="" target=""> 
 
-        
-
-        
-
         <i class="wmi icon-i-immunizations"></i>
-
 
     </a>
 
@@ -172,7 +200,6 @@
     </div>
 
     
-
     <div class="link centered">
         <a href="pain-management.php"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
     </div>
@@ -195,12 +222,7 @@
 
       <a href="addiction-medicine.php" title="" target=""> 
 
-        
-
-        
-
         <i class="wmi icon-neurology"></i>
-
 
     </a>
 
@@ -217,7 +239,6 @@
     </div>
 
     
-
     <div class="link centered">
         <a href="addiction-medicine.php"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
     </div>
@@ -238,14 +259,9 @@
   <div class="figure transparent">
 
 
-      <a href="appointment-booking.php" title="" target=""> 
-
-        
-        
-        
+      <a href="contact.php" title="" target=""> 
+      
          <img src="images/icon_help_desk1.png" alt="Request an appointment">   
-
-        
 
     </a>
 
@@ -261,10 +277,9 @@
        <p>Call us or fill in a form</p> 
     </div>
 
-    
 
     <div class="link centered">
-        <a href="appointment-booking.php"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
+        <a href="contact.php"  target="" class="btn btn-xs btn-default"><strong>More</strong></a>
     </div>
 
   </div>
@@ -279,8 +294,6 @@
 </section>
 </div>
 			
-			
-
 			<section
 				class="vc_row wpb_row vc_row-fluid no_top_padding separator_bottom sep_angled_positive_bottom">
 				<div class="container">
@@ -350,8 +363,8 @@
 										target="_self"> <i class="fa fa-hospital-o"></i> Checkout
 										our Facilities
 
-
 									</a>
+<p>&nbsp;</p>									
 								</div>
 							</div>
 						</div>
@@ -400,9 +413,13 @@
 				</div>
 			</section>
 			
-			
 
 			<section class="vc_row wpb_row vc_row-fluid secondary_section">
+			    
+<div><p>&nbsp;</p>
+<p>&nbsp;</p></div>	    
+	    			    
+			    
 				<div class="container">
 					<div class="row">
 						<div class="wpb_column vc_column_container col-sm-12">
@@ -453,9 +470,6 @@
 															style="background-image: url(images/pain-management.jpg)"></div>
 
 
-
-
-
 													</a>
 
 												</div>
@@ -500,10 +514,6 @@
 														<div class="figure transparent stretchy_wrapper ratio_4-3"
 															style="background-image: url(images/addiction-treatment.jpg)"></div>
 
-
-
-
-
 													</a>
 
 												</div>
@@ -540,18 +550,13 @@
 												<div class="figure ">
 
 
-													<a href="services/" title=""
+													<a href="services.php" title=""
 														target="">
 
 
 														<div class="figure  stretchy_wrapper ratio_4-3"
 															style="background-image: url(images/Vets-240x200.jpg)"></div>
-
-
-
-
-
-													</a>
+									</a>
 
 												</div>
 
@@ -566,7 +571,7 @@
 
 
 													<div class="link centered">
-														<a href="services/"
+														<a href="services.php"
 															class="btn btn-xs btn-default"><strong>More</strong></a>
 													</div>
 
@@ -605,23 +610,28 @@
 								</div>
 								<div
 									class="plethora_button wpb_content_element text-left btn_block">
-									<a href="services/"
+									<a href="services.php"
 										class="btn btn-primary with-icon icon-left" title=""
 										target="_self"> <i class="fa fa-sitemap"></i> Checkout All
 										Departments
-
-
 									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 			</section>
 
 
 			<section
 				class="vc_row wpb_row vc_row-fluid light_section separator_top sep_angled_positive_top separator_bottom sep_angled_positive_bottom">
+			    
+<div><p>&nbsp;</p>
+<p>&nbsp;</p></div>	    
+	    			    
+			    
 				<div class="separator_top">
 					<div></div>
 				</div>
@@ -667,7 +677,7 @@
 												<div class="figure transparent">
 
 
-													<a href="appointment-booking.php"
+													<a href="services.php"
 														title="" target=""> <img
 														src="images/icon_med_book.png"
 														alt="Veterans Choice">
@@ -689,7 +699,7 @@
 
 
 													<div class="link centered">
-														<a href="appointment-booking.php"
+														<a href="services.php"
 															class="btn btn-xs btn-default"><strong>More</strong></a>
 													</div>
 
@@ -712,7 +722,7 @@
 
 												<div class="figure secondary_section">
 
-													<a href="appointment-booking.php"
+													<a href="pain-management.php"
 														title="" target=""> <i
 														class="wmi icon-i-immunizations"></i>
 
@@ -732,7 +742,7 @@
 
 
 													<div class="link centered">
-														<a href="appointment-booking.php"
+														<a href="pain-management.php"
 															class="btn btn-xs btn-default"><strong>More</strong></a>
 													</div>
 
@@ -755,7 +765,7 @@
 
 												<div class="figure secondary_section">
 
-													<a href="appointment-booking.php"
+													<a href="addiction-medicine.php"
 														title="" target=""> <i class="wmi icon-neurology"></i>
 
 
@@ -774,7 +784,7 @@
 
 
 													<div class="link centered">
-														<a href="appointment-booking.php"
+														<a href="addiction-medicine.php"
 															class="btn btn-xs btn-default"><strong>More</strong></a>
 													</div>
 
@@ -803,7 +813,7 @@
 									</div>
 								</div>
 								<div class="plethora_button wpb_content_element text-left ">
-									<a href="services/"
+									<a href="services.php"
 										class="btn btn-primary with-icon icon-left" title=""
 										target="_self"> <i class="wmi icon-i-pathology"></i>
 										Checkout All Medical Services
@@ -897,6 +907,11 @@
 			<section
 				style="background-image: url(images/doctor_blue_left.jpg)"
 				class="vc_row wpb_row vc_row-fluid secondary_section text-center transparent_film vcenter bgimage bg_vcenter">
+			    
+<div><p>&nbsp;</p>
+<p>&nbsp;</p></div>	    
+	    			    
+			    
 				<div class="container">
 					<div class="row">
 						<div class="wpb_column vc_column_container col-sm-12 text-center">
@@ -935,6 +950,9 @@
 						</div>
 					</div>
 				</div>
+				
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
 			</section>
 
 
@@ -952,4 +970,4 @@
 		</div>
 		<!--    END ========================= MAIN WRAPPER FINISH ========================  -->
 		
-		<?php require('footer.html'); ?>
+		<?php include_once('footer.html'); ?>

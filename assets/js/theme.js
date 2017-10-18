@@ -22,7 +22,7 @@ This file contains the necessary Javascript for the theme to function properly.
 
   /*** GET BRAND COLORS ***/
 
-  var rgb            = getComputedStyle( document.querySelector(".brand-colors") )["color"].match(/\d+/g);
+  var rgb = "rgb(69, 170, 255)"; //            = getComputedStyle( document.querySelector(".brand-colors") )["color"].match(/\d+/g);
 
   var r = parseInt(rgb[0]).toString(16); r = ( r.length === 1 ) ? "0" + r : r;
   var g = parseInt(rgb[1]).toString(16); g = ( g.length === 1 ) ? "0" + g : g;
@@ -31,7 +31,7 @@ This file contains the necessary Javascript for the theme to function properly.
   themeConfig["GENERAL"] = themeConfig["GENERAL"] || {}
   themeConfig["GENERAL"].brandPrimary = '#' + r + g + b;
 
-  var headerBgColor = getComputedStyle( document.querySelector(".header") )["background-color"];
+  var headerBgColor = "rgb(239, 239, 239)"; // getComputedStyle( document.querySelector(".header") )["background-color"];
 
   if ( headerBgColor.toLowerCase() === "transparent" ){
 

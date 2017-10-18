@@ -1,8 +1,8 @@
-<?php include 'header.html';?>
+<?php include_once 'header.html';?>
 
 	      <div class="brand-colors"> </div>
     <div class="head_panel">
-    <div style="background-image: url('wp-content/uploads/2015/10/staff-2-1-e1462142733270.jpg'); height: 130px;" class="full_width_photo   ">
+    <div style="background-image: url('images/staff-2-1-e1462142733270.jpg'); height: 130px;" class="full_width_photo   ">
 
 
       <div class="hgroup">
@@ -24,6 +24,8 @@
 
     </div>
 </div>
+
+<div class="bkstaffmodal"> </div>
 
 <!--    ========================= MAIN WRAPPER START ========================  -->
 <span class="progress_ball"><i class="fa fa-refresh"></i></span>
@@ -77,15 +79,14 @@
             <a href="https://www.facebook.com/MD-Health-Clinics-680477241962836/"><i class="fa fa fa-facebook"></i></a>
             <a href="https://plus.google.com/112716722803564110392"><i class="fa fa fa-google-plus"></i></a>
             <a href="https://www.youtube.com/user/DocKutz"><i class="fa fa fa-youtube"></i></a>
-            <a href="mailto:rk@md-hc.com"><i class="fa fa fa-envelope"></i></a>
           </div>
 
           <div class="desc">       
             <p></p>
           </div>
 
-          <div class="link">
-            <a href="profile/dr-robert-kutzner/" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+          <div id="bkstaffmodal" class="link">
+            <a href="javascript:" onClick="clickStaff('bk');" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
           </div>
 
         </div>
@@ -97,7 +98,7 @@
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
         
-        <a href="profile/greg-amenta/" style="background-image: url('wp-content/uploads/2016/05/GregArmenta2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="profile/greg-amenta/" style="background-image: url('images/GregArmenta2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         
         <div class="content boxed  with_button ">
 
@@ -126,7 +127,7 @@
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
         
-        <a href="profile/dr-renda-dionne-phd/" style="background-image: url('wp-content/uploads/2016/05/RendaDionne.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="profile/dr-renda-dionne-phd/" style="background-image: url('images/RendaDionne.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         
         <div class="content boxed  with_button ">
 
@@ -155,7 +156,7 @@
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
         
-        <a href="profile/randy-fruchter/" style="background-image: url('wp-content/uploads/2017/05/RandyFruchter2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="profile/randy-fruchter/" style="background-image: url('images/RandyFruchter2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         
         <div class="content boxed  with_button ">
 
@@ -180,11 +181,11 @@
       </div>
     </div>
 
-
+<div><p>&nbsp;</p></div>
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
         
-        <a href="profile/eric-eagle-hartmans-esq/" style="background-image: url('wp-content/uploads/2016/05/EricHartmans-1.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="profile/eric-eagle-hartmans-esq/" style="background-image: url('images/EricHartmans-1.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         
         <div class="content boxed  with_button ">
 
@@ -213,12 +214,12 @@
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
-        <a href="" style="background-image: url('wp-content/uploads/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="" style="background-image: url('images/RogerQuestin2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
     
         <div class="content boxed  with_button ">
 
           <div class="hgroup">
-            <h4>Roger</h4>
+            <h4>Roger Questin</h4>
              <p>Psychologist</p> 
           </div>
 
@@ -242,7 +243,7 @@
       <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
-        <a href="" style="background-image: url('wp-content/uploads/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="" style="background-image: url('images/William2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
     
         <div class="content boxed  with_button ">
 
@@ -267,10 +268,11 @@
       </div>
     </div>
 
+
       <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
-        <a href="" style="background-image: url('wp-content/uploads/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="" style="background-image: url('images/VeronicaG2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
     
         <div class="content boxed  with_button ">
 
@@ -294,11 +296,12 @@
 
       </div>
     </div>
-                 
+ 
+ <div><p>&nbsp;</p></div>                
       <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
-        <a href="" style="background-image: url('wp-content/uploads/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="" style="background-image: url('images/FareedaA2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
     
         <div class="content boxed  with_button ">
 
@@ -327,13 +330,13 @@
       <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
-        <a href="" style="background-image: url('wp-content/uploads/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="" style="background-image: url('images/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
     
         <div class="content boxed  with_button ">
 
           <div class="hgroup">
-            <h4>Alisa</h4>
-             <p>Medical Administrative Specialist</p> 
+            <h4>Glen</h4>
+             <p>Social Media</p> 
           </div>
 
           <div class="team_social">
@@ -356,7 +359,7 @@
       <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
-        <a href="" style="background-image: url('wp-content/uploads/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="" style="background-image: url('images/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
     
         <div class="content boxed  with_button ">
 
@@ -385,7 +388,7 @@
      <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
     
-        <a href="" style="background-image: url('wp-content/uploads/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="" style="background-image: url('images/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
     
         <div class="content boxed  with_button ">
 
@@ -409,18 +412,18 @@
 
       </div>
     </div>
-
-
-
 </div>
                 </div>
             </div>
 		</div>
 	</div>
+	
+<div><p>&nbsp;</p><p>&nbsp;</p></div>	
+	
 </section>
 
 
-<section style="background-image: url('wp-content/uploads/2015/10/slider-12.jpg')" class="vc_row wpb_row vc_row-fluid skincolored_section text-center transparent_film vcenter bgimage bg_vcenter">
+<section style="background-image: url('images/slider-12.jpg')" class="vc_row wpb_row vc_row-fluid skincolored_section text-center transparent_film vcenter bgimage bg_vcenter">
 	<div class="container">
 		<div class="row">
             <div class="wpb_column vc_column_container col-sm-12">
@@ -434,11 +437,11 @@
 
 
     <!--  -->
-        <h2 style="text-align: center;">CONFUSED&nbsp;ABOUT A MEDICAL TERM?</h2>
+        <h2 style="text-align: center;">CONFUSED ABOUT TREATMENT?</h2>
 
     <!--  -->
 
-        <p>Checkout our A to Z Health Library!</p>
+        <p>Let us know, we will help explain.</p>
     
 </div>
 
@@ -446,10 +449,10 @@
 
 
 <div class="plethora_button wpb_content_element text-center ">
-    <a href="health-library/" class="btn btn-success with-icon " title="" target="_self">
+    <a href="contact.php" class="btn btn-success with-icon " title="" target="_self">
 
         
-        Visit our Library!
+        Ask Us!
          <i class="fa fa-check"></i> 
 
     </a>
@@ -458,6 +461,9 @@
             </div>
 		</div>
 	</div>
+	
+	
+<div><p>&nbsp;</p><p>&nbsp;</p></div>	
 </section>
 
 
@@ -473,4 +479,4 @@
 <!--    << END ========================= CONTENT AREA ========================  -->
 </div>
 <!--    END ========================= MAIN WRAPPER FINISH ========================  -->
-<?php include 'footer.html';?>
+<?php include_once 'footer.html';?>

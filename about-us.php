@@ -1,4 +1,4 @@
-<?php include 'header.html';?>
+<?php include_once 'header.html';?>
 
 	      <div class="brand-colors"> </div>
     <div class="head_panel">
@@ -70,18 +70,26 @@
 <p>Remember that you are human and no one modality is going to successfully treat your pain. When others try, they are practicing malpractice and you are the only one who is being taken advantage of and suffers. Don’t let it happen. Look up what we are saying.</p>
 <p>Let us help and you will either end up eliminating your pain or become capable of controlling it instead of it controlling you.</p>
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
 		</div>
 	</div>
 
                 </div>
             </div>
+            
+            
+            
+            
+            
             <div class="wpb_column vc_column_container col-sm-2 col-md-6">
                 <div class="wpb_wrapper">
 
 	<div class="wpb_single_image wpb_content_element vc_align_center">
 		
 		<figure class="wpb_wrapper vc_figure">
-			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="366" height="1024" src="http://localhost/images/AboutUsImage5-366x1024.jpg" class="vc_single_image-img attachment-large" alt="" srcset="images/AboutUsImage5-366x1024.jpg 366w, images/AboutUsImage5-107x300.jpg 107w, images/AboutUsImage5.jpg 625w" sizes="(max-width: 366px) 100vw, 366px"></div>
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img width="366" height="1024" src="images/AboutUsImage5-366x1024.jpg" class="vc_single_image-img attachment-large" alt="" srcset="images/AboutUsImage5-366x1024.jpg 366w, images/AboutUsImage5-107x300.jpg 107w, images/AboutUsImage5.jpg 625w" sizes="(max-width: 366px) 100vw, 366px"></div>
 			
 		</figure>
 	</div>
@@ -217,6 +225,12 @@
             </div>
 		</div>
 	</div>
+	
+<div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+</div>	
+	
 </section>
 
 
@@ -234,4 +248,4 @@
 <!--    END ========================= MAIN WRAPPER FINISH ========================  -->
 
 
-<?php require('footer.html'); ?> 
+<?php include_once('footer.html'); ?> 
