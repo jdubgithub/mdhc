@@ -65,7 +65,9 @@
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
         
-        <a href="profile/dr-robert-kutzner/" style="background-image: url('images/doctors-featured-image-dr-kutnzer.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <a href="javascript:" 
+        onClick="clickStaff('RKShort', 'Sir Bob Kutzner Esq. III MD Extraordinaire');" 
+        style="background-image: url('images/doctors-featured-image-dr-kutnzer.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         
         <div class="content boxed  with_button ">
 
@@ -74,20 +76,25 @@
              <p>Interventionalist - Pain &amp; Addiction</p> 
           </div>
 
+<!--
           <div class="team_social">
             <a href="https://twitter.com/MDHealthClinics"><i class="fa fa fa-twitter"></i></a>
             <a href="https://www.facebook.com/MD-Health-Clinics-680477241962836/"><i class="fa fa fa-facebook"></i></a>
             <a href="https://plus.google.com/112716722803564110392"><i class="fa fa fa-google-plus"></i></a>
             <a href="https://www.youtube.com/user/DocKutz"><i class="fa fa fa-youtube"></i></a>
           </div>
-
+-->
           <div class="desc">       
             <p></p>
           </div>
+          
 
+<!--
           <div id="bkstaffmodal" class="link">
-            <a href="javascript:" onClick="clickStaff('bk');" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
+            <a href="javascript:" onClick="jQuery('#bkdialog').dialog();" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
           </div>
+  -->
+
 
         </div>
 

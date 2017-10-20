@@ -353,99 +353,64 @@
   </section>
 
 
-
   <section class="vc_row wpb_row vc_row-fluid no_padding">
     <div class="container">
       <div class="row">
         <div class="wpb_column vc_column_container col-sm-6 secondary_section margin_bottom_grid boxed_plus">
-          
           <div class="wpb_wrapper">
-           
             <div role="form" class="wpcf7" id="wpcf7-f5-p255-o1" lang="en-US" dir="ltr">
               <div class="screen-reader-response"></div>
-              
               <!-- 							<form action="sendmail.php" method="post" class="contact-form" novalidate="novalidate"> -->
-              
-              
-    <form accept-charset="UTF-8" action="sendmail.php" class="new_client" data-remote="true" id="new_client" method="post">
-                
+              <form accept-charset="UTF-8" action="sendmail.php" class="new_client" data-remote="true" id="new_client" method="post">
                 <div style="display: none;">
-                  
-                  
                   <input type="hidden" name="_wpcf7" value="5"> 
                   <input type="hidden" name="_wpcf7_version" value="4.8">
                   <input type="hidden" name="_wpcf7_locale" value="en_US">
             <input type="hidden" name="_wpcf7_unit_tag"value="wpcf7-f-p255-o1"> 
                   <input type="hidden" name="_wpcf7_container_post" value="255">
                 <input type="hidden" name="_wpcf7_nonce" value="48b65c1e26">
-                
-                
                 <input type="hidden" name="formtype" value="contactf">
                 <input type="hidden" name="formname" value="contact php">
                 </div>
                 
-                <p>
-                
-                <span class="wpcf7-form-control-wrap your-name"><input type="text" name="PtFName" placeholder="First Name" value="" size="40" class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required" aria-required="true" aria-invalid="false" autofocus tabindex="1"></span>
-                </p>
                 
                 <p>
-                  <span class="wpcf7-form-control-wrap your-name"><input type="text"
-                    name="PtLName" placeholder="Last Name" value="" size="40"
+                  Your Name (required)<br> <span class="wpcf7-form-control-wrap your-name"><input type="text"
+                    name="contact_name" value="" size="40"
                     class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required"
-                    aria-required="true" aria-invalid="false" tabindex="2"></span>
+                    aria-required="true" aria-invalid="false"></span>
                 </p>
-                
-                
                 <p>
-                  <span class="wpcf7-form-control-wrap your-name"><input type="text"
-                    name="DOB" placeholder="Date Of Birth" value="" size="40"
-                    class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required"
-                    aria-required="true" aria-invalid="false" tabindex="3"></span>
-                </p>                
-
-                <p>
-                  <span class="wpcf7-form-control-wrap your-name"><input type="text"
-                    name="Phone" placeholder="Phone Contact"value="" size="40"
-                    class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required"
-                    aria-required="true" aria-invalid="false" tabindex="4"></span>
-                </p>
-
-                <p>
-                  <span class="wpcf7-form-control-wrap your-email"><input type="email"
-                    name="Email" placeholder="Email Contact" value="" size="40"
+                  Your Email (required)<br> <span class="wpcf7-form-control-wrap your-email"><input type="email"
+                    name="contact_email" value="" size="40"
                     class="wpcf7-form-control wpcf7-form-control form-control wpcf7-form-control form-control wpcf7-validates-as-required wpcf7-validates-as-email"
-                    aria-required="true" aria-invalid="false" tabindex="5"></span>
+                    aria-required="true" aria-invalid="false"></span>
                 </p>
-                
                 <p>
-                  <span class="wpcf7-form-control-wrap your-subject"><input type="text"  tabindex="6" name="contact_subject" placeholder="Subject" value="" size="40" class="wpcf7-form-control wpcf7-form-control form-control" aria-invalid="false" ></span>
+                  Subject<br> <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="contact_subject"
+                    value="" size="40" class="wpcf7-form-control wpcf7-form-control form-control" aria-invalid="false"></span>
                 </p>
-                
                 <p>
-                  <span class="wpcf7-form-control-wrap your-message"><textarea name="message" placeholder="Your Message" cols="40" rows="5" class="wpcf7-form-control wpcf7-form-control wpcf7-form-control form-control"
-                      aria-invalid="false" tabindex="7"></textarea></span>
+                  Your Message<br> <span class="wpcf7-form-control-wrap your-message"><textarea name="contact_message"
+                      cols="40" rows="10" class="wpcf7-form-control wpcf7-form-control wpcf7-form-control form-control"
+                      aria-invalid="false"></textarea></span>
                 </p>
-                
-                <p>&nbsp;</p>
-                
-                <p align="center">
-    <input id="#contactform" type="submit" value="Send" tabindex="8" class="wpcf7-form-control wpcf7-submit btn wpcf7-toggleSubmit btn-primary"><span class="ajax-loader"></span>
+                <p>
+                  <input id="#contactform" type="submit" value="Send"
+                    class="wpcf7-form-control wpcf7-submit btn btn-primary"><span class="ajax-loader"></span>
                 </p>
-                
                 <div class="wpcf7-response-output wpcf7-display-none"></div>
-              
-        </form>
-   
-    </div>
-           
-          </div>
+              </form>
+            </div>
+            <div class="vc_empty_space" style="height: 220px">
+              <span class="vc_empty_space_inner"></span>
+            </div>
 
+          </div>
         </div>
-  
         <div class="wpb_column vc_column_container col-sm-6 boxed_plus">
           <div class="wpb_wrapper">
-            <div class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text">
+            <div          class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text">
               <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
               <h4>Contact Info</h4>
               <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
@@ -462,6 +427,9 @@
                       <p>
                         <strong>Phone:</strong>
                       </p>
+                      <p>
+                        <strong>Email:</strong>
+                      </p>
 
                     </div>
                   </div>
@@ -474,8 +442,8 @@
                   <div class="wpb_text_column wpb_content_element ">
                     <div class="wpb_wrapper">
                       <p>Monday – Friday: 9AM – 6PM</p>
-                      <p>(877) 788-6342(MDHC)</p>
-                      <p></p>
+                      <p>(877) 788-6342</p>
+                      <p>Info@MD-HC.com</p>
 
                     </div>
                   </div>
@@ -493,11 +461,7 @@
                 <p>
                   Fill out the form and we will get back to you asap!
                 </p>
-                
-                <p>
-                  Just stop by and get to know us. It doesn't need to be that formal.  
-                </p>
-<p>We'd love to meet you.</p>                
+
               </div>
             </div>
             <div          class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text">
@@ -512,7 +476,7 @@
                   <div class="wpb_text_column wpb_content_element ">
                     <div class="wpb_wrapper">
                       <p style="text-align: center;">
-                        <strong>Tustin Medical Clinic</strong>
+                        <strong>Tustin Medical Building</strong>
                       </p>
 
                     </div>
@@ -568,7 +532,6 @@
         </div>
       </div>
     </div>
-<div><p>&nbsp;</p><p>&nbsp;</p></div> 
   </section>
 
 
@@ -585,9 +548,18 @@
 
             <div class="teaser_box wpb_content_element text-center   boxed  ">
 
+
               <div class="figure ">
 
+
+
+
+
+
                 <i class="fa fa-car"></i>
+
+
+
 
               </div>
 
@@ -595,7 +567,11 @@
 
                 <div class="hgroup">
                   <h4>Parking</h4>
+                  <p>You can park your car just outside</p>
+                </div>
 
+                <div class="desc">
+                  <p>There is plenty of parking near the office, to include handicapped parking.</p>
                 </div>
 
 
@@ -613,9 +589,18 @@
 
             <div class="teaser_box wpb_content_element text-center   boxed  ">
 
+
               <div class="figure ">
 
+
+
+
+
+
                 <i class="fa fa-bus"></i>
+
+
+
 
               </div>
 
@@ -623,8 +608,11 @@
 
                 <div class="hgroup">
                   <h4>Public Transit</h4>
-
+                  <p>Convenient locations close to 5 / 55 / 405 Fwys</p>
                 </div>
+
+
+
 
               </div>
 
@@ -640,18 +628,31 @@
 
             <div class="teaser_box wpb_content_element text-center   boxed  ">
 
+
               <div class="figure ">
+
+
+
+
+
 
                 <i class="wmi icon-i-accessibility"></i>
 
-             </div>
+
+
+
+              </div>
 
               <div class="content text-center  ">
 
                 <div class="hgroup">
                   <h4>Surroundings</h4>
-
+                  <p>Our offices are in areas that are cute, clean, and professional. Local resturants a eateries
+                    abound.</p>
                 </div>
+
+
+
 
               </div>
 
@@ -664,10 +665,68 @@
       </div>
     </div>
     <div class="separator_bottom">
-
+      <div></div>
     </div>
-
   </section>
+
+
+  <section style="background-image: url('images/facilities_7-1.jpg')"
+    class="vc_row wpb_row vc_row-fluid secondary_section text-center transparent_film bgimage bg_vcenter">
+    <div class="container">
+      <div class="row">
+        <div class="wpb_column vc_column_container col-sm-12">
+          <div class="wpb_wrapper">
+            <!-- ========================== HEADING SHORTCODE ELEMENT ==========================-->
+
+            <div class="section_header  subtitle_bottom  fancy text-center">
+
+              <!--     
+    -->
+
+
+              <!--  -->
+              <h2 style="text-align: center;">NEWSLETTER SIGN-UP</h2>
+
+              <!--  -->
+
+              <p>Subscribe to our mailing list.</p>
+
+            </div>
+
+            <!-- END======================= HEADING SHORTCODE ELEMENT ==========================-->
+
+
+            <!-- ========================== NEWSLETTER HTML ==========================-->
+
+            <div class="newsletter_form">
+
+              <form id="newsletter" action="/wp-admin/admin-ajax.php" method="POST" class="form-inline text-center"
+                novalidate="novalidate">
+                <input id="email" placeholder="Email Address" name="email" type="text" class="form-control"> <input
+                  type="hidden" name="nonce" id="nonce" value="b62d7fbd1a">
+                <button type="submit" class="btn btn-secondary form-control">
+                  <span class="fa fa-refresh fa-refresh-animate hidden"></span> SUBSCRIBE <span id="newsletterResponse"
+                    class="btn btn-primary hidden">MESSAGE</span>
+                </button>
+              </form>
+
+            </div>
+
+            <!-- END======================= NEWSLETTER HTML ==========================-->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div id="new_comment">
+    <div class="container">
+      <div class="new_comment"></div>
+    </div>
+  </div>
 
 
   <!--    << END ========================= MAIN COLUMN ========================  -->

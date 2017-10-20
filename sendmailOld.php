@@ -12,39 +12,34 @@ if (isset($_REQUEST['formtype']) && $_REQUEST['formtype'] == 'contactf') {
 
 	if (isset($_REQUEST['formname'])) {
 		$formname = $_REQUEST['formname'];
-		$PtFName = $_REQUEST['PtFName'];
-		$PtLName = $_REQUEST['PtLName'];
-		$DOB = $_REQUEST['DOB'];
-		$Phone = $_REQUEST['Phone'];
-		$Email = $_REQUEST['Email'];
+		$contact_name = $_REQUEST['contact_name'];
+		$contact_email = $_REQUEST['contact_email'];
 		if (isset($_REQUEST['contact_url'])) {
 		  $contact_url = $_REQUEST['contact_url'];
 		}
 		$contact_subject = $_REQUEST['contact_subject'];
-		$Message = $_REQUEST['message'];
+		$contact_message = $_REQUEST['contact_message'];
 		
 		$result_slug = 'justin.white@gmail.com';
-	
+		
 		
 	}
 	else {
 	    echo 'form name not set';
 	}
 		
-	$mailAddress = 'bob@md-hc.com';
+		// $mailAddress = 'bob@md-hc.com';
 	$cc = 'bob@md-hc.com';
 	// $mailAddress = 'justin.white@gmail.com,' . $cc;
-	// $mailAddress = 'justin.white@gmail.com';
+	$mailAddress = 'justin.white@gmail.com';
 	$subject = 'Contact Form Submission';
-	
-	$msg = "\r\n Name: $PtLName, $PtFName\r\n DOB: $DOB\r\n Phone: $Phone\r\n Email: $Email\r\n Subject: $contact_subject\r\n Message: $Message";
-	
-	$headers = "MIME-Version: 1.0\r\n Content-type:text/plain; charset=utf-8\r\n From: [" . $PtLName . "]" . $Email . " \r\n Reply-To: " . $Email . "\r\n X-Mailer: PHP/" . phpversion();
+	$msg = "\r\n $contact_name \r\n $contact_email\r\n $contact_url\r\n $contact_subject\r\n $contact_message";
+	$headers = "MIME-Version: 1.0\r\n Content-type:text/plain; charset=utf-8\r\n From: [" . $contact_name . "]" . $contact_email . " \r\n Reply-To: " . $contact_email . "\r\n X-Mailer: PHP/" . phpversion();
 		
 	// mail($mailAddress, $subject, $msg, $headers);
 	mail($mailAddress, $subject, $msg, $headers);
 
-    echo 'Done bob';
+    echo 'Done';
 		
 }
 

@@ -1,5 +1,10 @@
+.modal-backdrop {
+  position: fixed;
+}
+
 #staffmodal-overlay,
 #bk-staffmodal {
+  /*
   background-color: #000;
   width: 60%;
   height: 100%;
@@ -10,15 +15,41 @@
   border: 2px solid;
   background: white;
   z-index: 11;
+  */
   display: none;
 }
 
+#bkdialog {
+  display: none;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 1040;
+}
+
+  /*
 audio, canvas, progress, video {
+  display: -webkit-box;
+    top: 800px;
+    left: 500px;
+    position: absolute;
+    width: 320px;
+    height: 240px;
+    box-sizing: border-box;
+    object-fit: contain;
+    z-index:1040;
+    */
+
+  /*
     display: inline-block;
     vertical-align: baseline;
     width: 90%;
     height: 100%;
+    */
+    /*
 }
+*/
+
 
 #bkstaffmodal-content {
   border: 2px solid;

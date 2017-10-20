@@ -378,7 +378,7 @@
 									<div class="figure ">
 
 
-										<a href="visit-guide.php" title="" target="" class="figure stretchy_wrapper ratio_16-9" style="background-image: url('images/medicalbuilding.png')">
+										<a href="visit-guide.php" title="" target="" class="figure stretchy_wrapper ratio_16-9" style="background-image: url('images/medicalbuilding.jpg')">
 										</a>
 
 									</div>
