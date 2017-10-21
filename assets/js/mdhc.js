@@ -13,10 +13,14 @@ function clickStaff(employee, title) {
     	     height: 240,
     	     width: 380,
     	     title: title,
-    	     modal: true
+    	     modal: true,
+    	     close: function( event, ui ) {
+    	    	   // jQuery(data).dialog("destroy");
+    	     }
        });
      } );
     
+     /*
     jQuery('#bkvideo').on('click', function(evnparam) {
     	    evnparam.preventDefault();
     	    evnparam.stopPropagation();
@@ -24,4 +28,5 @@ function clickStaff(employee, title) {
     	    console.log('bkvideo clicked', evnparam);
     	    return false;
     });
+    */
 }
