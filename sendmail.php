@@ -37,7 +37,7 @@ if (isset($_REQUEST['formtype']) && $_REQUEST['formtype'] == 'contactf') {
 	// $mailAddress = 'justin.white@gmail.com';
 	$subject = 'Contact Form Submission';
 	
-	$msg = "\r\n Name: $PtLName, $PtFName\r\n DOB: $DOB\r\n Phone: $Phone\r\n Email: $Email\r\n Subject: $contact_subject\r\n Message: $Message";
+	$msg = "\r\n Name: $PtLName, $PtFName\r\n \r\n DOB: $DOB\r\n \r\n Phone: $Phone\r\n \r\n Email: $Email\r\n \r\n Subject: $contact_subject\r\n \r\n Message: $Message \r\n";
 	
 	$headers = "MIME-Version: 1.0\r\n Content-type:text/plain; charset=utf-8\r\n From: [" . $PtLName . "]" . $Email . " \r\n Reply-To: " . $Email . "\r\n X-Mailer: PHP/" . phpversion();
 		

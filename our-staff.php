@@ -55,136 +55,98 @@
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
 			<p style="text-align: left;">Our multidisciplinary team follows the standards of medical care by implementing a 4&nbsp;prong approach: Pharmaceuticals, Medicine, Behavioral Health, and Physical Therapies. &nbsp;We have the following health care professionals on staff:&nbsp;physicians, nurses, pharmacists, psychologists, psychiatrists, counselors, health educators, social service, addiction medicine, physical therapy, chiropractic medicine, and myofascial release. Having this many health care&nbsp;providers in one team allows us to definitely diagnose your pain problem and offer a plan of care designed for each individual patient’s needs.</p>
-<p style="text-align: center;">CLICK ON PHOTO TO SEE MORE</p>
+<p style="text-align: center;"><strong>CLICK ON PHOTO TO SEE THEIR VIDEO</strong></p>
 
 		</div>
 	</div>
+
 <div class="team_members_grid row">
-
-
     <div class="col-sm-6 col-md-3">
-      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-        
-        <a href="javascript:" 
-        onClick="clickStaff('RKShort', 'Sir Bob Kutzner Esq. III MD Extraordinaire');" 
-        style="background-image: url('images/doctors-featured-image-dr-kutnzer.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-        
-        <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>Dr. Robert R. Kutzner M.D.</h4>
-             <p>Interventionalist - Pain &amp; Addiction</p> 
-          </div>
-
-<!--
-          <div class="team_social">
-            <a href="https://twitter.com/MDHealthClinics"><i class="fa fa fa-twitter"></i></a>
-            <a href="https://www.facebook.com/MD-Health-Clinics-680477241962836/"><i class="fa fa fa-facebook"></i></a>
-            <a href="https://plus.google.com/112716722803564110392"><i class="fa fa fa-google-plus"></i></a>
-            <a href="https://www.youtube.com/user/DocKutz"><i class="fa fa fa-youtube"></i></a>
-          </div>
--->
-          <div class="desc">       
-            <p></p>
-          </div>
-          
-
-<!--
-          <div id="bkstaffmodal" class="link">
-            <a href="javascript:" onClick="jQuery('#bkdialog').dialog();" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-  -->
-
-
+        <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+            <a href="javascript:" 
+            onClick="clickStaff('RK2', 'Robert R. Kutzner MD');" 
+            style="background-image: url('images/doctors-featured-image-dr-kutnzer.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+            <div class="content boxed  with_button ">
+                <div class="hgroup">
+                    <h4>Robert Kutzner MD</h4>
+                    <p>Interventionalist</p> 
+                    <p>Pain &amp; Addiction</p> 
+                </div>
+                    <div class="desc"> 
+                    </div>
+                <div class="link">
+                <a href="javascript:"
+                onClick="clickStaff('RK2', 'Robert R. Kutzner MD');" 
+                data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                </div>
+            </div>
         </div>
-
-      </div>
     </div>
 
 
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-        
-        <a href="profile/greg-amenta/" style="background-image: url('images/GregArmenta2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-        
+            <a href="javascript:" 
+            onClick="clickStaff('Greg', 'Greg Armenta');" 
+            style="background-image: url('images/GregArmenta2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>Mr. Greg Armenta</h4>
-             <p>Chief Operating Officer</p> 
-          </div>
-
-          <div class="team_social">
-          </div>
-
-          <div class="desc">       
-            <p></p>
-          </div>
-
-          <div class="link">
-            <a href="profile/greg-amenta/" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-
+            <div class="hgroup">
+                <h4>Greg Armenta</h4>
+                <p>Chief Financial Officer</p>
+                <p>&nbsp;</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Greg', 'Greg Armenta');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
         </div>
-
       </div>
     </div>
 
-
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-        
-        <a href="profile/dr-renda-dionne-phd/" style="background-image: url('images/RendaDionne.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-        
+            <a href="javascript:" 
+            onClick="clickStaff('Renda', 'Renda Dionne PhD');" 
+            style="background-image: url('images/RendaDionne.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>Dr. Renda Dionne Ph.D.</h4>
-             <p>Psychologist - Pain &amp; Addiction</p> 
-          </div>
-
-          <div class="team_social">
-          </div>
-
-          <div class="desc">       
-            <p></p>
-          </div>
-
-          <div class="link">
-            <a href="profile/dr-renda-dionne-phd/" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-
+            <div class="hgroup">
+                <h4>Renda Dionne PhD</h4>
+                <p>Psychologist</p>
+                <p>Pain &amp; Addiction</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Renda', 'Renda Dionne PhD');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
         </div>
-
       </div>
     </div>
-
-
+   
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-        
-        <a href="profile/randy-fruchter/" style="background-image: url('images/RandyFruchter2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-        
+            <a href="javascript:" 
+            onClick="clickStaff('Randy', 'Randy Fruchter');" 
+            style="background-image: url('images/RandyFruchter2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>Randy Fruchter</h4>
-             <p>Myofascial Release Specialist</p> 
-          </div>
-
-          <div class="team_social">
-          </div>
-
-          <div class="desc">       
-            <p></p>
-          </div>
-
-          <div class="link">
-            <a href="profile/randy-fruchter/" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-
+            <div class="hgroup">
+                <h4>Randy Fruchter</h4>
+                <p>Myofascial Release Therapist</p>
+                <p>Pain &amp; Addiction</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Randy', 'Randy Fructer');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
         </div>
-
       </div>
     </div>
 
@@ -363,34 +325,27 @@
     </div>
 
 
-      <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-    
-        <a href="" style="background-image: url('images/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-    
+            <a href="javascript:" 
+            onClick="clickStaff('Brad', 'Brad Jones');" 
+            style="background-image: url('images/Brad.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>Brad Jones</h4>
-             <p>Network Administrator</p> 
-          </div>
-
-          <div class="team_social">
-          </div>
-
-          <div class="desc">       
-            <p></p>
-          </div>
-
-          <div class="link">
-            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-
+            <div class="hgroup">
+                <h4>Brad Jones</h4>
+                <p>Facilitator NGS Program</p>
+                <p>Network Administrator</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Brad', 'Brad Jones');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
         </div>
-
       </div>
     </div>
-
 
      <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">

@@ -175,8 +175,7 @@
                   </div>
                   <div class="post_figure_and_info">
                     <figure class="stretchy_wrapper ratio_2-1 video_iframe" style="">
-                      <iframe style="border: none;" width="500" height="281" src="./index_files/qPoNGasTYew.html"
-                        allowfullscreen=""></iframe>
+                    <iframe style="border:none;" width="500" height="281" src="https://www.youtube.com/embed/qPoNGasTYew?feature=oembed" allowfullscreen=""></iframe>
                     </figure>
                   </div>
                   <div class="post_figure_and_info">
@@ -291,8 +290,7 @@
                   </div>
                   <div class="post_figure_and_info">
                     <figure class="stretchy_wrapper ratio_2-1 video_iframe" style="">
-                      <iframe style="border: none;" width="500" height="281" src="images/34iZ7I1zvPY.html"
-                        allowfullscreen=""></iframe>
+                    <iframe style="border:none;" width="500" height="281" src="https://www.youtube.com/embed/34iZ7I1zvPY?feature=oembed" allowfullscreen=""></iframe>
                     </figure>
                   </div>
                   <div class="post_figure_and_info">
@@ -405,8 +403,7 @@
                   </div>
                   <div class="post_figure_and_info">
                     <figure class="stretchy_wrapper ratio_2-1 video_iframe" style="">
-                      <iframe style="border: none;" width="500" height="281" src="images/6gQ83-hE40A.html"
-                        allowfullscreen=""></iframe>
+                        <iframe style="border:none;" width="500" height="281" src="https://www.youtube.com/embed/6gQ83-hE40A?feature=oembed" allowfullscreen=""></iframe>
                     </figure>
                   </div>
                   <div class="post_figure_and_info">

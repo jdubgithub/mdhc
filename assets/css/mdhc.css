@@ -1,3 +1,22 @@
+.error {
+  color: red;
+}
+.success_box {
+    background-color: rgba(182, 240, 148, .5);
+    margin: 0 0 20px;
+}
+
+.vc_custom_1448964466367,
+.vc_custom_1448964485854
+{
+    background-color: #088eff;
+}
+
+.ui-widget-overlay {
+    background-color: #088eff;
+    opacity: .93;
+}
+
 .modal-backdrop {
   position: fixed;
 }

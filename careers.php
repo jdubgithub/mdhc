@@ -60,7 +60,7 @@
                 <p>At MD Health Clinics, we are always interested in attracting professionals to our company and ready
                   to consider all offers. You can send your resume per email or fax with the remark “HR department” and
                   we will contact you immediately.</p>
-
+<P>&nbsp;</P>
               </div>
             </div>
 
