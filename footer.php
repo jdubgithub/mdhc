@@ -97,7 +97,7 @@
 											Management</a></li>
 									<li id="menu-item-2112"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2112"><a
-										href="departments/addiction-medicine/">Addictions</a></li>
+										href="departments/addiction-medicine/">Psychology & Spirituality</a></li>
 									<li id="menu-item-2115"
 										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115"><a
 										href="departments/workers-compensation/">Workers

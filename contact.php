@@ -436,86 +436,243 @@
             <div role="form" class="wpcf7" id="wpcf7-f5-p255-o1" lang="en-US" dir="ltr">
               <div class="screen-reader-response"></div>
 
-              <!-- 							<form action="sendmail.php" method="post" class="contact-form" novalidate="novalidate"> -->
 
-
-              <!-- 
-    <form accept-charset="UTF-8" action="sendmail.php" class="new_client" data-remote="true" id="new_client" method="post">
-               -->
-               
               <form method="post" id="contactform">
 
-
-                <div style="display: none;">
+               <div style="display: none;">
                   <input type="hidden" name="formtype" value="contactf"> <input type="hidden" name="formname" value="contact php">
                 </div>
                 <p>
-                  <div class="box success_box" style="display: none;">
-                  <div class="widgetinfo">Thank you! <br />
-										Your message has been sent successfully. </div>
-                    </div>
-                  <div class="error" style="display: none;">Please complete all the fields.</div>
-                </p>
-
-                <p>
-
-                  <span class="wpcf7-form-control-wrap your-name"> <input type="text" required="true" name="PtFName" id="PtFName"
-                    placeholder="First Name" value="" size="40"
-                    class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required"
-                    aria-required="true" aria-invalid="false" autofocus tabindex="1"></span>
-                </p>
-
-                <p>
-                  <span class="wpcf7-form-control-wrap your-name"><input required="true" type="text" id="PtLName" name="PtLName"
-                    placeholder="Last Name" value="" size="40"
-                    class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required"
-                    aria-required="true" aria-invalid="false" tabindex="2"></span>
+                  
+            <div class="box success_box" style="display: none;">
+                <div class="widgetinfo" style="text-align:center;">
+                    <font size="4" color="#FFFFFF"><b>Thank you!</b></font>
+                    <font color="#FFFFFF"><br />We will get back to you as soon as possible. </font>
+                </div>
+                    
+                </div>
+                
+                <div class="error" style="display: none;">
+					<font size="4" color="#FFFFFF">Please complete all the fields.</font>
+				</div>
                 </p>
 
 
                 <p>
-                  <span class="wpcf7-form-control-wrap your-name"><input type="text" name="DOB" id="DOB"
-                    placeholder="Date Of Birth" value="" size="40"
-                    class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required"
-                    aria-required="true" aria-invalid="false" tabindex="3"></span>
+
+                  <span class="wpcf7-form-control-wrap your-name"> <input type="text" required="true" name="PtFName" id="PtFName" onfocusout="HideSendPtFName()" onkeypress="return IsAlphabetPtFName(event);" placeholder="First Name" value="" size="40" class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required" aria-required="true" aria-invalid="false" autofocus tabindex="1"></span>
+                  <span id="errorPtFName" style="color: Red; display: none">* Must be letters, no spaces, and only the FIRST name.</span>
                 </p>
 
                 <p>
-                  <span class="wpcf7-form-control-wrap your-name"><input type="text" name="Phone"  id="Phone" 
-                    placeholder="Phone Contact" value="" size="40"
-                    class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required"
-                    aria-required="true" aria-invalid="false" tabindex="4"></span>
+                  <span class="wpcf7-form-control-wrap your-name"><input required="true" type="text" id="PtLName" name="PtLName" onfocusout="HideSendPtLName()" onkeypress="return IsAlphabetPtLName(event);" placeholder="Last Name" value="" size="40" class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required" aria-required="true" aria-invalid="false" tabindex="2"></span>
+                    <span id="errorPtLName" style="color: Red; display: none">* Must be letters and only the LAST name, no spaces.</span>
+                </p>
+
+
+                <p>
+                  <span class="wpcf7-form-control-wrap your-name">
+                    <input required="true" type="tel" maxlength="8" name="DOB" id="DOB" onfocusout="HideSendDOB()" onkeypress="return IsNumericDOB(event);" placeholder="Birth Date mmddyyyy all numbers" pattern=".{8,8}" value="" size="40" class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required" aria-required="true" aria-invalid="false" tabindex="3" ></span>
+                    <span id="errorDOB" style="color: Red; display: none">*MONTH (01 to 12), DAY (01 to 31), and YEAR (1901 to 2050). All together in a line, mmddyyyy. </span>
                 </p>
 
                 <p>
-                  <span class="wpcf7-form-control-wrap your-email"><input type="email" name="Email" id="Email"
-                    placeholder="Email Contact" value="" size="40"
-                    class="wpcf7-form-control wpcf7-form-control form-control wpcf7-form-control form-control wpcf7-validates-as-required wpcf7-validates-as-email"
-                    aria-required="true" aria-invalid="false" tabindex="5"></span>
+                  <span class="wpcf7-form-control-wrap your-name"><input  required="true" type="tel" maxlength="10" name="Phone"  id="Phone" onfocusout="HideSendPhone()" onkeypress="return IsNumericPhone(event);" placeholder="Phone Contact" value="" class="wpcf7-form-control wpcf7-form-control form-control wpcf7-validates-as-required"aria-required="true" aria-invalid="false" tabindex="4"  ></span>
+                    <span id="errorPhone" style="color: Red; display: none">* Must be 10 numbers (0 - 9) only. Area Code and Phone # = 10 numbers</span>
                 </p>
 
                 <p>
-                  <span class="wpcf7-form-control-wrap your-subject"><input type="text" tabindex="6"
-                    name="contact_subject" id="contact_subject" placeholder="Subject" value="" size="40"
-                    class="wpcf7-form-control wpcf7-form-control form-control" aria-invalid="false"></span>
+                  <span class="wpcf7-form-control-wrap your-email"><input  onfocusout="HideSendEmail()" onkeypress="return validateEmail(email);" required="true" type="email" name="Email" id="Email" placeholder="Email Contact" value="" size="40" class="wpcf7-form-control wpcf7-form-control form-control wpcf7-form-control form-control wpcf7-validates-as-required wpcf7-validates-as-email"
+                    aria-required="true" aria-invalid="false" tabindex="5" ></span>
+                    <span id="errorEmail" style="color: Red; display: none">* Must be a legitimate email.</span>
                 </p>
 
                 <p>
-                  <span class="wpcf7-form-control-wrap your-message"><textarea id="message" name="message" placeholder="Your Message"
-                      cols="40" rows="5" class="wpcf7-form-control wpcf7-form-control wpcf7-form-control form-control"
-                      aria-invalid="false" tabindex="7"></textarea></span>
+                  <span class="wpcf7-form-control-wrap your-subject"><input  required="true" type="text" tabindex="6" name="Subject" id="Subject" onfocusout="HideSendSubject()" placeholder="Subject" value="" size="40" class="wpcf7-form-control wpcf7-form-control form-control" aria-invalid="false" ></span>
+                  <span id="errorSubject" style="color: Red; display: none">* Must have a subject line.</span>
+                </p>
+
+                <p>
+                  <span class="wpcf7-form-control-wrap your-message"><textarea required="true" id="Message" name="Message" onfocusout="HideSendMessage()" placeholder="Your Message" cols="40" rows="5" class="wpcf7-form-control wpcf7-form-control wpcf7-form-control form-control"aria-invalid="false" tabindex="7"></textarea></span>
+                  <span id="errorMessage" style="color: Red; display: none">* What do you want to say? We will get back to you asap.</span>
                 </p>
 
                 <p>&nbsp;</p>
-
+                
+<div class="send_btn">
                 <p align="center">
                   <a class="pcf7-form-control wpcf7-submit btn wpcf7-toggleSubmit btn-primary" href="#" id="contact_form_formsend" tabindex="8" style="text-decoration: none"> Send</a>
-                
+ </div>               
                 </p>
 
                 <div class="wpcf7-response-output wpcf7-display-none"></div>
 
               </form>
+
+
+<script type="text/javascript">
+        
+        var specialKeys = new Array();
+        // specialKeys.push(8); //Backspace
+        // specialKeys.push(9); //Tab
+        specialKeys.push(46); //Delete
+        specialKeys.push(36); //Home
+        specialKeys.push(35); //End
+        specialKeys.push(37); //Left
+        specialKeys.push(39); //Right
+        
+        function IsAlphabetPtFName(e) {
+            
+            jQuery( '#contactform') .parent() .find( '.send_btn') .hide();
+            
+            var keyCode = e.keyCode == 0 ? e.charCode : e.keyCode;
+            
+            var ret = ((keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (specialKeys.indexOf(e.keyCode) != -1 && e.charCode != e.keyCode));
+            
+            document.getElementById("errorPtFName").style.display = ret ? "none" : "inline";
+            return ret;
+        }
+ 
+ 
+        function IsAlphabetPtLName(e) {
+            
+            jQuery( '#contactform') .parent() .find( '.send_btn') .hide();
+            
+            var keyCode = e.keyCode == 0 ? e.charCode : e.keyCode;
+            
+            var ret = ((keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (specialKeys.indexOf(e.keyCode) != -1 && e.charCode != e.keyCode));
+            
+            document.getElementById("errorPtLName").style.display = ret ? "none" : "inline";
+            return ret;
+        }
+
+        
+        function IsNumericDOB(e) {
+
+            jQuery( '#contactform') .parent() .find( '.send_btn') .hide();
+ 
+            var keyCode = e.which ? e.which : e.keyCode
+            
+            var ret = ((keyCode >= 48 && keyCode <= 57) || specialKeys.indexOf(keyCode) != -1);
+            
+            document.getElementById("errorDOB").style.display = ret ? "none" : "inline";
+            return ret;
+        }
+
+
+        function IsNumericPhone(e) {
+
+            jQuery( '#contactform') .parent() .find( '.send_btn') .hide();
+ 
+            document.getElementById("errorPhone").style.display = ret ? "none" : "inline";         
+            
+            var keyCode = e.which ? e.which : e.keyCode
+            
+            var ret = ((keyCode >= 48 && keyCode <= 57) || specialKeys.indexOf(keyCode) != -1);
+            return ret;
+        }
+        
+
+        function validateEmail(email) {
+    
+            jQuery( '#contactform') .parent() .find( '.send_btn') .hide();
+    
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  
+            return re.test(email);
+  
+            document.getElementById("errorEmail").style.display = ret ? "none" : "inline";  
+        }
+
+
+// ********Allowing Submit Button
+
+
+        function HideSendPtFName() {
+    
+            var x = document.getElementById("PtFName").value; 
+    
+            if ( x.length !== ""){
+                document.getElementById("errorPtFName").style.display = "none";
+                jQuery( '#contactform') .parent() .find( '.send_btn') .show(); 
+            } 
+        
+        } 
+
+
+        function HideSendPtLName() {
+    
+            var x = document.getElementById("PtLName").value; 
+    
+            if ( x.length !== ""){
+                document.getElementById("errorPtLName").style.display = "none";
+                jQuery( '#contactform') .parent() .find( '.send_btn') .show(); 
+            } 
+        
+        } 
+
+
+        function HideSendDOB() {
+    
+            var x = document.getElementById("DOB").value; 
+    
+            if ( x.length == 8){
+                document.getElementById("errorDOB").style.display = "none";
+                jQuery( '#contactform') .parent() .find( '.send_btn') .show(); 
+            } 
+        
+        } 
+
+ 
+        function HideSendPhone() {
+    
+            var x = document.getElementById("Phone").value; 
+    
+            if ( x.length == 10){
+                document.getElementById("errorPhone").style.display = "none";
+                jQuery( '#contactform') .parent() .find( '.send_btn') .show(); 
+            } 
+        
+        }           
+
+
+        function HideSendEmail() {
+    
+            var x = document.getElementById("Email").value; 
+    
+            if ( x.length !== ""){
+                document.getElementById("errorEmail").style.display = "none";
+                jQuery( '#contactform') .parent() .find( '.send_btn') .show(); 
+            } 
+        
+        }       
+ 
+ 
+        function HideSendSubject() {
+    
+            var x = document.getElementById("Subject").value; 
+    
+            if ( x.length !== ""){
+                document.getElementById("errorSubject").style.display = "none";
+                jQuery( '#contactform') .parent() .find( '.send_btn') .show(); 
+            } 
+        
+        } 
+        
+        
+        function HideSendMessage() {
+    
+            var x = document.getElementById("Message").value; 
+    
+            if ( x.length !== ""){
+                document.getElementById("errorMessage").style.display = "none";
+                jQuery( '#contactform') .parent() .find( '.send_btn') .show(); 
+            } 
+        
+        }        
+        
+        
+</script> 
 
             </div>
 
@@ -528,6 +685,7 @@
             <div
               class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text">
               <span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
+
               <h4>Contact Info</h4>
               <span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
             </div>
@@ -651,6 +809,7 @@
       <p>&nbsp;</p>
       <p>&nbsp;</p>
     </div>
+    
   </section>
 
 

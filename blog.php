@@ -39,47 +39,54 @@
           <div class="post-grid classic">
             <div class="row">
               <div class="col-md-12">
+                
                 <article id="post-2792"
                   class="post post-2792 type-post status-publish format-standard has-post-thumbnail hentry category-news tag-addiction tag-addiction-treatment tag-multidisciplinary tag-pain-medicine tag-pain-treatment">
+                  
                   <div class="post_headings">
                     <h2 class="post_title">
                       <a href="dr-robert-r-kutzner-offers-new-addiction-help-program-due-to-prop-57/">Dr. Robert R.
                         Kutzner Offers New Addiction Help Program Due to Prop. 57</a>
                     </h2>
                   </div>
-                  <div class="post_figure_and_info">
+                  
+                <div class="post_figure_and_info">
                     <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> April 1, 2017</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/news/" title="View all posts in category: News"><span
-                        class="post_info post_categories">News</span></a><a href="tag/addiction/"
-                        title="View all posts in tag: Addiction"><span class="post_info post_tags">Addiction</span></a><a
-                        href="tag/addiction-treatment/" title="View all posts in tag: addiction treatment"><span
-                        class="post_info post_tags">addiction treatment</span></a><a href="tag/multidisciplinary/"
-                        title="View all posts in tag: Multidisciplinary"><span class="post_info post_tags">Multidisciplinary</span></a><a
-                        href="tag/pain-medicine/" title="View all posts in tag: Pain Medicine"><span
-                        class="post_info post_tags">Pain Medicine</span></a><a href="tag/pain-treatment/"
-                        title="View all posts in tag: pain treatment"><span class="post_info post_tags">pain treatment</span></a>
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
-                    <a href="dr-robert-r-kutzner-offers-new-addiction-help-program-due-to-prop-57/"
-                      title="Dr. Robert R. Kutzner Offers New Addiction Help Program Due to Prop. 57"><figure
-                        class="stretchy_wrapper ratio_2-1"
-                        style="background-image: url('images/gI_149779_robert.png')">
-                        <img alt="Dr. Robert R. Kutzner Offers New Addiction Help Program Due to Prop. 57"
-                          src="images/gI_149779_robert.png">
-                      </figure></a>
-                  </div>
-                  <p>The original article can be found
+                    
+                <a href="http://www.prweb.com/releases/addiction-help/orange-county-ca/prweb14153565.htm" target="_blank" title="Dr. Robert R. Kutzner Offers New Addiction Help Program Due to Prop. 57">
+                    
+                    <figure class="stretchy_wrapper ratio_2-1" style="background-image: url('images/gI_149779_robert.png')">
+                        
+                        <img alt="Dr. Robert R. Kutzner Offers New Addiction Help Program Due to Prop. 57" src="images/gI_149779_robert.png">
+                    </figure>
+                </a>
+                    
+                </div>
+                    
+                    <p>The original article can be found
                     here:&nbsp;http://www.prweb.com/releases/addiction-help/orange-county-ca/prweb14153565.htm New
                     program offered in Orange County because of Prop. 57, what used to be a felony in the past is now
                     only a ticket for drug offenses. Individuals that used to go to jail are now homeless, creating new
-                    problems for them and the community. For homeless in […]</p>
-                  <p>
-                    <a href="dr-robert-r-kutzner-offers-new-addiction-help-program-due-to-prop-57/"
-                      class="btn btn-primary">Read More</a>
-                  </p>
-                </article>
-              </div>
+                    problems for them and the community. For homeless in […]
+                    </p>
+                  
+                  
+                    <p>
+                    <a href="http://www.prweb.com/releases/addiction-help/orange-county-ca/prweb14153565.htm" class="btn btn-primary">Read More
+                    </a>
+                    </p>
+                    
+        </article>
+              
+    </div>
 
               <div class="col-md-12">
                 <article id="post-2791"
@@ -91,19 +98,19 @@
                     </h2>
                   </div>
                   <div class="post_figure_and_info">
+                    
                     <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> April 1, 2017</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/news/" title="View all posts in category: News"><span
-                        class="post_info post_categories">News</span></a><a href="tag/addiction/"
-                        title="View all posts in tag: Addiction"><span class="post_info post_tags">Addiction</span></a><a
-                        href="tag/dr-kutzner/" title="View all posts in tag: dr. kutzner"><span
-                        class="post_info post_tags">dr. kutzner</span></a><a href="tag/medicine/"
-                        title="View all posts in tag: medicine"><span class="post_info post_tags">medicine</span></a><a
-                        href="tag/multidisciplinary/" title="View all posts in tag: Multidisciplinary"><span
-                        class="post_info post_tags">Multidisciplinary</span></a>
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
-                    <a href="dr-explains-why-drug-and-alcohol-treatment-centers-do-not-work-in-the-u-s/"
+                    
+                    
+                    <a href="http://www.prweb.com/releases/drug-rehabs/addiction-treatment/prweb14142860.htm"
                       title="DR. Explains Why Drug and Alcohol Treatment Centers Do Not Work in the U.S."><figure
                         class="stretchy_wrapper ratio_2-1"
                         style="background-image: url('images/Capture.jpg')">
@@ -118,7 +125,7 @@
                     epidemic. He was trained as an anesthesiologist and possesses personal experience in addiction. Dr.
                     […]</p>
                   <p>
-                    <a href="dr-explains-why-drug-and-alcohol-treatment-centers-do-not-work-in-the-u-s/"
+                    <a href="http://www.prweb.com/releases/drug-rehabs/addiction-treatment/prweb14142860.htm"
                       class="btn btn-primary">Read More</a>
                   </p>
                 </article>
@@ -133,20 +140,18 @@
                     </h2>
                   </div>
                   <div class="post_figure_and_info">
-                    <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> August 9, 2016</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/news/" title="View all posts in category: News"><span
-                        class="post_info post_categories">News</span></a><a href="tag/pain/"
-                        title="View all posts in tag: Pain"><span class="post_info post_tags">Pain</span></a><a
-                        href="tag/sadness/" title="View all posts in tag: Sadness"><span class="post_info post_tags">Sadness</span></a><a
-                        href="tag/self-worth/" title="View all posts in tag: Self-Worth"><span
-                        class="post_info post_tags">Self-Worth</span></a><a href="tag/understanding-addiction/"
-                        title="View all posts in tag: Understanding Addiction"><span class="post_info post_tags">Understanding
-                          Addiction</span></a><a href="understanding-addiction/#post_comments"><span
-                        class="post_info post_comment"><i class="fa fa-comments"></i>2 </span></a>
+                    
+                      <div class="post_sub">
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
-                    <a href="understanding-addiction/" title="Understanding Addiction: “Sadness”"><figure
+                    
+                    <a target="_blank" href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMDHealthClinics%2Fposts%2F1253886257955262%3A0&width=500" title="Understanding Addiction: “Sadness”"><figure
                         class="stretchy_wrapper ratio_1-1"
                         style="background-image: url('images/Understanding-Addiction-MD-Health-Clinics.jpg')">
                         <img alt="Understanding Addiction: “Sadness”"
@@ -158,7 +163,7 @@
                     prolonged form of sadness where the loss is of self-worth and hope. When you realize that you were
                     created on purpose […]</p>
                   <p>
-                    <a href="understanding-addiction/" class="btn btn-primary">Read More</a>
+                    <a href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMDHealthClinics%2Fposts%2F1253886257955262%3A0&width=500" class="btn btn-primary" target="_blank">Read More</a>
                   </p>
                 </article>
               </div>
@@ -179,16 +184,14 @@
                     </figure>
                   </div>
                   <div class="post_figure_and_info">
-                    <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> July 21, 2016</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/news/" title="View all posts in category: News"><span
-                        class="post_info post_categories">News</span></a><a href="category/videos/"
-                        title="View all posts in category: Videos"><span class="post_info post_categories">Videos</span></a><a
-                        href="tag/addiction/" title="View all posts in tag: Addiction"><span class="post_info post_tags">Addiction</span></a><a
-                        href="tag/dr-robert-kutzner/" title="View all posts in tag: Dr. Robert Kutzner"><span
-                        class="post_info post_tags">Dr. Robert Kutzner</span></a><a href="tag/pain-medicine/"
-                        title="View all posts in tag: Pain Medicine"><span class="post_info post_tags">Pain Medicine</span></a>
+                      <div class="post_sub">
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
                   </div>
                   <p>Dr. Kutzner is a specialist in pain &amp; addiction medicine within a multidisciplinary approach
@@ -204,28 +207,23 @@
               <div class="col-md-12">
                 <article id="post-2723"
                   class="post post-2723 type-post status-publish format-standard has-post-thumbnail hentry category-news tag-addiction tag-fda tag-md-health-clinics tag-narcotic tag-pain-medicine">
+
                   <div class="post_headings">
                     <h2 class="post_title">
-                      <a href="quit-giving-pain-meds/">Quit Giving Pain Meds</a>
+                      <a target="_blank" href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMDHealthClinics%2Fposts%2F1235713683105853%3A0&width=500">Quit Giving Pain Meds</a>
                     </h2>
                   </div>
                   <div class="post_figure_and_info">
-                    <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> July 13, 2016</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/news/" title="View all posts in category: News"><span
-                        class="post_info post_categories">News</span></a><a href="tag/addiction/"
-                        title="View all posts in tag: Addiction"><span class="post_info post_tags">Addiction</span></a><a
-                        href="tag/fda/" title="View all posts in tag: FDA"><span class="post_info post_tags">FDA</span></a><a
-                        href="tag/md-health-clinics/" title="View all posts in tag: MD Health Clinics"><span
-                        class="post_info post_tags">MD Health Clinics</span></a><a href="tag/narcotic/"
-                        title="View all posts in tag: Narcotic"><span class="post_info post_tags">Narcotic</span></a><a
-                        href="tag/pain-medicine/" title="View all posts in tag: Pain Medicine"><span
-                        class="post_info post_tags">Pain Medicine</span></a><a
-                        href="quit-giving-pain-meds/#post_comments"><span class="post_info post_comment"><i
-                          class="fa fa-comments"></i>1 </span></a>
+                      <div class="post_sub">
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
-                    <a href="quit-giving-pain-meds/" title="Quit Giving Pain Meds"><figure
+                    <a target="_blank" href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMDHealthClinics%2Fposts%2F1235713683105853%3A0&width=500" title="Quit Giving Pain Meds"><figure
                         class="stretchy_wrapper ratio_2-1"
                         style="background-image: url('images/snn1615dd2g_470325a.jpg')">
                         <img alt="Quit Giving Pain Meds" src="images/snn1615dd2g_470325a.jpg">
@@ -236,7 +234,7 @@
                     Addition Medicine because I inevitably read comments from my fellow physicians, even our governments
                     politics, when I’m obliged to show […]</p>
                   <p>
-                    <a href="quit-giving-pain-meds/" class="btn btn-primary">Read More</a>
+                    <a target="_blank" href="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMDHealthClinics%2Fposts%2F1235713683105853%3A0&width=500" class="btn btn-primary">Read More</a>
                   </p>
                 </article>
               </div>
@@ -246,26 +244,21 @@
                   class="post post-2179 type-post status-publish format-image has-post-thumbnail hentry category-images-fg category-news tag-dr-robert-kutzner tag-orange-coast-magazine post_format-post-format-image">
                   <div class="post_headings">
                     <h2 class="post_title">
-                      <a href="md-health-clinics-featured-in-orange-coast-magazine/">MD Health Clinics Featured In
+                      <a target="_blank" href="OCMag012014.pdf">MD Health Clinics Featured In
                         Orange Coast Magazine Top Doctors Issue</a>
                     </h2>
                   </div>
                   <div class="post_figure_and_info">
-                    <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> April 7, 2016</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/images-fg/" title="View all posts in category: Medical Articles"><span
-                        class="post_info post_categories">Medical Articles</span></a><a href="category/news/"
-                        title="View all posts in category: News"><span class="post_info post_categories">News</span></a><a
-                        href="tag/dr-robert-kutzner/" title="View all posts in tag: Dr. Robert Kutzner"><span
-                        class="post_info post_tags">Dr. Robert Kutzner</span></a><a href="tag/orange-coast-magazine/"
-                        title="View all posts in tag: Orange Coast Magazine"><span class="post_info post_tags">Orange
-                          Coast Magazine</span></a><a
-                        href="md-health-clinics-featured-in-orange-coast-magazine/#post_comments"><span
-                        class="post_info post_comment"><i class="fa fa-comments"></i>1 </span></a>
+                      <div class="post_sub">
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
-                    <a href="md-health-clinics-featured-in-orange-coast-magazine/"
-                      title="MD Health Clinics Featured In Orange Coast Magazine Top Doctors Issue"><figure
+                    <a target="_blank" href="OCMag012014.pdf" title="MD Health Clinics Featured In Orange Coast Magazine Top Doctors Issue"><figure
                         class="stretchy_wrapper ratio_1-1"
                         style="background-image: url('images/orange-coast-magazine-top-doctors-new.jpg')">
                         <img alt="MD Health Clinics Featured In Orange Coast Magazine Top Doctors Issue"
@@ -274,7 +267,7 @@
                   </div>
                   <p>&nbsp; &nbsp; Click Here to Read The Article in Orange Coast Magazine (PDF) &nbsp;</p>
                   <p>
-                    <a href="md-health-clinics-featured-in-orange-coast-magazine/" class="btn btn-primary">Read More</a>
+                    <a target="_blank" href="OCMag012014.pdf" class="btn btn-primary">Read More</a>
                   </p>
                 </article>
               </div>
@@ -294,14 +287,14 @@
                     </figure>
                   </div>
                   <div class="post_figure_and_info">
-                    <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> April 7, 2016</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/news/" title="View all posts in category: News"><span
-                        class="post_info post_categories">News</span></a><a href="category/videos/"
-                        title="View all posts in category: Videos"><span class="post_info post_categories">Videos</span></a><a
-                        href="tag/dr-robert-kutzner/" title="View all posts in tag: Dr. Robert Kutzner"><span
-                        class="post_info post_tags">Dr. Robert Kutzner</span></a>
+                      <div class="post_sub">
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
                   </div>
                   <p>There is an epidemic of prescription overdose. So much so, that the CA Med. Brd. and the CA Pharm.
@@ -319,23 +312,21 @@
                   class="post post-2173 type-post status-publish format-standard has-post-thumbnail hentry category-images-fg category-news tag-dr-robert-kutzner tag-oc-register tag-opioids">
                   <div class="post_headings">
                     <h2 class="post_title">
-                      <a href="fda-finally-starts-to-tackle-opioid-epidemic/">FDA Finally Starts To Tackle Opioid
+                      <a target="_blank" href="Whiting_FDA_Finally.pdf">FDA Finally Starts To Tackle Opioid
                         Epidemic</a>
                     </h2>
                   </div>
                   <div class="post_figure_and_info">
-                    <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> April 7, 2016</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/images-fg/" title="View all posts in category: Medical Articles"><span
-                        class="post_info post_categories">Medical Articles</span></a><a href="category/news/"
-                        title="View all posts in category: News"><span class="post_info post_categories">News</span></a><a
-                        href="tag/dr-robert-kutzner/" title="View all posts in tag: Dr. Robert Kutzner"><span
-                        class="post_info post_tags">Dr. Robert Kutzner</span></a><a href="tag/oc-register/"
-                        title="View all posts in tag: OC Register"><span class="post_info post_tags">OC Register</span></a><a
-                        href="tag/opioids/" title="View all posts in tag: Opioids"><span class="post_info post_tags">Opioids</span></a>
+                      <div class="post_sub">
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
-                    <a href="fda-finally-starts-to-tackle-opioid-epidemic/"
+                    <a target="_blank" href="Whiting_FDA_Finally.pdf"
                       title="FDA Finally Starts To Tackle Opioid Epidemic"><figure class="stretchy_wrapper ratio_2-1"
                         style="background-image: url('images/news-opiod-oc-register-article-02.jpg')">
                         <img alt="FDA Finally Starts To Tackle Opioid Epidemic"
@@ -347,7 +338,7 @@
                     rate. It may not seem like much, but the FDA’s move to clamp down on relatively easy access to
                     hydrocodone indicates a long-awaited […]</p>
                   <p>
-                    <a href="fda-finally-starts-to-tackle-opioid-epidemic/" class="btn btn-primary">Read More</a>
+                    <a target="_blank" href="Whiting_FDA_Finally.pdf" class="btn btn-primary">Read More</a>
                   </p>
                 </article>
               </div>
@@ -357,23 +348,22 @@
                   class="post post-2163 type-post status-publish format-standard has-post-thumbnail hentry category-images-fg category-news tag-dr-robert-kutzner tag-oc-register tag-opioids">
                   <div class="post_headings">
                     <h2 class="post_title">
-                      <a href="ignoring-opioid-rules-has-killer-implications/">Ignoring Opioid Rules has Killer
+                      <a target="_blank" href="DavidWhitingOCregisterMTUSarticle.pdf">Ignoring Opioid Rules has Killer
                         Implications</a>
                     </h2>
                   </div>
                   <div class="post_figure_and_info">
                     <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> April 7, 2016</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/images-fg/" title="View all posts in category: Medical Articles"><span
-                        class="post_info post_categories">Medical Articles</span></a><a href="category/news/"
-                        title="View all posts in category: News"><span class="post_info post_categories">News</span></a><a
-                        href="tag/dr-robert-kutzner/" title="View all posts in tag: Dr. Robert Kutzner"><span
-                        class="post_info post_tags">Dr. Robert Kutzner</span></a><a href="tag/oc-register/"
-                        title="View all posts in tag: OC Register"><span class="post_info post_tags">OC Register</span></a><a
-                        href="tag/opioids/" title="View all posts in tag: Opioids"><span class="post_info post_tags">Opioids</span></a>
+                      <div class="post_sub">
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
-                    <a href="ignoring-opioid-rules-has-killer-implications/"
+                    <a target="_blank" href="DavidWhitingOCregisterMTUSarticle.pdf"
                       title="Ignoring Opioid Rules has Killer Implications"><figure class="stretchy_wrapper ratio_2-1"
                         style="background-image: url('images/dr-bob-kutzner-LRG.jpg')">
                         <img alt="Ignoring Opioid Rules has Killer Implications"
@@ -385,7 +375,7 @@
                     apply to workers’ compensation cases. But even in those cases, a host of experts agree that the
                     regulations are woefully underutilized. Dr. Robert Kutzner, an Orange County pain […]</p>
                   <p>
-                    <a href="ignoring-opioid-rules-has-killer-implications/" class="btn btn-primary">Read More</a>
+                    <a target="_blank" href="DavidWhitingOCregisterMTUSarticle.pdf" class="btn btn-primary">Read More</a>
                   </p>
                 </article>
               </div>
@@ -407,17 +397,14 @@
                     </figure>
                   </div>
                   <div class="post_figure_and_info">
-                    <div class="post_sub">
-                      <span class="post_info post_date"><i class="fa fa-calendar"></i> July 21, 2014</span><a
-                        href="author/mdhadmin/" title="mdhadmin"><span class="post_info post_author">mdhadmin</span></a><a
-                        href="category/news/" title="View all posts in category: News"><span
-                        class="post_info post_categories">News</span></a><a href="category/videos/"
-                        title="View all posts in category: Videos"><span class="post_info post_categories">Videos</span></a><a
-                        href="tag/dr-robert-kutzner/" title="View all posts in tag: Dr. Robert Kutzner"><span
-                        class="post_info post_tags">Dr. Robert Kutzner</span></a><a href="tag/mtus/"
-                        title="View all posts in tag: MTUS"><span class="post_info post_tags">MTUS</span></a><a
-                        href="tag/patient-rights/" title="View all posts in tag: Patient Rights"><span
-                        class="post_info post_tags">Patient Rights</span></a>
+                      <div class="post_sub">
+                        <span class="post_info post_author">mdhadmin</span>
+                        <span class="post_info post_categories">News</span>
+                        <span class="post_info post_tags">Addiction</span>
+                        <span class="post_info post_tags">addiction treatment</span>
+                        <span class="post_info post_tags">Multidisciplinary</span>
+                        <span class="post_info post_tags">Pain Medicine</span>
+                        <span class="post_info post_tags">pain treatment</span>
                     </div>
                   </div>
                   <p>
@@ -426,6 +413,7 @@
                       class="btn btn-primary">Read More</a>
                   </p>
                 </article>
+<div><p>&nbsp;</p><p>&nbsp;</p></div>                
               </div>
             </div>
           </div>
@@ -498,7 +486,7 @@
 
 
                     <div class="figure  stretchy_wrapper ratio_16-9"
-                      style="background-image: url('images/medicalbuilding-150x150.png')"></div>
+                      style="background-image: url('images/medicalbuilding.jpg')"></div>
 
                   </a>
 

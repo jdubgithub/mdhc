@@ -86,7 +86,7 @@
       <a href="visit-guide.php" title="" target=""> 
 
         
-         <div class="figure  stretchy_wrapper ratio_16-9" style="background-image:url('images/medicalbuilding.png')"></div> 
+         <div class="figure  stretchy_wrapper ratio_16-9" style="background-image:url('images/medicalbuilding.jpg')"></div> 
         
 
     </a>

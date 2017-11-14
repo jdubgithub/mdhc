@@ -37,7 +37,10 @@
  <!-- 
         <desc>Created with Snap</desc><defs></defs>
 -->
-      </div><div class="main foo" data-colorset="foo">
+      </div>
+      
+      <div class="main foo" data-colorset="foo">
+          
 <!--    >> START ========================= CONTENT AREA ========================  -->
 
 <!--   START >> ========================= MAIN COLUMN ========================  -->
@@ -80,7 +83,25 @@
                             </div>
                         </div>
 
-
+                        <div class="col-sm-6 col-md-3">
+                          <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+                                <a href="javascript:" 
+                                onClick="clickStaff('StacyG', 'MDHC Patient');" 
+                                style="background-image: url('images/StacyG.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                            <div class="content boxed  with_button ">
+                                <div class="hgroup">
+                                </div>
+                                    <div class="desc">       
+                                    </div>
+                                <div class="link">
+                                <a href="javascript:"
+                                onClick="clickStaff('StacyG', 'MDHC Patient');" 
+                                data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        
                         <div class="col-sm-6 col-md-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
                                 <a href="javascript:" 

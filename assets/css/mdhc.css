@@ -2,8 +2,9 @@
   color: red;
 }
 .success_box {
-    background-color: rgba(182, 240, 148, .5);
+    background-color: rgba(69, 169, 255, .9);
     margin: 0 0 20px;
+    display:none;
 }
 
 .vc_custom_1448964466367,
@@ -13,7 +14,7 @@
 }
 
 .ui-widget-overlay {
-    background-color: #088eff;
+    background-color: #9C9391;
     opacity: .93;
 }
 
@@ -247,6 +248,41 @@ body {
   width: 100%;
 }
 
+.pt_portal_login td input {
+  padding: 4px;
+  margin-left: 4px;
+  float: right;
+}
+
+.pt_portal_login .container {
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+}
+
+.pt_portal_login table {
+  border: none;
+  width: 70%;
+  margin-left: 90px;
+ }
+
+.pt_portal_login tbody tr {
+  width: 100%;
+  margin-left: 2px;
+  display:block;
+}
+
+.pt_portal_login tbody {
+}
+  
+.pt_portal_login tbody tr td {
+  border: 0;
+  position: relative;
+  padding: 2px;
+  height: 54px;
+  width: 45%;
+}
+
 h1 {
   color: #3a6d8c;
   font-size: 34px;
@@ -314,3 +350,4 @@ img {
   color: #333;
   text-decoration: underline;
 }
+

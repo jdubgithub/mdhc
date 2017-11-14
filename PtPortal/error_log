@@ -1,0 +1,35 @@
+[10-Nov-2017 06:00:21 UTC] PHP Warning:  include(mdhealth_utils.php): failed to open stream: No such file or directory in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:00:21 UTC] PHP Warning:  include(): Failed opening 'mdhealth_utils.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:06:31 UTC] PHP Warning:  include(mdhealth_utils.php): failed to open stream: No such file or directory in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:06:31 UTC] PHP Warning:  include(): Failed opening 'mdhealth_utils.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:08:53 UTC] PHP Warning:  include(mdhealth_utils.php): failed to open stream: No such file or directory in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:08:53 UTC] PHP Warning:  include(): Failed opening 'mdhealth_utils.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:11:40 UTC] PHP Warning:  include(mdhealth_utils.php): failed to open stream: No such file or directory in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:11:40 UTC] PHP Warning:  include(): Failed opening 'mdhealth_utils.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:18:28 UTC] PHP Warning:  include(mdhealth_utils.php): failed to open stream: No such file or directory in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:18:28 UTC] PHP Warning:  include(): Failed opening 'mdhealth_utils.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:19:34 UTC] PHP Warning:  include(mdhealth_utils.php): failed to open stream: No such file or directory in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:19:34 UTC] PHP Warning:  include(): Failed opening 'mdhealth_utils.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:24:23 UTC] PHP Warning:  include(mdhealth_utils.php): failed to open stream: No such file or directory in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:24:23 UTC] PHP Warning:  include(): Failed opening 'mdhealth_utils.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 2
+[10-Nov-2017 06:28:01 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 40
+[10-Nov-2017 06:30:27 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 40
+[10-Nov-2017 06:31:55 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 40
+[10-Nov-2017 06:53:23 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 06:55:20 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 06:56:55 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 06:57:59 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 06:58:05 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:00:02 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:01:50 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:02:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:03:53 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:04:42 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:18:19 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:18:38 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:19:34 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:19:49 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:28:52 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:31:24 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:31:49 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24
+[10-Nov-2017 07:32:03 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/mdhealthclinics/public_html/PtPortal/pt-reg-login.php on line 24

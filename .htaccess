@@ -1,0 +1,4 @@
+DirectoryIndex index.php
+allow from all
+Options +Indexes
+IndexOptions -FancyIndexing

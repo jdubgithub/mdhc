@@ -87,28 +87,6 @@
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
             <a href="javascript:" 
-            onClick="clickStaff('Greg', 'Greg Armenta');" 
-            style="background-image: url('images/GregArmenta2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-        <div class="content boxed  with_button ">
-            <div class="hgroup">
-                <h4>Greg Armenta</h4>
-                <p>Chief Financial Officer</p>
-                <p>&nbsp;</p>
-            </div>
-                <div class="desc">       
-                </div>
-            <div class="link">
-            <a href="javascript:"
-            onClick="clickStaff('Greg', 'Greg Armenta');" 
-            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-6 col-md-3">
-      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-            <a href="javascript:" 
             onClick="clickStaff('Renda', 'Renda Dionne PhD');" 
             style="background-image: url('images/RendaDionne.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         <div class="content boxed  with_button ">
@@ -128,7 +106,40 @@
       </div>
     </div>
    
-    <div class="col-sm-6 col-md-3">
+ 
+
+   <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+            <a href="javascript:" 
+            onClick="clickStaff('Roger', 'Roger Questin PhD');" 
+            style="background-image: url('images/Roger.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <div class="content boxed  with_button ">
+            <div class="hgroup">
+            <h4>Roger Questin PhD</h4>
+             <p>Psychologist</p> 
+              <p>Pain &amp; Addiction</p>
+          </div>
+
+          <div class="team_social">
+          </div>
+
+          <div class="desc">       
+            <p></p>
+          </div>
+
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Roger', 'Roger Questin PhD');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+   <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
             <a href="javascript:" 
             onClick="clickStaff('Randy', 'Randy Fruchter');" 
@@ -151,6 +162,77 @@
     </div>
 
 <div><p>&nbsp;</p></div>
+
+ 
+    <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+            <a href="javascript:" 
+            onClick="clickStaff('Bill', 'William Therault');" 
+            style="background-image: url('images/William2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <div class="content boxed  with_button ">
+            <div class="hgroup">
+                <h4>William Theriault</h4>
+                <p>Myofascial Release Therapist</p>
+                <p>Pain &amp; Addiction</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Bill', 'William Therault');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+            <a href="javascript:" 
+            onClick="clickStaff('VeronicaG', 'Veronica Gilega');" 
+            style="background-image: url('images/VeronicaG.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <div class="content boxed  with_button ">
+            <div class="hgroup">
+                <h4>Veronica Gilega</h4>
+                <p>Myofascial Release Specialist</p>
+                <p>Pain &amp; Addiction</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('VeronicaG', 'Veronica Gilega');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-3">
+      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+            <a href="javascript:" 
+            onClick="clickStaff('Greg', 'Greg Armenta');" 
+            style="background-image: url('images/GregArmenta2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+        <div class="content boxed  with_button ">
+            <div class="hgroup">
+                <h4>Greg Armenta</h4>
+                <p>Chief Financial Officer</p>
+                <p>&nbsp;</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Greg', 'Greg Armenta');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
         
@@ -180,149 +262,75 @@
     </div>
 
 
+<div><p>&nbsp;</p><p>&nbsp;</p></div>
+               
     <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-    
-        <a href="" style="background-image: url('images/RogerQuestin2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-    
+            <a href="javascript:" 
+            onClick="clickStaff('Fareeda', 'Fareeda Abdul');" 
+            style="background-image: url('images/FareedaA2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>Roger Questin</h4>
-             <p>Psychologist</p> 
-          </div>
-
-          <div class="team_social">
-          </div>
-
-          <div class="desc">       
-            <p></p>
-          </div>
-
-          <div class="link">
-            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-
+            <div class="hgroup">
+                <h4>Fareeda Abdul</h4>
+                <p>Administrative Officer</p>
+                <p>NGS Facilitator</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Fareeda', 'Fareeda Abdul');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
         </div>
-
       </div>
-    </div>
+    </div>    
 
 
-      <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-    
-        <a href="" style="background-image: url('images/William2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-    
+            <a href="javascript:" 
+            onClick="clickStaff('Gabby', 'Gabriela Estrada');" 
+            style="background-image: url('images/Gabby.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>William</h4>
-             <p>Myofascial Release Specialist</p> 
-          </div>
-
-          <div class="team_social">
-          </div>
-
-          <div class="desc">       
-            <p></p>
-          </div>
-
-          <div class="link">
-            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-
+            <div class="hgroup">
+                <h4>Gabriela Estrada</h4>
+                <p>Administrative Officer</p>
+                <p>Translator</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Gabby', 'Gabriela Estrada');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
         </div>
-
       </div>
-    </div>
+    </div>  
 
 
-      <div class="col-sm-6 col-md-3">
+    <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-    
-        <a href="" style="background-image: url('images/VeronicaG2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-    
+            <a href="javascript:" 
+            onClick="clickStaff('Glen', 'Glenn Hong');" 
+            style="background-image: url('images/Glen.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
         <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>Veronica</h4>
-             <p>Myofascial Release Specialist</p> 
-          </div>
-
-          <div class="team_social">
-          </div>
-
-          <div class="desc">       
-            <p></p>
-          </div>
-
-          <div class="link">
-            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-
+            <div class="hgroup">
+                <h4>Glenn Hong</h4>
+                <p>Social Media Specialist</p>
+                <p>&nbsp;</p>
+            </div>
+                <div class="desc">       
+                </div>
+            <div class="link">
+            <a href="javascript:"
+            onClick="clickStaff('Glen', 'Glenn Hong');" 
+            data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+            </div>
         </div>
-
       </div>
-    </div>
- 
- <div><p>&nbsp;</p></div>                
-      <div class="col-sm-6 col-md-3">
-      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-    
-        <a href="" style="background-image: url('images/FareedaA2.jpeg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-    
-        <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>Fareeda</h4>
-             <p>Medical Administrative Specialist</p> 
-          </div>
-
-          <div class="team_social">
-          </div>
-
-          <div class="desc">       
-            <p></p>
-          </div>
-
-          <div class="link">
-            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
-
-      <div class="col-sm-6 col-md-3">
-      <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
-    
-        <a href="" style="background-image: url('images/HeadBlank.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-    
-        <div class="content boxed  with_button ">
-
-          <div class="hgroup">
-            <h4>Glen</h4>
-             <p>Social Media</p> 
-          </div>
-
-          <div class="team_social">
-          </div>
-
-          <div class="desc">       
-            <p></p>
-          </div>
-
-          <div class="link">
-            <a href="" data-colorset="white_section" class="linkify btn btn-xs btn-default">More</a>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
+    </div>  
 
 
     <div class="col-sm-6 col-md-3">
@@ -346,6 +354,8 @@
         </div>
       </div>
     </div>
+
+<div><p>&nbsp;</p><p>&nbsp;</p></div>
 
      <div class="col-sm-6 col-md-3">
       <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">

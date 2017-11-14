@@ -1,0 +1,4 @@
+AuthUserFile /home/mdhealthclinics/public_html/PtPortal/.htpasswd
+AuthName "Enter Access Info"
+AuthType Basic
+Require valid-user

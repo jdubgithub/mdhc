@@ -233,7 +233,7 @@
     
     <div class="hgroup">
        <h4 class="neutralize_links">
-       Addictions
+      Psychology & Spirituality
        </h4>
        <p>The Next Good Step</p> 
     </div>
@@ -364,7 +364,9 @@
 										our Facilities
 
 									</a>
-<p>&nbsp;</p>									
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 								</div>
 							</div>
 						</div>
@@ -522,7 +524,7 @@
 												<div class="content text-center boxed_special  with_button ">
 
 													<div class="hgroup">
-														<h4>ADDICTION MEDICINE</h4>
+														<h4>PSYCHOLOGY</h4>
 														<p>MD Health Clinics</p>
 													</div>
 
@@ -777,7 +779,7 @@
 												<div class="content text-center   with_button ">
 
 													<div class="hgroup">
-														<h4>Addiction</h4>
+														<h4>Psychology & Spirituality</h4>
 														<p>The Next Good Step</p>
 													</div>
 
@@ -899,6 +901,8 @@
 				<div class="separator_bottom">
 					<div></div>
 				</div>
+				<div><p>&nbsp;</p>
+<p>&nbsp;</p></div>	
 			</section>
 			
 			
