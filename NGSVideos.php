@@ -42,7 +42,7 @@
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Being Overtaken');" style="background-image: url('PtPortal/Images/Relapse_Prevention_Overtaken1-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('Relapse_Prevention_Overtaken1-Desktop', 'Being Overtaken');" style="background-image: url('PtPortal/Images/Relapse_Prevention_Overtaken1-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">1-Being Overtaken</font> 
                                 
@@ -63,7 +63,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Being Overtaken');" style="b
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Healing The Shame That Binds You');" style="background-image: url('PtPortal/Images/01_Healing_the_Shame_That_Binds_You-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('01_Healing_the_Shame_That_Binds_You-Desktop', 'Healing The Shame That Binds You');" style="background-image: url('PtPortal/Images/01_Healing_the_Shame_That_Binds_You-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">2-Healing Shame</font> 
                                 
@@ -84,7 +84,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Healing The Shame That Binds
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Healthy Family Secrets');" style="background-image: url('PtPortal/Images/02_Healthy_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('02_Healthy_Family_Secrets-Desktop', 'Healthy Family Secrets');" style="background-image: url('PtPortal/Images/02_Healthy_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">3-Healthy Secrets</font> 
                                 
@@ -106,7 +106,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Healthy Family Secrets');" s
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/03_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('03_Dangerous_Family_Secrets-Desktop', 'Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/03_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">4-Dangerous Secrets</font> 
                                 
@@ -128,7 +128,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Dangerous Family Secrets');"
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'The Most Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/04_The_Most_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('04_The_Most_Dangerous_Family_Secrets-Desktop', 'The Most Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/04_The_Most_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">5-Most Dangerous Secrets</font> 
                                 
@@ -150,7 +150,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'The Most Dangerous Family Se
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Tools For Deciphering Family Secrets');" style="background-image: url('PtPortal/Images/05_Tools_for_Deciphering_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('05_Tools_for_Deciphering_Family_Secrets-Desktop', 'Tools For Deciphering Family Secrets');" style="background-image: url('PtPortal/Images/05_Tools_for_Deciphering_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">6-Deciphering Secrets</font> 
                                 
@@ -172,7 +172,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Tools For Deciphering Family
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Breaking Free From Secrets');" style="background-image: url('PtPortal/Images/06_Breaking_Free_from_the_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('06_Breaking_Free_from_the_Secrets-Desktop', 'Breaking Free From Secrets');" style="background-image: url('PtPortal/Images/06_Breaking_Free_from_the_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">7-Breaking Free</font> 
                                 
@@ -194,7 +194,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Breaking Free From Secrets')
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Staying Connected To The Family');" style="background-image: url('PtPortal/Images/07_Staying_Connected_to_the_Family-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('07_Staying_Connected_to_the_Family-Desktop', 'Staying Connected To The Family');" style="background-image: url('PtPortal/Images/07_Staying_Connected_to_the_Family-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">8-Staying Connected</font> 
                                 
@@ -215,7 +215,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Staying Connected To The Fam
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'The Legacy of Shame');" style="background-image: url('PtPortal/Images/08_The_Legacy_of_Shame-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('08_The_Legacy_of_Shame-Desktop', 'The Legacy of Shame');" style="background-image: url('PtPortal/Images/08_The_Legacy_of_Shame-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">9-Legacy of Shame</font> 
                                 
@@ -236,7 +236,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'The Legacy of Shame');" styl
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'From Recovery To Discovery');" style="background-image: url('PtPortal/Images/09_From_Recovery_to_Discovery-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('09_From_Recovery_to_Discovery-Desktop', 'From Recovery To Discovery');" style="background-image: url('PtPortal/Images/09_From_Recovery_to_Discovery-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">10-Recovery To Discovery</font> 
                                 
@@ -257,7 +257,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'From Recovery To Discovery')
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Person');" style="background-image: url('PtPortal/Images/01_Person-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('01_Person-Desktop', 'Person');" style="background-image: url('PtPortal/Images/01_Person-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">11-Person</font> 
                                 
@@ -279,7 +279,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Person');" style="background
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Developmental Psychology Child');" style="background-image: url('PtPortal/Images/02_Developmental_Psych-Child-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('02_Developmental_Psych-Child-Desktop', 'Developmental Psychology Child');" style="background-image: url('PtPortal/Images/02_Developmental_Psych-Child-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">12-Psychology Child</font> 
                                 
@@ -301,7 +301,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Developmental Psychology Chi
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Developmental Psychology Adult');" style="background-image: url('PtPortal/Images/03_Developmental_Psych-Adult-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('03_Developmental_Psych-Adult-Desktop', 'Developmental Psychology Adult');" style="background-image: url('PtPortal/Images/03_Developmental_Psych-Adult-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">13-Psychology Adult</font> 
                                 
@@ -323,7 +323,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Developmental Psychology Adu
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Defense Mechanisms');" style="background-image: url('PtPortal/Images/04_Defense_Mechanisms-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('04_Defense_Mechanisms-Desktop', 'Defense Mechanisms');" style="background-image: url('PtPortal/Images/04_Defense_Mechanisms-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">14-Defense Mechanisms</font> 
                                 
@@ -344,7 +344,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Defense Mechanisms');" style
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Noramlity And Adjustment');" style="background-image: url('PtPortal/Images/05_Normality_Adjustment-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('05_Normality_Adjustment-Desktop', 'Noramlity And Adjustment');" style="background-image: url('PtPortal/Images/05_Normality_Adjustment-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">15-Adjustment</font> 
                                 
@@ -365,7 +365,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Noramlity And Adjustment');"
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Psychosis');" style="background-image: url('PtPortal/Images/06_Personality_Types-Psychosis.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('06_Personality_Types-Psychosis-Desktop', 'Psychosis');" style="background-image: url('PtPortal/Images/06_Personality_Types-Psychosis.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">16-Psychosis</font> 
                                 
@@ -387,7 +387,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Psychosis');" style="backgro
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Addiction');" style="background-image: url('PtPortal/Images/07_Personality_Types-Addiction-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('07_Personality_Types-Addiction-Desktop', 'Addiction');" style="background-image: url('PtPortal/Images/07_Personality_Types-Addiction-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">17-Addiction</font> 
                                 
@@ -408,7 +408,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Addiction');" style="backgro
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Neurosis');" style="background-image: url('PtPortal/Images/08_Neurosis-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('08_Neurosis-Desktop', 'Neurosis');" style="background-image: url('PtPortal/Images/08_Neurosis-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">18-Neurosis</font> 
                                 
@@ -429,7 +429,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Neurosis');" style="backgrou
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Moral Integration');" style="background-image: url('PtPortal/Images/09_Moral_Integration-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('09_Moral_Integration-Desktop', 'Moral Integration');" style="background-image: url('PtPortal/Images/09_Moral_Integration-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">19-Morality</font> 
                                 
@@ -450,7 +450,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Moral Integration');" style=
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Faith');" style="background-image: url('PtPortal/Images/10_Faith-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('10_Faith-Desktop', 'Faith');" style="background-image: url('PtPortal/Images/10_Faith-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">20-Faith</font> 
                                 
@@ -472,7 +472,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Faith');" style="background-
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Trust');" style="background-image: url('PtPortal/Images/11_Trust-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('11_Trust-Desktop', 'Trust');" style="background-image: url('PtPortal/Images/11_Trust-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">21-Trust</font> 
                                 
@@ -493,7 +493,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Trust');" style="background-
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'The Unitive Way');" style="background-image: url('PtPortal/Images/12_Unitive_Way-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('12_Unitive_Way-Desktop', 'The Unitive Way');" style="background-image: url('PtPortal/Images/12_Unitive_Way-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">22-The Unitive Way</font> 
                                 
@@ -514,7 +514,7 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'The Unitive Way');" style="b
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
  <p>&nbsp;</p>                               <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'The Next Good Step');" style="background-image: url('PtPortal/Images/13_The_Next_Good_Step-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('13_The_Next_Good_Step-Desktop', 'The Next Good Step');" style="background-image: url('PtPortal/Images/13_The_Next_Good_Step-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
 <font style="text-align: center;"color="#000000" size="2">23-The Next Good Step</font> 
                                 

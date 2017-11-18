@@ -1,5 +1,9 @@
 <?php 
-define('DB_HOST', '127.0.0.1');
+// define('DB_HOST', '127.0.0.1');
+// define('DB_NAME', 'mdhealth_db');
+// define('DB_USER', 'mdhealth_rk');
+// define('DB_PASS', 'Sevens@7');
+define('DB_HOST', '70.164.1.244');
 define('DB_NAME', 'mdhealth_db');
 define('DB_USER', 'mdhealth_rk');
 define('DB_PASS', 'Sevens@7');
@@ -10,12 +14,22 @@ function loginPatient() {
     $email = $_REQUEST['Email'];
     $pass  = $_REQUEST['Password'];
 
-    $qry = "SELECT first_name, last_name FROM Users where email_address = '$email' and password = '$pass' LIMIT 1";
+    $qry = "SELECT id, first_name, last_name FROM Users where email_address = '$email' and password = '$pass' LIMIT 1";
     
     $result = $conn->query($qry);
     $outp = $result->fetch_all(MYSQLI_ASSOC);
-        
-    return json_encode($outp);
+
+    if ($outp) {
+        $jsonoutp = json_encode($outp);
+
+        session_start();
+
+        $_SESSION['user'] = $outp[0]['id'];
+
+        return $jsonoutp;
+    }
+    
+    return false;
 }
 
 function registerPatient() {

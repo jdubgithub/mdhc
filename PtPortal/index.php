@@ -60,7 +60,8 @@
           </a>
         </div>
 
-        <div class="menu_container">
+        <div class="menu_container" style="display: none;">
+
 
           <ul id="menu-primary-menu" class="main_menu hover_menu">
 
@@ -124,41 +125,39 @@
           <div class="wpb_column vc_column_container col-sm-12 white_section">
             <div class="wpb_wrapper">
 
-              <div class="plethora_button wpb_content_element text-left ">
 
                 <table width="100%" height="400px" cellpadding="0" cellspacing="0">
                   <tr>
 
-                    <td width="35%" height="371px" valign="top">
+                    <td width="30%" height="371px" valign="top">
 
                         <form id="formLogin" method="post">
 
-                      <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
-
-                          <tr>
-                            <th colspan="2">
-                                <div class="success_box">
+                         <div class="success_box">
                             <div class="box">
                               <font size="4" color="#FFFFFF"><b></b></font>
                             </div>
                             <div class="error">
                               <font size="4" color="red">Please complete all the fields.</font>
                             </div>
-
                           </div>
+
+                      <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+
+                          <tr>
+                            <th colspan="2">
+                                <strong> Logon</strong>
+
                             </th>
                           </tr>
-                          <tr><td colspan="2">
-                                <strong> Logon</strong>
-                                </td></tr>
                           <tr>
                             <td align="right">Email Address:</td>
-                            <td> <input regex="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" type="text" name="email_address" id="email_address" placeholder="Email Address" required> </td>
+                            <td> <input regex="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" type="text" name="login_email_address" id="login_email_address" placeholder="Email Address" required> </td>
                           </tr>
 
                           <tr>
                             <td align="right"> Password: </td>
-                            <td> <input name="password" type="password" id="password" size="20" required> </td>
+                            <td> <input name="login_password" type="password" id="login_password" size="20" required> </td>
                           </tr>
 
                           <tr>
@@ -181,13 +180,12 @@
 
                       </div>
                     
-              <div class="plethora_button wpb_content_element text-right ">
+                    <td width="30%" height="371px">
 
-                    <td width="35%" height="371px">
-
-                      <div align="center" valign="top">
+                      <div align="left" valign="top">
 
                         <form name="formRegister" id="formRegister" method="post">
+                        
 
                           <div class="success_box">
                             <div class="box">
@@ -200,87 +198,68 @@
 
                           </div>
 
-                          <div align="right">
-
                             <table width="90%" cellpadding="0" cellspacing="0">
                               <tr>
-                                <td width="92%">
-                                  <p align="left">
-                                    <strong><font face="Times New Roman" size="4" color="#002D59"> Register</font></strong>
-                                
+                              <th>
+                                <strong> Register</strong>
+                          </th>
+                         </tr>
+                              <tr>
+                                <td align="right">
+                                    First Name:
+                                    </td><td> <input type="text" name="first_name" id="first_name" required>
                                 </td>
                               </tr>
                               <tr>
-                                <td align="center">
-                                  <p align="left">
-                                    <font size="4" face="Times New Roman"><font color="#002D59">First Name: </font><font
-                                      color="#002D59" size="4"> <input type="text" name="first_name" id="first_name"
-                                        required value=""></font></font>
-                                
+                                <td align="right">
+                                  Last Name:
+                                  </td><td>
+                                  <input type="text" name="last_name" id="last_name" required>
                                 </td>
                               </tr>
                               <tr>
-                                <td align="center" valign="top">
-                                  <p align="left">
-                                    <font size="4" face="Times New Roman"><font color="#002D59">Last Name: </font><font
-                                      color="#002D59" size="4"> <input value="" type="text" name="last_name"
-                                        id="last_name" required></font></font>
-                                
-                                </td>
-                              </tr>
-                              <tr>
-                                <td align="center">
-                                  <p align="left">
-                                    <font size="4" face="Times New Roman" color="#002D59"> DOB</font> <font
-                                      face="Times New Roman" color="#002D59">: </font> <font color="#002D59" size="4"> <input
-                                      value="" maxlength="8" name="dob" id="dob" required></font>
-                                
+                                <td align="right">
+                                    DOB :
+                                    </td><td>
+                                    <input placeholder="MMDDYYYY" maxlength="8" name="dob" id="dob" char_type="int" required>
                                 </td>
                               </tr>
 
                               <tr>
-                                <td align="center">
-                                  <p align="left">
-                                    <font face="Times New Roman" color="#002D59"> </font> <font size="4"
-                                      face="Times New Roman"><font color="#002D59">Phone: </font><font color="#002D59"
-                                      size="4"> <input value="" maxlength="10" name="phone" id="phone" required></font></font>
-                                
+                                <td align="right">
+                               Phone: 
+                               </td><td>
+                               <input maxlength="10" placeholder="2125551212" name="phone" id="phone" required>
                                 </td>
                               </tr>
 
                               <tr>
-                                <td align="center"><font size="4" face="Times New Roman" color="#002D59">
-                                    <p align="left">Email
-                                
-                                </font><font face="Times New Roman"><font color="#002D59">: </font><font color="#002D59"
-                                    size="4"> <input regex="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
-                                      value="" name="email_address" id="email_address" required></font></font></td>
+                                <td align="right">
+                                    Email
+                                    
+                                     <span color="#002D59">: </span>
+                                     </td><td>
+                                    <input regex="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" name="email_address" id="email_address" required>
+                                    </td>
                               </tr>
 
                               <tr>
-                                <td align="center">
-                                  <p align="left">
-                                    <font size="4" face="Times New Roman" color="#002D59">Password</font><font
-                                      face="Times New Roman"><font color="#002D59">: </font><font color="#002D59"
-                                      size="4"> <input value="" name="password" id="password" type="password" required></font></font>
-                                
+                                <td align="right">
+                                    Password<span style="color:#002D59;"> : </span>
+                                    </td><td>
+                                      <input name="password" id="password" type="password" required>
                                 </td>
                               </tr>
 
                               <tr>
-                                <td>
-                                  <p align="left">
-                                    <input type="submit" id="submit_reg" value="Submit" name="submit_reg"
-                                      style="font-family: Arial; font-size: 10pt; color: #FFFFFF; font-style: italic; font-weight: bold; padding: 0; background-color: #0099FF;">
-                                  </p>
+                                <td colspan="2">
+                                    <input type="submit" id="submit_reg" value="Submit" name="submit_reg">
                                 </td>
                               </tr>
                             </table>
-                          </div>
 
                         </form>
 
-                      </div>
                     </td>
                   </tr>
                 </table>

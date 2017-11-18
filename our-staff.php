@@ -2,8 +2,14 @@
 
 	      <div class="brand-colors"> </div>
     <div class="head_panel">
-    <div style="background-image: url('images/staff-2-1-e1462142733270.jpg'); height: 130px;" class="full_width_photo   ">
+    <div class="full_width_photo   ">
 
+<a href="javascript:" 
+            onClick="clickStaff('OfficeDinnerVideo', 'Multidisciplinary Staff');" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1">    
+            
+            <div style="background-image: url('images/OfficeDinnerPic2.jpg'); height: 130px;" class="full_width_photo   ">
+            </div>
+            </a>
 
       <div class="hgroup">
 

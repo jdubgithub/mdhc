@@ -34,7 +34,7 @@ function setupRegHandler() {
 		}
 		
 		var pData = jQuery.post(form_builder_url,
-			{Email : jQuery('#email_address').val(), Password : jQuery('#password').val(), formname : formId},
+			{Email : jQuery('#login_email_address').val(), Password : jQuery('#login_password').val(), formname : formId},
 				function(data) {
 					var success_data = data;
 
@@ -75,8 +75,10 @@ function setupRegHandler() {
 
 			if (response && JSON.parse(response).length > 0) {
 			    jQuery(formId).parent().find('.box').append('Welcome ' + JSON.parse(response)[0].first_name + ' ' + JSON.parse(response)[0].last_name + '!');
+			    jQuery('.menu_container').fadeIn(3000);
 			}
 			else {
+			    jQuery('.menu_container').hide();
 			    jQuery(formId).parent().find('.box').append('Invalid email address/password.  Please try again.');
 			}
 			// return response;
@@ -122,8 +124,8 @@ function setupRegHandler() {
 			PtLName: jQuery( '#last_name').val(),
 			DOB : jQuery( '#dob').val(),
 			Phone : jQuery( '#phone').val(),
-			Email : jQuery('form#formRegister#email_address').val(),
-			Password : jQuery('form#formRegister#password').val(),
+			Email : jQuery('#email_address').val(),
+			Password : jQuery('#password').val(),
 			formname : 'formRegister'
 				},
 				function() {

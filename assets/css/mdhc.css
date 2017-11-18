@@ -262,8 +262,8 @@ body {
 
 .pt_portal_login table {
   border: none;
-  width: 70%;
-  margin-left: 90px;
+  width: 100%;
+  margin-left: 64px;
  }
 
 .pt_portal_login tbody tr {
@@ -273,14 +273,15 @@ body {
 }
 
 .pt_portal_login tbody {
+  float: left;
 }
   
 .pt_portal_login tbody tr td {
   border: 0;
   position: relative;
   padding: 2px;
-  height: 54px;
-  width: 45%;
+  height: 43px;
+  width: 100%;
 }
 
 h1 {
@@ -351,3 +352,13 @@ img {
   text-decoration: underline;
 }
 
+#submit_reg,
+#submit_login {
+  font-family: Arial;
+  font-size: 10pt; 
+  color: #FFFFFF;
+  font-style: italic;
+  font-weight: bold;
+  padding: 4px;
+  background-color: #0099FF;
+}

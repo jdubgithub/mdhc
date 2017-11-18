@@ -44,19 +44,44 @@
                         <div class="col-xs-6 col-xs-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 250px;">
                                 <a href="javascript:" 
-                                onClick="clickAudio('LovingKindness', 'Loving Kindness Meditation');" 
-                                style="background-image: url('PtPortal/Images/LovingKindness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                onClick="clickAudios('1_5MinMindfullness-Desktop', '1 - Mindfullness Meditation');" 
+                                style="background-image: url('PtPortal/Images/5MinMindfulness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
                             <div class="content boxed  with_button ">
                                 <div class="hgroup">
                                 </div>
                                     <div class="desc">  
-                            <p style="text-align: center;"><b><font color="#000000" size="1">Loving Kindness Meditation</b></font></p>                            
+                            <p style="text-align: center;"><b><font color="#000000" size="1">1-Mindfullness Meditation</b></font></p>                            
                             <p>&nbsp;</p>                            
                                     </div>
                                 <div class="link">
                                 <a href="javascript:"
-                                onClick="clickAudio('LovingKindness', 'Loving Kindness Meditation');" 
-                                data-colorset="white_section" class="linkify btn btn-xs btn-default">Loving Kindness Meditation</a>
+                                onClick="clickAudios('1_5MinMindfullness-Desktop', '1-Mindfullness Meditation');" 
+                                data-colorset="white_section" class="linkify btn btn-xs btn-default">1-Mindfullness Meditation</a>
+                                </div>
+                            </div>
+                            <p>&nbsp;</p>
+
+                          </div>
+
+                        </div>
+
+
+                        <div class="col-xs-6 col-xs-3">
+                          <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 250px;">
+                                <a href="javascript:" 
+                                onClick="clickAudios('2_12MinMindfullness-Desktop', '2 - Mindfullness Meditation');" 
+                                style="background-image: url('PtPortal/Images/12MinMindfulness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                            <div class="content boxed  with_button ">
+                                <div class="hgroup">
+                                </div>
+                                    <div class="desc">  
+                            <p style="text-align: center;"><b><font color="#000000" size="1">2-Mindfullness Meditation</b></font></p>                            
+                            <p>&nbsp;</p>                            
+                                    </div>
+                                <div class="link">
+                                <a href="javascript:"
+                                onClick="clickAudios('2_12MinMindfullness-Desktop', '2-Mindfullness Meditation');" 
+                                data-colorset="white_section" class="linkify btn btn-xs btn-default">2-Mindfullness Meditation</a>
                                 </div>
                             </div>
                             <p>&nbsp;</p>
@@ -69,20 +94,20 @@
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 400px;">
                                 <a href="javascript:" 
-                                onClick="clickAudio('5MinMindfulness', '5 Minute Mindfulness');" 
-                                style="background-image: url('PtPortal/Images/5MinMindfulness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                onClick="clickAudios('3_20MinMindfullness-Desktop', '3-Mindfullness Meditation');" 
+                                style="background-image: url('PtPortal/Images/20MinMindfulness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
                                 <div class="content boxed  with_button ">
                                     <div class="hgroup">
                                     </div>
                                         <div class="desc"> 
                                         
-                            <p style="text-align: center;"><b><font color="#000000" size="1">5 Minute Mindfulness</b></font></p>                            
+                            <p style="text-align: center;"><b><font color="#000000" size="1">3-Mindfullness Meditation</b></font></p>                            
                             <p>&nbsp;</p>                                          
                                         </div>
                                     <div class="link">
                                     <a href="javascript:"
-                                    onClick="clickAudio('5MinMindfulness', '5 Minute Mindfulness');" 
-                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">5 Minute Mindfulness</a>
+                                    onClick="clickAudios('3_20MinMindfullness-Desktop', '3-Mindfullness Meditation');" 
+                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">3-Mindfullness Meditation</a>
                                     </div>
                                 </div>
                             </div>
@@ -92,30 +117,7 @@
                         <div class="col-xs-6 col-xs-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 400px;">
                                 <a href="javascript:" 
-                                onClick="clickAudio('12MinMindfulness', '12 Minute Mindfulness');" 
-                                style="background-image: url('PtPortal/Images/12MinMindfulness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
-                            <div class="content boxed  with_button ">
-                                <div class="hgroup">
-                                </div>
-                                    <div class="desc">       
-                                    
-                            <p style="text-align: center;"><b><font color="#000000" size="1">12 Minute Mindfulness</b></font></p>                            
-                            <p>&nbsp;</p> 
-                            
-                                    </div>
-                                <div class="link">
-                                <a href="javascript:"
-                                onClick="clickAudio('12MinMindfulness', '12 Minute Mindfulness');" 
-                                data-colorset="white_section" class="linkify btn btn-xs btn-default">12 Minute Mindfulness</a>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                    
-                        <div class="col-xs-6 col-xs-3">
-                          <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 400px;">
-                                <a href="javascript:" 
-                                onClick="clickAudios('4_WorkingEmotionsSensations', 'Working Difficult Emotions & Sensations');" 
+                                onClick="clickAudios('4_WorkingEmotionsSensations', '4-Emotions Sensations');" 
                                 style="background-image: url('PtPortal/Images/4_WorkingEmotionsSensations.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
                             <div class="content boxed  with_button ">
                                 <div class="hgroup">
@@ -123,13 +125,61 @@
                                     <div class="desc">       
                                     
                             <p style="text-align: center;"><b><font color="#000000" size="1">4-Difficult Emotions Sensations</b></font></p>                            
+                            <p>&nbsp;</p> 
+                            
+                                    </div>
+                                <div class="link">
+                                <a href="javascript:"
+                                onClick="clickAudios('4_WorkingEmotionsSensations', '4-Difficult Emotions Sensations');" 
+                                data-colorset="white_section" class="linkify btn btn-xs btn-default">4-Difficult Emotions Sensations</a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-xs-6 col-xs-3">
+                          <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 400px;">
+                                <a href="javascript:" 
+                                onClick="clickAudios('5_45MinMindfullness-Desktop', '5-Mindfullness Meditation');" 
+                                style="background-image: url('PtPortal/Images/5_45MinMindfullness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                            <div class="content boxed  with_button ">
+                                <div class="hgroup">
+                                </div>
+                                    <div class="desc">       
+                                    
+                            <p style="text-align: center;"><b><font color="#000000" size="1">5-Mindfullness Meditation</b></font></p>                            
+                            <p>&nbsp;</p> 
+                            
+                                    </div>
+                                <div class="link">
+                                <a href="javascript:"
+                                onClick="clickAudios('5_45MinMindfullness-Desktop', '5-Mindfullness Meditation');" 
+                                data-colorset="white_section" class="linkify btn btn-xs btn-default">5-Mindfullness Meditation</a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    
+                        <div class="col-xs-6 col-xs-3">
+                          <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 400px;">
+                                <a href="javascript:" 
+                                onClick="clickAudios('6_LovingKindness-Desktop', '6-Loving Kindness');" 
+                                style="background-image: url('PtPortal/Images/LovingKindness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                            <div class="content boxed  with_button ">
+                                <div class="hgroup">
+                                </div>
+                                    <div class="desc">       
+                                    
+                            <p style="text-align: center;"><b><font color="#000000" size="1">6-Loving Kindness</b></font></p>                            
                             <p>&nbsp;</p>  
                             
                                     </div>
                                 <div class="link">
                                 <a href="javascript:"
-                                onClick="clickAudios('4_WorkingEmotionsSensations', 'Working Difficult Emotions & Sensations');" 
-                                data-colorset="white_section" class="linkify btn btn-xs btn-default">Difficult Emotions Sensations</a>
+                                onClick="clickAudios('6_LovingKindness-Desktop', '6-Loving Kindness');" 
+                                data-colorset="white_section" class="linkify btn btn-xs btn-default">6-Loving Kindness</a>
                                 </div>
                             </div>
                           </div>
