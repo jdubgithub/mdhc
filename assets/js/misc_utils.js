@@ -1,150 +1,184 @@
-jQuery(function() {
+jQuery(function () {
     setupRegHandler();
 });
 
 function setupRegHandler() {
-	
-	jQuery('input#submit_login').on('click', function(clkevt) {
-		var form_builder_url = 'pt-reg-login.php';
-		var formId = 'form#formLogin';
 
-		var inputArray = jQuery(formId).find('input');
+    jQuery('input#submit_login').on(
+            'click',
+            function (clkevt) {
+                var form_builder_url = 'pt-reg-login.php';
+                var formId = 'form#formLogin';
 
-		jQuery(formId).find( '.error').text('Please complete all the form fields.');
+                var inputArray = jQuery(formId).find('input');
 
-		for (ipt in inputArray) {
-     		// console.log('ipt = ', inputArray[ipt]);
+                jQuery(formId).find('.error').text('Please complete all the form fields.');
 
-			if ((inputArray[ipt].required && jQuery(inputArray[ipt]).val() === '') ||
-				(inputArray[ipt].attributes && inputArray[ipt].attributes.regex && !jQuery(inputArray[ipt]).val().match(inputArray[ipt].attributes.regex))) {
-				// console.log('ipt = ', inputArray[ipt]);
+                for (ipt in inputArray) {
+                    // console.log('ipt = ', inputArray[ipt]);
 
-				jQuery(formId).find( '.success_box').show(); 
-				jQuery(formId).find( '.success_box .box').hide(); 
-				jQuery(formId).find( '.error').show();
+                    if ((inputArray[ipt].required && jQuery(inputArray[ipt]).val() === '')
+                            || (inputArray[ipt].attributes && inputArray[ipt].attributes.regex && !jQuery(inputArray[ipt]).val().match(
+                                    inputArray[ipt].attributes.regex))) {
+                        // console.log('ipt = ', inputArray[ipt]);
 
-				jQuery(formId).find( '.error').append('<br>Invalid field: ' + inputArray[ipt].name);
+                        jQuery(formId).find('.success_box').show();
+                        jQuery(formId).find('.success_box .box').hide();
+                        jQuery(formId).find('.error').show();
 
-				jQuery( 'html, body').animate( { scrollTop : jQuery(formId) .offset().top - 140 }, 'slow');
+                        jQuery(formId).find('.error').append('<br>Invalid field: ' + inputArray[ipt].name);
 
-				clkevt.preventDefault();
+                        jQuery('html, body').animate({
+                            scrollTop : jQuery(formId).offset().top - 140
+                        }, 'slow');
 
-				return false;
-			}
-		}
-		
-		var pData = jQuery.post(form_builder_url,
-			{Email : jQuery('#login_email_address').val(), Password : jQuery('#login_password').val(), formname : formId},
-				function(data) {
-					var success_data = data;
+                        clkevt.preventDefault();
 
-					console.log('esponse data = ', data);
+                        return false;
+                    }
+                }
 
-					jQuery( formId + '.loading') .animate(
-							{
-								opacity : 0
-							},
-							250);
+                var pData = jQuery.post(form_builder_url, {
+                    Email : jQuery('#login_email_address').val(),
+                    Password : jQuery('#login_password').val(),
+                    formname : formId
+                }, function (data) {
+                    var success_data = data;
 
-					document .getElementById('formLogin').reset();
+                    console.log('esponse data = ', data);
 
-     				jQuery(formId).parent().find( '.success_box').show(); 
-     				jQuery(formId).parent().find( '.success_box .error').hide(); 
-					jQuery(formId) .parent() .find( '.box') .show(); 
+                    jQuery(formId + '.loading').animate({
+                        opacity : 0
+                    }, 250);
 
-         			jQuery(formId).find( '.error').append('<br>data = ' + success_data);
+                    document.getElementById('formLogin').reset();
 
-					jQuery( 'html, body') .animate( { scrollTop : jQuery(formId) .offset().top - 300 }, 'fast');
-				})
-		.always(function(always_data) {
-			console.log('always data = ', always_data);
-		    /// return always_data;
-		})
-		.error(function(error_data) {
-			console.log('error_data = ', error_data);
-			// return error_data;
-		})
-		.success(function(data) {
-			console.log('data = ', data);
-			// return data;
-		})
-		.then(function (response) {
-			console.log('then response = ', response);
+                    jQuery(formId).parent().find('.success_box').show();
+                    jQuery(formId).parent().find('.success_box .error').hide();
+                    jQuery(formId).parent().find('.box').show();
 
-		    jQuery(formId).parent().find('.box').text('');
+                    jQuery(formId).find('.error').append('<br>data = ' + success_data);
 
-			if (response && JSON.parse(response).length > 0) {
-			    jQuery(formId).parent().find('.box').append('Welcome ' + JSON.parse(response)[0].first_name + ' ' + JSON.parse(response)[0].last_name + '!');
-			    jQuery('.menu_container').fadeIn(3000);
-			}
-			else {
-			    jQuery('.menu_container').hide();
-			    jQuery(formId).parent().find('.box').append('Invalid email address/password.  Please try again.');
-			}
-			// return response;
-		});
-		clkevt.preventDefault();
+                    jQuery('html, body').animate({
+                        scrollTop : jQuery(formId).offset().top - 300
+                    }, 'fast');
+                }).always(function (always_data) {
+                    console.log('always data = ', always_data);
+                    // / return always_data;
+                }).error(function (error_data) {
+                    console.log('error_data = ', error_data);
+                    // return error_data;
+                }).success(function (data) {
+                    console.log('data = ', data);
+                    // return data;
+                }).then(
+                        function (response) {
+                            console.log('then response = ', response);
 
-		return pData;
-	});
+                            jQuery(formId).parent().find('.box').text('');
 
-	jQuery('input#submit_reg').on('click', function(clkevt) {
-		console.log(clkevt);
-		var form_builder_url = 'pt-reg-login.php'
-		var formId = 'form#formRegister';
+                            if (response && JSON.parse(response).length > 0) {
+                                jQuery(formId).parent().find('.box').append(
+                                        'Welcome ' + JSON.parse(response)[0].first_name + ' ' + JSON.parse(response)[0].last_name + '!');
+                                createDefaultSession(undefined, {
+                                    first_name : JSON.parse(response)[0].first_name,
+                                    last_name : JSON.parse(response)[0].last_name
+                                });
+                                // jQuery('.menu_container').fadeIn(3000);
+                                window.location = '/Switchboard.php';
+                            } else {
+                                jQuery('.menu_container').hide();
+                                jQuery(formId).parent().find('.box').append('Invalid email address/password.  Please try again.');
+                            }
+                            // return response;
+                        });
+                clkevt.preventDefault();
 
-		var inputArray = jQuery('#formRegister').find('input');
+                return pData;
+            });
 
-		jQuery( '#formRegister').parent().find( '.error').text('Please complete all the form fields.');
+    jQuery('input#submit_reg').on(
+            'click',
+            function (clkevt) {
+                console.log(clkevt);
+                var form_builder_url = 'pt-reg-login.php'
+                var formId = 'form#formRegister';
 
-		for (ipt in inputArray) {
-     		console.log('ipt = ', inputArray[ipt]);
+                var inputArray = jQuery('#formRegister').find('input');
 
-			if ((inputArray[ipt].required && jQuery(inputArray[ipt]).val() === '') ||
-				(inputArray[ipt].attributes && inputArray[ipt].attributes.regex && !jQuery(inputArray[ipt]).val().match(inputArray[ipt].attributes.regex))) {
-				console.log('ipt = ', inputArray[ipt]);
+                jQuery('#formRegister').parent().find('.error').text('Please complete all the form fields.');
 
-				jQuery( '#formRegister').parent().find( '.success_box').show(); 
-				jQuery( '#formRegister').parent().find( '.success_box .box').hide(); 
-				jQuery( '#formRegister').parent().find( '.error').show();
+                for (ipt in inputArray) {
 
-				jQuery( '#formRegister').parent().find( '.error').append('<br>Invalid field: ' + inputArray[ipt].name);
+                    if ((inputArray[ipt].required && jQuery(inputArray[ipt]).val() === '') || 
+                            (inputArray[ipt].attributes && inputArray[ipt].attributes.regex && 
+                                    !jQuery(inputArray[ipt]).val().match(inputArray[ipt].attributes.regex.value))) {
+                        console.log('ipt = ', inputArray[ipt]);
 
-				jQuery( 'html, body').animate( { scrollTop : jQuery( '#formRegister') .offset().top - 140 }, 'slow');
+                        jQuery('#formRegister').parent().find('.success_box').show();
+                        jQuery('#formRegister').parent().find('.success_box .box').hide();
+                        jQuery('#formRegister').parent().find('.error').show();
 
-				clkevt.preventDefault();
+                        jQuery('#formRegister').parent().find('.error').append('<br>Invalid field: ' + inputArray[ipt].name);
 
-				return false;
-			}
-		}
+                        jQuery('html, body').animate({
+                            scrollTop : jQuery('#formRegister').offset().top - 140
+                        }, 'slow');
 
-		jQuery.post(form_builder_url,
-				{
-			PtFName : jQuery('#first_name').val(), 
-			PtLName: jQuery( '#last_name').val(),
-			DOB : jQuery( '#dob').val(),
-			Phone : jQuery( '#phone').val(),
-			Email : jQuery('#email_address').val(),
-			Password : jQuery('#password').val(),
-			formname : 'formRegister'
-				},
-				function() {
-					jQuery( '#formRegister .loading') .animate(
-							{
-								opacity : 0
-							},
-							250);
+                        clkevt.preventDefault();
 
-					document .getElementById('formRegister').reset();
+                        return false;
+                    }
+                }
 
-     				jQuery( '#formRegister').parent().find( '.success_box').show(); 
-     				jQuery( '#formRegister').parent().find( '.success_box .error').hide(); 
-					jQuery( '#formRegister') .parent() .find( '.box') .show(); 
-					jQuery( 'html, body') .animate( { scrollTop : jQuery( '#formRegister') .offset().top - 300 }, 'fast');
-				}
-		);
-		clkevt.preventDefault();
-		return;
-	});
-	console.log('set update reg handlers');
+                jQuery.post(form_builder_url, {
+                    PtFName : jQuery('#first_name').val(),
+                    PtLName : jQuery('#last_name').val(),
+                    DOB : jQuery('#dob').val(),
+                    Phone : jQuery('#phone').val(),
+                    Email : jQuery('#email_address').val(),
+                    Password : jQuery('#password').val(),
+                    formname : 'formRegister'
+                }, function (data) {
+                    jQuery('#formRegister .loading').animate({
+                        opacity : 0
+                    }, 250);
+                    
+                    if (data && JSON.parse(data).error) {
+                        console.log('data from reg post = ', data);
+
+                        jQuery('#formRegister').parent().find('.success_box').show();
+                        jQuery('#formRegister').parent().find('.success_box .box').hide();
+                        jQuery('#formRegister').parent().find('.error').show();
+
+                        jQuery('#formRegister').parent().find('.error').append('<br>' + JSON.parse(data).error);
+
+                        jQuery('html, body').animate({
+                            scrollTop : jQuery('#formRegister').offset().top - 140
+                        }, 'slow');
+
+                        clkevt.preventDefault();
+
+                        return false;
+                    }
+
+                    document.getElementById('formRegister').reset();
+
+                    jQuery('#formRegister').parent().find('.success_box').show();
+                    jQuery('#formRegister').parent().find('.success_box .error').hide();
+                    jQuery('#formRegister').parent().find('.box').show();
+                    jQuery('html, body').animate({
+                        scrollTop : jQuery('#formRegister').offset().top - 300
+                    }, 'fast');
+                }).error(function (error_data) {
+                    console.log('error_data = ', error_data);
+                    // return error_data;
+                }).success(function (data) {
+                    console.log('success data = ', data);
+                });
+
+                clkevt.preventDefault();
+                return;
+            });
+    console.log('set update reg handlers');
 }

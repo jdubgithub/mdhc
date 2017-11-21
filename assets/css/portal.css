@@ -1,0 +1,17 @@
+.welcome .skincolored_section ,
+.welcome.skincolored_section .row {
+    width: 250px;
+    height: 23px;
+    left: 280px;
+    margin-top: -132px;
+    padding-left: 22px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: #45aaff;
+    float: right;
+    display: block;
+}

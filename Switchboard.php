@@ -1,6 +1,19 @@
+<?php 
+require_once 'src/com/mdhealthclinics/UserData.php';
+
+session_start();
+$sesh = $_SESSION['userData'];
+$patientData = $_SESSION['userData'];
+?>
+<!--
+<?php print_r($patientData); ?>
+-->
+
 <?php include_once 'headerPtPortal.html'; ?>
 
-
+<div class="welcome skincolored_section">
+<div class="row"></div>
+</div>
 
 <!--    ========================= MAIN WRAPPER START ========================  -->
 <div class="main white_section" data-colorset="white_section">
@@ -149,4 +162,13 @@
   </section>
 <div><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
 </div>
+
+<script type="text/javascript">
+jQuery(function() {
+    if (session && session.mode) {
+        jQuery('.welcome.skincolored_section').find('.row').append('Welcome ' + session.mode.first_name + ' ' + session.mode.last_name);
+    }
+});
+</script>
+
 <?php include_once 'footerPtPortal.html'; ?>

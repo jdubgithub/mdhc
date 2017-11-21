@@ -11,6 +11,7 @@
 
 <script type="text/javascript" src="../assets/js/jscripts-ftr-min.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.prettyPhoto.min.js"></script>
+<script type="text/javascript" src="../assets/js/session.js"></script>
 <script type="text/javascript" src="../assets/js/misc_utils.js"></script>
 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -221,7 +222,7 @@
                                 <td align="right">
                                     DOB :
                                     </td><td>
-                                    <input placeholder="MMDDYYYY" maxlength="8" name="dob" id="dob" char_type="int" required>
+                                    <input placeholder="MMDDYYYY" maxlength="8" name="dob" id="dob" char_type="int" regex="^([0-9]{8,9})$" required>
                                 </td>
                               </tr>
 
@@ -229,7 +230,7 @@
                                 <td align="right">
                                Phone: 
                                </td><td>
-                               <input maxlength="10" placeholder="2125551212" name="phone" id="phone" required>
+                               <input maxlength="10" placeholder="2125551212" name="phone" id="phone" regex="^([0-9]{9,10})$" required>
                                 </td>
                               </tr>
 

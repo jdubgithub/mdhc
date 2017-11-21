@@ -1,8 +1,7 @@
 <?php 
-// define('DB_HOST', '127.0.0.1');
-// define('DB_NAME', 'mdhealth_db');
-// define('DB_USER', 'mdhealth_rk');
-// define('DB_PASS', 'Sevens@7');
+
+require_once 'src/com/mdhealthclinics/UserData.php';
+
 define('DB_HOST', '70.164.1.244');
 define('DB_NAME', 'mdhealth_db');
 define('DB_USER', 'mdhealth_rk');
@@ -14,7 +13,7 @@ function loginPatient() {
     $email = $_REQUEST['Email'];
     $pass  = $_REQUEST['Password'];
 
-    $qry = "SELECT id, first_name, last_name FROM Users where email_address = '$email' and password = '$pass' LIMIT 1";
+    $qry = "SELECT id, first_name, last_name, dob, phone FROM Users where email_address = '$email' and password = '$pass' LIMIT 1";
     
     $result = $conn->query($qry);
     $outp = $result->fetch_all(MYSQLI_ASSOC);
@@ -22,9 +21,18 @@ function loginPatient() {
     if ($outp) {
         $jsonoutp = json_encode($outp);
 
+        $uData = new UserData();
+        $uData->setId($outp[0]['id']);
+        $uData->setFirstName($outp[0]['first_name']);
+        $uData->setLastName($outp[0]['last_name']);
+        $uData->setDob($outp[0]['dob']);
+        $uData->setPhone($outp[0]['phone']);
+
+        $uData->setEmailAddress($email);
+        
         session_start();
 
-        $_SESSION['user'] = $outp[0]['id'];
+        $_SESSION['userData'] = $uData;
 
         return $jsonoutp;
     }
@@ -33,25 +41,50 @@ function loginPatient() {
 }
 
 function registerPatient() {
-    $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
-    $stmt = $mysqli->prepare("INSERT INTO Users (first_name, last_name, dob, phone, email_address, password, registration_notes) VALUES (?, ?, ?, ?, ?, ?, ?)");
-    mysqli_stmt_bind_param($stmt, 'ssiisss', $PtFName, $PtLName, $DOB, $Phone, $Email, $Password, $notes);
+    if (!isEmailAvailable($_REQUEST['Email'])) {
+
+        $returnVal = [];
+        $returnVal['error'] = 'Email Address Taken.  Already Registered?';
+        return json_encode($returnVal);
+
+        // throw new Exception("Email Address Taken.  Already Registered?");
+    }
+    else {
+        $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+        $stmt = $mysqli->prepare("INSERT INTO Users (first_name, last_name, dob, phone, email_address, password, registration_notes) VALUES (?, ?, ?, ?, ?, ?, ?)");
+        mysqli_stmt_bind_param($stmt, 'ssiisss', $PtFName, $PtLName, $DOB, $Phone, $Email, $Password, $notes);
     
-    $PtFName = $_REQUEST['PtFName'];
-    $PtLName = $_REQUEST['PtLName'];
-    $DOB = $_REQUEST['DOB'];
-    $Phone = $_REQUEST['Phone'];
-    $Email = $_REQUEST['Email'];
-    $Password = $_REQUEST['Password'];
-    $notes = 'N/A';
-    $subject = 'User Registration';
+        $PtFName = $_REQUEST['PtFName'];
+        $PtLName = $_REQUEST['PtLName'];
+        $DOB = $_REQUEST['DOB'];
+        $Phone = $_REQUEST['Phone'];
+        $Email = $_REQUEST['Email'];
+        $Password = $_REQUEST['Password'];
+        $notes = 'N/A';
+        $subject = 'User Registration';
     
-    $stmt->execute();
-    $stmt->close();
+        $stmt->execute();
+        $stmt->close();
     
-    $mailed = userMailer($subject, $PtFName, $PtLName, $DOB, $Phone, $Email, $Password, $notes);
+        $mailed = userMailer($subject, $PtFName, $PtLName, $DOB, $Phone, $Email, $Password, $notes);
     
-    return $mailed;
+        return $mailed;
+    }
+}
+
+function isEmailAvailable($email) {
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    
+    $qry = "SELECT id FROM Users where email_address = '$email' LIMIT 1";
+    
+    $result = $conn->query($qry);
+    $outp = $result->fetch_all(MYSQLI_ASSOC);
+    
+    if ($outp && $outp[0]) {
+        return false;
+    }
+    
+    return true;
 }
 
 function userMailer($subject, $first_name, $last_name, $dob, $phone, $email, $password, $notes) {

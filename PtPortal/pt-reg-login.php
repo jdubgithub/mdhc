@@ -6,5 +6,13 @@ if ($_REQUEST['formname'] == 'form#formLogin') {
     echo $dta;
 }
 else {
-    echo registerPatient();
+    $regData = null;
+    try {
+        $regData = registerPatient();
+    } catch (Exception $e) {
+        $regData = $e;
+        print_r($e);
+    }
+    
+    echo $regData;
 }

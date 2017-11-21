@@ -59,13 +59,33 @@ onClick="clickVid('Relapse_Prevention_Overtaken1-Desktop', 'Being Overtaken');" 
                             </div>
                         </div>
 
+                        <div class="col-xs-6 col-xs-3">
+                            <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
+<p>&nbsp;</p>                                <a href="javascript:" 
+onClick="clickVid('God3a', 'God Or Not God');" style="background-image: url('/PtPortal/Images/GodNotGod.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<font style="text-align: center;"color="#000000" size="2">2- God Or Not God</font> 
+                                
+                                <div class="content boxed  with_button ">
+                    <div class="desc"> 
+                    </div>                                    
+                                    <div class="link">
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/HANDOUT-BasicFaith.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    </a>
+<p>&nbsp;</p>                                    
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
 
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('01_Healing_the_Shame_That_Binds_You-Desktop', 'Healing The Shame That Binds You');" style="background-image: url('PtPortal/Images/01_Healing_the_Shame_That_Binds_You-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">2-Healing Shame</font> 
+<font style="text-align: center;"color="#000000" size="2">3-Healing Shame</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -86,7 +106,7 @@ onClick="clickVid('01_Healing_the_Shame_That_Binds_You-Desktop', 'Healing The Sh
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('02_Healthy_Family_Secrets-Desktop', 'Healthy Family Secrets');" style="background-image: url('PtPortal/Images/02_Healthy_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">3-Healthy Secrets</font> 
+<font style="text-align: center;"color="#000000" size="2">4-Healthy Secrets</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -108,7 +128,7 @@ onClick="clickVid('02_Healthy_Family_Secrets-Desktop', 'Healthy Family Secrets')
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('03_Dangerous_Family_Secrets-Desktop', 'Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/03_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">4-Dangerous Secrets</font> 
+<font style="text-align: center;"color="#000000" size="2">5-Dangerous Secrets</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -130,7 +150,7 @@ onClick="clickVid('03_Dangerous_Family_Secrets-Desktop', 'Dangerous Family Secre
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('04_The_Most_Dangerous_Family_Secrets-Desktop', 'The Most Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/04_The_Most_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">5-Most Dangerous Secrets</font> 
+<font style="text-align: center;"color="#000000" size="2">6-Most Dangerous Secrets</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -152,7 +172,7 @@ onClick="clickVid('04_The_Most_Dangerous_Family_Secrets-Desktop', 'The Most Dang
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('05_Tools_for_Deciphering_Family_Secrets-Desktop', 'Tools For Deciphering Family Secrets');" style="background-image: url('PtPortal/Images/05_Tools_for_Deciphering_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">6-Deciphering Secrets</font> 
+<font style="text-align: center;"color="#000000" size="2">7-Deciphering Secrets</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -174,7 +194,7 @@ onClick="clickVid('05_Tools_for_Deciphering_Family_Secrets-Desktop', 'Tools For 
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('06_Breaking_Free_from_the_Secrets-Desktop', 'Breaking Free From Secrets');" style="background-image: url('PtPortal/Images/06_Breaking_Free_from_the_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">7-Breaking Free</font> 
+<font style="text-align: center;"color="#000000" size="2">8-Breaking Free</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -196,7 +216,7 @@ onClick="clickVid('06_Breaking_Free_from_the_Secrets-Desktop', 'Breaking Free Fr
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('07_Staying_Connected_to_the_Family-Desktop', 'Staying Connected To The Family');" style="background-image: url('PtPortal/Images/07_Staying_Connected_to_the_Family-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">8-Staying Connected</font> 
+<font style="text-align: center;"color="#000000" size="2">9-Staying Connected</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -217,7 +237,7 @@ onClick="clickVid('07_Staying_Connected_to_the_Family-Desktop', 'Staying Connect
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('08_The_Legacy_of_Shame-Desktop', 'The Legacy of Shame');" style="background-image: url('PtPortal/Images/08_The_Legacy_of_Shame-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">9-Legacy of Shame</font> 
+<font style="text-align: center;"color="#000000" size="2">10-Legacy of Shame</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -238,7 +258,7 @@ onClick="clickVid('08_The_Legacy_of_Shame-Desktop', 'The Legacy of Shame');" sty
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('09_From_Recovery_to_Discovery-Desktop', 'From Recovery To Discovery');" style="background-image: url('PtPortal/Images/09_From_Recovery_to_Discovery-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">10-Recovery To Discovery</font> 
+<font style="text-align: center;"color="#000000" size="2">11-Recovery To Discovery</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -259,7 +279,7 @@ onClick="clickVid('09_From_Recovery_to_Discovery-Desktop', 'From Recovery To Dis
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('01_Person-Desktop', 'Person');" style="background-image: url('PtPortal/Images/01_Person-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">11-Person</font> 
+<font style="text-align: center;"color="#000000" size="2">12-Person</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -281,7 +301,7 @@ onClick="clickVid('01_Person-Desktop', 'Person');" style="background-image: url(
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('02_Developmental_Psych-Child-Desktop', 'Developmental Psychology Child');" style="background-image: url('PtPortal/Images/02_Developmental_Psych-Child-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">12-Psychology Child</font> 
+<font style="text-align: center;"color="#000000" size="2">13-Psychology Child</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -303,7 +323,7 @@ onClick="clickVid('02_Developmental_Psych-Child-Desktop', 'Developmental Psychol
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('03_Developmental_Psych-Adult-Desktop', 'Developmental Psychology Adult');" style="background-image: url('PtPortal/Images/03_Developmental_Psych-Adult-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">13-Psychology Adult</font> 
+<font style="text-align: center;"color="#000000" size="2">14-Psychology Adult</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -325,7 +345,7 @@ onClick="clickVid('03_Developmental_Psych-Adult-Desktop', 'Developmental Psychol
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('04_Defense_Mechanisms-Desktop', 'Defense Mechanisms');" style="background-image: url('PtPortal/Images/04_Defense_Mechanisms-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">14-Defense Mechanisms</font> 
+<font style="text-align: center;"color="#000000" size="2">15-Defense Mechanisms</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -346,7 +366,7 @@ onClick="clickVid('04_Defense_Mechanisms-Desktop', 'Defense Mechanisms');" style
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('05_Normality_Adjustment-Desktop', 'Noramlity And Adjustment');" style="background-image: url('PtPortal/Images/05_Normality_Adjustment-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">15-Adjustment</font> 
+<font style="text-align: center;"color="#000000" size="2">16-Adjustment</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -367,7 +387,7 @@ onClick="clickVid('05_Normality_Adjustment-Desktop', 'Noramlity And Adjustment')
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('06_Personality_Types-Psychosis-Desktop', 'Psychosis');" style="background-image: url('PtPortal/Images/06_Personality_Types-Psychosis.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">16-Psychosis</font> 
+<font style="text-align: center;"color="#000000" size="2">17-Psychosis</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -389,7 +409,7 @@ onClick="clickVid('06_Personality_Types-Psychosis-Desktop', 'Psychosis');" style
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('07_Personality_Types-Addiction-Desktop', 'Addiction');" style="background-image: url('PtPortal/Images/07_Personality_Types-Addiction-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">17-Addiction</font> 
+<font style="text-align: center;"color="#000000" size="2">18-Addiction</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -410,7 +430,7 @@ onClick="clickVid('07_Personality_Types-Addiction-Desktop', 'Addiction');" style
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('08_Neurosis-Desktop', 'Neurosis');" style="background-image: url('PtPortal/Images/08_Neurosis-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">18-Neurosis</font> 
+<font style="text-align: center;"color="#000000" size="2">19-Neurosis</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -431,7 +451,7 @@ onClick="clickVid('08_Neurosis-Desktop', 'Neurosis');" style="background-image: 
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('09_Moral_Integration-Desktop', 'Moral Integration');" style="background-image: url('PtPortal/Images/09_Moral_Integration-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">19-Morality</font> 
+<font style="text-align: center;"color="#000000" size="2">20-Morality</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -452,7 +472,7 @@ onClick="clickVid('09_Moral_Integration-Desktop', 'Moral Integration');" style="
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('10_Faith-Desktop', 'Faith');" style="background-image: url('PtPortal/Images/10_Faith-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">20-Faith</font> 
+<font style="text-align: center;"color="#000000" size="2">21-Faith</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -474,7 +494,7 @@ onClick="clickVid('10_Faith-Desktop', 'Faith');" style="background-image: url('P
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('11_Trust-Desktop', 'Trust');" style="background-image: url('PtPortal/Images/11_Trust-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">21-Trust</font> 
+<font style="text-align: center;"color="#000000" size="2">22-Trust</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -495,7 +515,7 @@ onClick="clickVid('11_Trust-Desktop', 'Trust');" style="background-image: url('P
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('12_Unitive_Way-Desktop', 'The Unitive Way');" style="background-image: url('PtPortal/Images/12_Unitive_Way-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">22-The Unitive Way</font> 
+<font style="text-align: center;"color="#000000" size="2">23-The Unitive Way</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -516,7 +536,7 @@ onClick="clickVid('12_Unitive_Way-Desktop', 'The Unitive Way');" style="backgrou
  <p>&nbsp;</p>                               <a href="javascript:" 
 onClick="clickVid('13_The_Next_Good_Step-Desktop', 'The Next Good Step');" style="background-image: url('PtPortal/Images/13_The_Next_Good_Step-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">23-The Next Good Step</font> 
+<font style="text-align: center;"color="#000000" size="2">24-The Next Good Step</font> 
                                 
                                 <div class="content boxed  with_button ">
                     <div class="desc"> 
@@ -536,7 +556,7 @@ onClick="clickVid('13_The_Next_Good_Step-Desktop', 'The Next Good Step');" style
 <p>&nbsp;</p>                                <a href="javascript:" 
 onClick="clickVid('12RelapsePreventionOvertaken2', 'Overtaken 2');" style="background-image: url('PtPortal/Images/12_Relapse_Prevention_Overtaken2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
 
-<font style="text-align: center;"color="#000000" size="2">24-Overtaken Now</font> 
+<font style="text-align: center;"color="#000000" size="2">25-Overtaken Now</font> 
                                 
                                 <div class="content boxed  with_button ">
                                     
