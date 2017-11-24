@@ -601,4 +601,51 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Overtaken 2');" style="backg
 
 </div>
 
+<div class="Relapse_Prevention_Overtaken1-Desktop hidden">
+<?php
+    $vid = "Relapse_Prevention_Overtaken1_Desktop";
+
+    $jsObj = [];
+
+    $jsObj[$vid] = [];
+
+    $cntr = 0;
+
+    $qnafile = fopen("PtPortal/Relapse_Prevention_Overtaken1-Desktop.txt", "r") or die("Unable to open file!");
+    while(!feof($qnafile)) {
+        $qnaLine = fgets($qnafile);
+        if ($cntr == 0) {
+            $jsObj['title'] = $qnaLine;
+            echo "$qnaLine \r\n";
+        }
+        else {
+            $qnaExploded = explode("~", $qnaLine);
+            $question = $qnaExploded[0];
+            $jsObj['question'] = $question;
+            echo "$question \r\n";
+            $qnaExplodedCount = count($qnaExploded);
+            $answer = $qnaExploded[$qnaExplodedCount - 1];
+            $answerArray = [];
+            for($i = 1; $i < count($qnaExploded) && $i != count($qnaExploded) - 1; $i++) {
+               $answerArray[] = $qnaExploded[$i];
+               echo "$i - $qnaExploded[$i] \r\n";
+            }
+            $jsObj['answers'] = $answerArray;
+            $jsObj['answer'] = $answer;
+            echo "$answer\r\n";
+        }
+        $cntr += 1;
+    }
+        
+    $jsObjeParsed = json_encode($jsObj);
+
+    echo "<script> " +
+         "var $vid = JSON.stringify($jsObj);" +
+         "console.log($vid);" +
+         "</script>";
+
+ fclose($qnafile);
+  ?>
+</div>
+
 <?php include_once 'footerPtPortal.html'; ?>

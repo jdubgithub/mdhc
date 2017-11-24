@@ -137,6 +137,9 @@ jQuery(function () {
         jQuery(vidWithHashTag).on( 'ended', function (eevt) {
             jQuery(vidWithHashTag)[0].pause();
             console.log('ended', eevt, this);
+            
+            var hiddenQNA = jQuery('.'+vid .hidden);
+            hiddenQNA.show();
 
             var data2 = '<ol><li>Did you watch the video? <input type="radio" name="question1" value="1"/> ' +
             '<input type="radio" name="question1" value="0"/></li>' +

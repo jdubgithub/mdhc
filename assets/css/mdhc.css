@@ -251,7 +251,7 @@ body {
 .pt_portal_login td input {
   padding: 4px;
   margin-left: 4px;
-  float: right;
+  float: left;
 }
 
 .pt_portal_login .container {
