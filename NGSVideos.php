@@ -1,4 +1,7 @@
-<?php include_once 'headerPtPortal.html'; ?>
+<?php 
+include_once 'headerPtPortal.html';
+include_once 'mdhealth_utils.php';
+?>
 
 <span class="progress_ball"><i class="fa fa-refresh"></i></span>
 
@@ -42,7 +45,9 @@
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('Relapse_Prevention_Overtaken1-Desktop', 'Being Overtaken');" style="background-image: url('PtPortal/Images/Relapse_Prevention_Overtaken1-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('OvertakenOne', 'Being Overtaken');" style="background-image: url('PtPortal/Images/Relapse_Prevention_Overtaken1-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('OvertakenOne'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">1-Being Overtaken</font> 
                                 
@@ -50,7 +55,7 @@ onClick="clickVid('Relapse_Prevention_Overtaken1-Desktop', 'Being Overtaken');" 
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/Overtaken1.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/OvertakenOne.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -62,7 +67,9 @@ onClick="clickVid('Relapse_Prevention_Overtaken1-Desktop', 'Being Overtaken');" 
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('God3a', 'God Or Not God');" style="background-image: url('/PtPortal/Images/GodNotGod.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('God', 'God Or Not God');" style="background-image: url('/PtPortal/Images/GodNotGod.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('God'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">2- God Or Not God</font> 
                                 
@@ -70,7 +77,7 @@ onClick="clickVid('God3a', 'God Or Not God');" style="background-image: url('/Pt
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/HANDOUT-BasicFaith.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/God.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -83,7 +90,9 @@ onClick="clickVid('God3a', 'God Or Not God');" style="background-image: url('/Pt
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('01_Healing_the_Shame_That_Binds_You-Desktop', 'Healing The Shame That Binds You');" style="background-image: url('PtPortal/Images/01_Healing_the_Shame_That_Binds_You-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('OneBrHealingTheShameThatBindsYou', 'Healing The Shame That Binds You');" style="background-image: url('PtPortal/Images/01_Healing_the_Shame_That_Binds_You-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('OneBrHealingTheShameThatBindsYou'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">3-Healing Shame</font> 
                                 
@@ -91,7 +100,7 @@ onClick="clickVid('01_Healing_the_Shame_That_Binds_You-Desktop', 'Healing The Sh
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/01-bradshaw_HealingTheShameThatBindsYou.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/OneBrHealingTheShameThatBindsYou.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -104,7 +113,9 @@ onClick="clickVid('01_Healing_the_Shame_That_Binds_You-Desktop', 'Healing The Sh
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('02_Healthy_Family_Secrets-Desktop', 'Healthy Family Secrets');" style="background-image: url('PtPortal/Images/02_Healthy_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('TwoBrHealthyFamilySecrets', 'Healthy Family Secrets');" style="background-image: url('PtPortal/Images/02_Healthy_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('TwoBrHealthyFamilySecrets'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">4-Healthy Secrets</font> 
                                 
@@ -112,7 +123,7 @@ onClick="clickVid('02_Healthy_Family_Secrets-Desktop', 'Healthy Family Secrets')
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/02-bradshaw_HealthyFamilySecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/TwoBrHealthyFamilySecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -126,7 +137,9 @@ onClick="clickVid('02_Healthy_Family_Secrets-Desktop', 'Healthy Family Secrets')
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('03_Dangerous_Family_Secrets-Desktop', 'Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/03_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('ThreeBrDangerousFamilySecrets', 'Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/03_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('ThreeBrDangerousFamilySecrets'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">5-Dangerous Secrets</font> 
                                 
@@ -134,7 +147,7 @@ onClick="clickVid('03_Dangerous_Family_Secrets-Desktop', 'Dangerous Family Secre
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/03-bradshaw_DangerousFamilySecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/ThreeBrDangerousFamilySecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -148,7 +161,9 @@ onClick="clickVid('03_Dangerous_Family_Secrets-Desktop', 'Dangerous Family Secre
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('04_The_Most_Dangerous_Family_Secrets-Desktop', 'The Most Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/04_The_Most_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('FourBrMostDangerousFamilySecrets', 'The Most Dangerous Family Secrets');" style="background-image: url('PtPortal/Images/04_The_Most_Dangerous_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('FourBrMostDangerousFamilySecrets'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">6-Most Dangerous Secrets</font> 
                                 
@@ -156,7 +171,7 @@ onClick="clickVid('04_The_Most_Dangerous_Family_Secrets-Desktop', 'The Most Dang
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/04-bradshaw_MostDangerousFamilySecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/FourBrMostDangerousFamilySecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -170,7 +185,9 @@ onClick="clickVid('04_The_Most_Dangerous_Family_Secrets-Desktop', 'The Most Dang
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('05_Tools_for_Deciphering_Family_Secrets-Desktop', 'Tools For Deciphering Family Secrets');" style="background-image: url('PtPortal/Images/05_Tools_for_Deciphering_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('FiveBrToolsForDecipheringSecrets', 'Tools For Deciphering Family Secrets');" style="background-image: url('PtPortal/Images/05_Tools_for_Deciphering_Family_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('FiveBrToolsForDecipheringSecrets'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">7-Deciphering Secrets</font> 
                                 
@@ -178,7 +195,7 @@ onClick="clickVid('05_Tools_for_Deciphering_Family_Secrets-Desktop', 'Tools For 
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/05-bradshaw_ToolsForDecipheringSecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/FiveBrToolsForDecipheringSecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -192,7 +209,9 @@ onClick="clickVid('05_Tools_for_Deciphering_Family_Secrets-Desktop', 'Tools For 
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('06_Breaking_Free_from_the_Secrets-Desktop', 'Breaking Free From Secrets');" style="background-image: url('PtPortal/Images/06_Breaking_Free_from_the_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('SixBrBreakingFreeFromSecrets', 'Breaking Free From Secrets');" style="background-image: url('PtPortal/Images/06_Breaking_Free_from_the_Secrets-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('SixBrBreakingFreeFromSecrets'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">8-Breaking Free</font> 
                                 
@@ -200,7 +219,7 @@ onClick="clickVid('06_Breaking_Free_from_the_Secrets-Desktop', 'Breaking Free Fr
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/06-bradshaw_BreakingFreeFromSecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/SixBrBreakingFreeFromSecrets.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -214,7 +233,9 @@ onClick="clickVid('06_Breaking_Free_from_the_Secrets-Desktop', 'Breaking Free Fr
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('07_Staying_Connected_to_the_Family-Desktop', 'Staying Connected To The Family');" style="background-image: url('PtPortal/Images/07_Staying_Connected_to_the_Family-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('SevenBrStayingConnected', 'Staying Connected To The Family');" style="background-image: url('PtPortal/Images/07_Staying_Connected_to_the_Family-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('SevenBrStayingConnected'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">9-Staying Connected</font> 
                                 
@@ -222,7 +243,7 @@ onClick="clickVid('07_Staying_Connected_to_the_Family-Desktop', 'Staying Connect
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/07-bradshaw_StayingConnectedToTheFamily.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/SevenBrStayingConnected.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -235,7 +256,9 @@ onClick="clickVid('07_Staying_Connected_to_the_Family-Desktop', 'Staying Connect
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('08_The_Legacy_of_Shame-Desktop', 'The Legacy of Shame');" style="background-image: url('PtPortal/Images/08_The_Legacy_of_Shame-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('EightBrLegacyOfShame', 'The Legacy of Shame');" style="background-image: url('PtPortal/Images/08_The_Legacy_of_Shame-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('EightBrLegacyOfShame'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">10-Legacy of Shame</font> 
                                 
@@ -243,7 +266,7 @@ onClick="clickVid('08_The_Legacy_of_Shame-Desktop', 'The Legacy of Shame');" sty
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/08-bradshaw_LegacyShame.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/EightBrLegacyOfShame.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -256,7 +279,9 @@ onClick="clickVid('08_The_Legacy_of_Shame-Desktop', 'The Legacy of Shame');" sty
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('09_From_Recovery_to_Discovery-Desktop', 'From Recovery To Discovery');" style="background-image: url('PtPortal/Images/09_From_Recovery_to_Discovery-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('NineBrRecoveryDiscovery', 'From Recovery To Discovery');" style="background-image: url('PtPortal/Images/09_From_Recovery_to_Discovery-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('NineBrRecoveryDiscovery'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">11-Recovery To Discovery</font> 
                                 
@@ -264,7 +289,7 @@ onClick="clickVid('09_From_Recovery_to_Discovery-Desktop', 'From Recovery To Dis
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/09-bradshaw_RecoveryDiscovery.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/NineBrRecoveryDiscovery.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -277,7 +302,9 @@ onClick="clickVid('09_From_Recovery_to_Discovery-Desktop', 'From Recovery To Dis
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('01_Person-Desktop', 'Person');" style="background-image: url('PtPortal/Images/01_Person-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('OneGrPerson', 'Person');" style="background-image: url('PtPortal/Images/01_Person-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('OneGrPerson'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">12-Person</font> 
                                 
@@ -285,7 +312,7 @@ onClick="clickVid('01_Person-Desktop', 'Person');" style="background-image: url(
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/1-groeschel_Person.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/OneGrPerson.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -299,7 +326,9 @@ onClick="clickVid('01_Person-Desktop', 'Person');" style="background-image: url(
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('02_Developmental_Psych-Child-Desktop', 'Developmental Psychology Child');" style="background-image: url('PtPortal/Images/02_Developmental_Psych-Child-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('TwoGrDevelopmentalPsychChild', 'Developmental Psychology Child');" style="background-image: url('PtPortal/Images/02_Developmental_Psych-Child-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('TwoGrDevelopmentalPsychChild'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">13-Psychology Child</font> 
                                 
@@ -307,7 +336,7 @@ onClick="clickVid('02_Developmental_Psych-Child-Desktop', 'Developmental Psychol
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/2-groeschel_PersonalityDevelopment_Child.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/TwoGrDevelopmentalPsychChild.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -321,7 +350,9 @@ onClick="clickVid('02_Developmental_Psych-Child-Desktop', 'Developmental Psychol
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('03_Developmental_Psych-Adult-Desktop', 'Developmental Psychology Adult');" style="background-image: url('PtPortal/Images/03_Developmental_Psych-Adult-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('ThreeGrDevelopmentalPsychAdult', 'Developmental Psychology Adult');" style="background-image: url('PtPortal/Images/03_Developmental_Psych-Adult-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('ThreeGrDevelopmentalPsychAdult'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">14-Psychology Adult</font> 
                                 
@@ -329,7 +360,7 @@ onClick="clickVid('03_Developmental_Psych-Adult-Desktop', 'Developmental Psychol
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/3-groeschel_PersonalityDevelopment_Adult.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/ThreeGrDevelopmentalPsychAdult.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -343,7 +374,9 @@ onClick="clickVid('03_Developmental_Psych-Adult-Desktop', 'Developmental Psychol
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('04_Defense_Mechanisms-Desktop', 'Defense Mechanisms');" style="background-image: url('PtPortal/Images/04_Defense_Mechanisms-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('FourGrDefenseMechanisms', 'Defense Mechanisms');" style="background-image: url('PtPortal/Images/04_Defense_Mechanisms-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('FourGrDefenseMechanisms'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">15-Defense Mechanisms</font> 
                                 
@@ -351,7 +384,7 @@ onClick="clickVid('04_Defense_Mechanisms-Desktop', 'Defense Mechanisms');" style
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/4-groeschel_DefenseMechanisms.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/FourGrDefenseMechanisms.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -364,7 +397,9 @@ onClick="clickVid('04_Defense_Mechanisms-Desktop', 'Defense Mechanisms');" style
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('05_Normality_Adjustment-Desktop', 'Noramlity And Adjustment');" style="background-image: url('PtPortal/Images/05_Normality_Adjustment-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('FiveGrNormalityAdjustment', 'Noramlity And Adjustment');" style="background-image: url('PtPortal/Images/05_Normality_Adjustment-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('FiveGrNormalityAdjustment'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">16-Adjustment</font> 
                                 
@@ -372,7 +407,7 @@ onClick="clickVid('05_Normality_Adjustment-Desktop', 'Noramlity And Adjustment')
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/5-groeschel_NormalityAndAdjustment.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/FiveGrNormalityAdjustment.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -385,7 +420,9 @@ onClick="clickVid('05_Normality_Adjustment-Desktop', 'Noramlity And Adjustment')
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('06_Personality_Types-Psychosis-Desktop', 'Psychosis');" style="background-image: url('PtPortal/Images/06_Personality_Types-Psychosis.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('SixGrPersonalityTypesPsychosis', 'Psychosis');" style="background-image: url('PtPortal/Images/06_Personality_Types-Psychosis.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('SixGrPersonalityTypesPsychosis'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">17-Psychosis</font> 
                                 
@@ -393,7 +430,7 @@ onClick="clickVid('06_Personality_Types-Psychosis-Desktop', 'Psychosis');" style
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/6-groeschel_PersonalityTypesPsychosis.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/SixGrPersonalityTypesPsychosis.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                    
                                     
@@ -407,7 +444,9 @@ onClick="clickVid('06_Personality_Types-Psychosis-Desktop', 'Psychosis');" style
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('07_Personality_Types-Addiction-Desktop', 'Addiction');" style="background-image: url('PtPortal/Images/07_Personality_Types-Addiction-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('SevenGrPersonalityTypesAddiction', 'Addiction');" style="background-image: url('PtPortal/Images/07_Personality_Types-Addiction-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('SevenGrPersonalityTypesAddiction'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">18-Addiction</font> 
                                 
@@ -415,7 +454,7 @@ onClick="clickVid('07_Personality_Types-Addiction-Desktop', 'Addiction');" style
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/7-groeschel_PersonalityTypesAddictions.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/SevenGrPersonalityTypesAddiction.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                     
                                     
@@ -428,7 +467,9 @@ onClick="clickVid('07_Personality_Types-Addiction-Desktop', 'Addiction');" style
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('08_Neurosis-Desktop', 'Neurosis');" style="background-image: url('PtPortal/Images/08_Neurosis-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('EightGrNeurosis', 'Neurosis');" style="background-image: url('PtPortal/Images/08_Neurosis-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('EightGrNeurosis'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">19-Neurosis</font> 
                                 
@@ -436,7 +477,7 @@ onClick="clickVid('08_Neurosis-Desktop', 'Neurosis');" style="background-image: 
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/8-groeschel_PersonalityTypesNeurosis.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/EightGrNeurosis.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                     
                                     
@@ -449,7 +490,9 @@ onClick="clickVid('08_Neurosis-Desktop', 'Neurosis');" style="background-image: 
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('09_Moral_Integration-Desktop', 'Moral Integration');" style="background-image: url('PtPortal/Images/09_Moral_Integration-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('NineGrMoralIntegration', 'Moral Integration');" style="background-image: url('PtPortal/Images/09_Moral_Integration-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('NineGrMoralIntegration'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">20-Morality</font> 
                                 
@@ -457,7 +500,7 @@ onClick="clickVid('09_Moral_Integration-Desktop', 'Moral Integration');" style="
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/9-groeschel_MoralIntegration.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/NineGrMoralIntegration.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                     
                                     
@@ -470,7 +513,9 @@ onClick="clickVid('09_Moral_Integration-Desktop', 'Moral Integration');" style="
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('10_Faith-Desktop', 'Faith');" style="background-image: url('PtPortal/Images/10_Faith-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('TenGrFaith', 'Faith');" style="background-image: url('PtPortal/Images/10_Faith-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('TenGrFaith'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">21-Faith</font> 
                                 
@@ -478,7 +523,7 @@ onClick="clickVid('10_Faith-Desktop', 'Faith');" style="background-image: url('P
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/10-groeschel_Faith.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/TenGrFaith.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                     
                                     
@@ -492,7 +537,10 @@ onClick="clickVid('10_Faith-Desktop', 'Faith');" style="background-image: url('P
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('11_Trust-Desktop', 'Trust');" style="background-image: url('PtPortal/Images/11_Trust-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('ElevenGrTrust', 'Trust');" style="background-image: url('PtPortal/Images/11_Trust-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('ElevenGrTrust'); ?>
+
 
 <font style="text-align: center;"color="#000000" size="2">22-Trust</font> 
                                 
@@ -500,7 +548,7 @@ onClick="clickVid('11_Trust-Desktop', 'Trust');" style="background-image: url('P
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/11-groeschel_Trust.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/ElevenGrTrust.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                     
                                     
@@ -513,7 +561,9 @@ onClick="clickVid('11_Trust-Desktop', 'Trust');" style="background-image: url('P
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12_Unitive_Way-Desktop', 'The Unitive Way');" style="background-image: url('PtPortal/Images/12_Unitive_Way-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('TwelveGrUnitiveWay', 'The Unitive Way');" style="background-image: url('PtPortal/Images/12_Unitive_Way-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('TwelveGrUnitiveWay'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">23-The Unitive Way</font> 
                                 
@@ -521,7 +571,7 @@ onClick="clickVid('12_Unitive_Way-Desktop', 'The Unitive Way');" style="backgrou
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/12-groeschel_UnitiveWay.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/TwelveGrUnitiveWay.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                     
                                     
@@ -534,7 +584,9 @@ onClick="clickVid('12_Unitive_Way-Desktop', 'The Unitive Way');" style="backgrou
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
  <p>&nbsp;</p>                               <a href="javascript:" 
-onClick="clickVid('13_The_Next_Good_Step-Desktop', 'The Next Good Step');" style="background-image: url('PtPortal/Images/13_The_Next_Good_Step-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('ThirteenGrTheNextGoodStep', 'The Next Good Step');" style="background-image: url('PtPortal/Images/13_The_Next_Good_Step-poster.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('ThirteenGrTheNextGoodStep'); ?>
 
 <font style="text-align: center;"color="#000000" size="2">24-The Next Good Step</font> 
                                 
@@ -542,7 +594,7 @@ onClick="clickVid('13_The_Next_Good_Step-Desktop', 'The Next Good Step');" style
                     <div class="desc"> 
                     </div>                                    
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/13-groeschel_TheNextGoodStep.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/ThirteenGrTheNextGoodStep.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                     
                                     
@@ -554,14 +606,17 @@ onClick="clickVid('13_The_Next_Good_Step-Desktop', 'The Next Good Step');" style
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 320px;">
 <p>&nbsp;</p>                                <a href="javascript:" 
-onClick="clickVid('12RelapsePreventionOvertaken2', 'Overtaken 2');" style="background-image: url('PtPortal/Images/12_Relapse_Prevention_Overtaken2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+onClick="clickVid('OvertakenTwo', 'Overtaken 2');" style="background-image: url('PtPortal/Images/12_Relapse_Prevention_Overtaken2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+
+<?php echo getQandAs('OvertakenTwo'); ?>
+
 
 <font style="text-align: center;"color="#000000" size="2">25-Overtaken Now</font> 
                                 
                                 <div class="content boxed  with_button ">
                                     
                                     <div class="link">
-                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/Overtaken1.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
+                                    <a target="_blank" href="http://mdhealthclinics.com/PtPortal/Docs/OvertakenOne.pdf" data-colorset="white_section" class="linkify btn btn-xs btn-default">Download Video Notes Here
                                     </a>
 <p>&nbsp;</p>                                     
                                     
@@ -601,50 +656,48 @@ onClick="clickVid('12RelapsePreventionOvertaken2', 'Overtaken 2');" style="backg
 
 </div>
 
-<div class="Relapse_Prevention_Overtaken1-Desktop hidden">
+<div class="Relapse_Prevention_Overtaken1_Desktop">
 <?php
-    $vid = "Relapse_Prevention_Overtaken1_Desktop";
-
-    $jsObj = [];
-
-    $jsObj[$vid] = [];
-
-    $cntr = 0;
-
-    $qnafile = fopen("PtPortal/Relapse_Prevention_Overtaken1-Desktop.txt", "r") or die("Unable to open file!");
+/*
+  function getQandAs($vid) { 
+    $qnafile = fopen("PtPortal/Docs/$vid.txt", "r") or die("Unable to open file!");
     while(!feof($qnafile)) {
         $qnaLine = fgets($qnafile);
         if ($cntr == 0) {
-            $jsObj['title'] = $qnaLine;
-            echo "$qnaLine \r\n";
+            $jsObj[$vid][$cntr]['title'] = $qnaLine;
         }
         else {
             $qnaExploded = explode("~", $qnaLine);
-            $question = $qnaExploded[0];
-            $jsObj['question'] = $question;
-            echo "$question \r\n";
+            
             $qnaExplodedCount = count($qnaExploded);
-            $answer = $qnaExploded[$qnaExplodedCount - 1];
-            $answerArray = [];
-            for($i = 1; $i < count($qnaExploded) && $i != count($qnaExploded) - 1; $i++) {
-               $answerArray[] = $qnaExploded[$i];
-               echo "$i - $qnaExploded[$i] \r\n";
+
+            if ($qnaExplodedCount > 1) {
+                $question = $qnaExploded[0];
+                $jsObj[$vid][$cntr]['question'] = $question;
+                $answer = $qnaExploded[($qnaExplodedCount - 1)];
+
+                $answerArray = [];
+    
+                for($i = 1; $i < count($qnaExploded) && $i != count($qnaExploded) - 1; $i++) {
+                   array_push($answerArray, $qnaExploded[$i]);
+                }
+
+                $jsObj[$vid][$cntr]['answers'] = $answerArray;
+                $jsObj[$vid][$cntr]['answer'] = $answer;
             }
-            $jsObj['answers'] = $answerArray;
-            $jsObj['answer'] = $answer;
-            echo "$answer\r\n";
         }
         $cntr += 1;
     }
         
     $jsObjeParsed = json_encode($jsObj);
+    
+    $vidVar = (string)$vid;
 
-    echo "<script> " +
-         "var $vid = JSON.stringify($jsObj);" +
-         "console.log($vid);" +
-         "</script>";
+    echo("<script type=\"text/javascript\"> var $vidVar = $jsObjeParsed;</script>");
 
- fclose($qnafile);
+    fclose($qnafile);
+  }
+  */
   ?>
 </div>
 

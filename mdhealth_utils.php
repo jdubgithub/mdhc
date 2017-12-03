@@ -2,7 +2,8 @@
 
 require_once 'src/com/mdhealthclinics/UserData.php';
 
-define('DB_HOST', '70.164.1.244');
+// define('DB_HOST', '70.164.1.244');
+define('DB_HOST', 'localhost');
 define('DB_NAME', 'mdhealth_db');
 define('DB_USER', 'mdhealth_rk');
 define('DB_PASS', 'Sevens@7');
@@ -97,4 +98,53 @@ function userMailer($subject, $first_name, $last_name, $dob, $phone, $email, $pa
     $headers = "MIME-Version: 1.0\r\n Content-type:text/plain; charset=utf-8\r\n From: [" . $last_name . "]" . $email . " \r\n Reply-To: " . $email . "\r\n X-Mailer: PHP/" . phpversion();
         
     return mail($mailAddress, $subject, $msg, $headers);
+}
+
+function getQandAs($mediaId) {
+    ini_set("auto_detect_line_endings", true);
+
+    $cntr = 0;
+    if ($qnafile = fopen("PtPortal/Docs/$mediaId.txt", "r") or die("Unable to open file!")) {
+        
+    // while(!feof($qnafile)) {
+     while($qnaLine = fgets($qnafile)) {
+        // $qnaLine = fgets($qnafile);
+
+        // $qnaLine = str_replace("\n","",$qnaLine);
+
+        if ($cntr == 0) {
+            // $jsObj[$mediaId][$cntr]['title'] = str_replace("\r\n", "", $qnaLine);
+            $jsObj[$mediaId][$cntr]['title'] = $qnaLine;
+        }
+        else {
+            $qnaExploded = explode("~", $qnaLine);
+            
+            $qnaExplodedCount = count($qnaExploded);
+            
+            if ($qnaExplodedCount > 1) {
+                $question = $qnaExploded[0];
+                $jsObj[$mediaId][$cntr]['question'] = $question;
+                $answer = $qnaExploded[($qnaExplodedCount - 1)];
+                
+                $answerArray = [];
+                
+                for($i = 1; $i < count($qnaExploded) && $i != count($qnaExploded) - 1; $i++) {
+                    array_push($answerArray, $qnaExploded[$i]);
+                }
+                $jsObj[$mediaId][$cntr]['answers'] = $answerArray;
+                $jsObj[$mediaId][$cntr]['answer'] = str_replace("\r\n", "", $answer);
+            }
+        }
+        $cntr += 1;
+    }
+    }
+    
+    // $jsObjeParsed = json_encode($jsObj);
+    $jsObjeParsed = json_encode($jsObj);
+    
+    $mediaIdVar = (string)$mediaId;
+    
+    return "<script>\r\n var $mediaIdVar = $jsObjeParsed; \r\n</script>";
+    
+    fclose($qnafile);
 }

@@ -2,20 +2,6 @@
 <html>
 <head>
 
-<script type='text/javascript' src='../assets/js/jquery.min.js'></script>
-<script type='text/javascript' src='../assets/js/libs/jquery-ui-1.12.1.custom/jquery-ui.min.js'></script>
-<script type='text/javascript' src='../assets/js/jquery-migrate.min.js'></script>
-
-<script type='text/javascript' src='../assets/js/jquery.validate.min.js'></script>
-<script type='text/javascript' src='../assets/js/jquery.validationEngine-en.js'></script>
-
-<script type="text/javascript" src="../assets/js/jscripts-ftr-min.js"></script>
-<script type="text/javascript" src="../assets/js/jquery.prettyPhoto.min.js"></script>
-<script type="text/javascript" src="../assets/js/session.js"></script>
-<script type="text/javascript" src="../assets/js/misc_utils.js"></script>
-
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-
 <!-- META SETTINGS  -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -24,7 +10,8 @@
 <title>MD Health Clinics – Patient Portal</title>
 <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 
-<link rel="stylesheet" href="../assets/js/libs/jquery-ui-1.12.1.custom/jquery-ui.css" type="text/css" media="all">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<!-- link rel="stylesheet" href="../assets/js/libs/jquery-ui-1.12.1.custom/jquery-ui.css" type="text/css" media="all" -->
 
 <link rel="stylesheet" id="contact-form-7-css" href="../assets/css/styles.css" type="text/css" media="all">
 <link rel="stylesheet" id="style2-os-css-css" href="../assets/css/style2-os.css" type="text/css" media="all">
@@ -40,6 +27,20 @@
 <link rel="stylesheet" id="fasc-buttons-style-css" href="../assets/css/button-styles.css" type="text/css" media="all">
 <link rel="stylesheet" id="dashicons" href="../assets/css/dashicons.min.css" type="text/css" media="all">
 <link rel="stylesheet" href="../assets/css/mdhc.css" type="text/css" media="all">
+<link rel="stylesheet" href="../assets/css/portal.css" type="text/css" media="all">
+
+
+<script type='text/javascript' src='../assets/js/jquery.min.js'></script>
+<script type='text/javascript' src='../assets/js/libs/jquery-ui-1.12.1.custom/jquery-ui.min.js'></script>
+<script type='text/javascript' src='../assets/js/jquery-migrate.min.js'></script>
+
+<script type='text/javascript' src='../assets/js/jquery.validate.min.js'></script>
+<script type='text/javascript' src='../assets/js/jquery.validationEngine-en.js'></script>
+
+<script type="text/javascript" src="../assets/js/jscripts-ftr-min.js"></script>
+<script type="text/javascript" src="../assets/js/jquery.prettyPhoto.min.js"></script>
+<script type="text/javascript" src="../assets/js/session.js"></script>
+<script type="text/javascript" src="../assets/js/misc_utils.js"></script>
 
 <!-- All in one Favicon 4.5 -->
 <link rel="shortcut icon" href="../images/fav.png">

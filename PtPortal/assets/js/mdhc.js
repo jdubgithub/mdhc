@@ -99,11 +99,8 @@ function setupRegHandler() {
 
 
 jQuery(function () {
-    
-    var globalVid = {};
-    
-    this.clickVid = function (vid, title, globalVid) {
-        return clickVid(vid, title, globalVid);
+    this.clickVid = function (vid, title) {
+        return clickVid(vid, title);
     };
     
     /*
@@ -113,7 +110,7 @@ jQuery(function () {
     });
     */
     
-    function clickVid(vid, title, globalVid) {
+    function clickVid(vid, title) {
         console.log('clicked video: ', vid);
 
         var vidWithHashTag = '#' + vid;
@@ -124,11 +121,11 @@ jQuery(function () {
         var d1 = jQuery(data).dialog({
             show : {
                 effect : 'fade',
-                duration : 1000
+                duration : 2000
             },
             hide : {
                 effect : 'fade',
-                duration : 200
+                duration : 2000
             },
             height : 540,
             width : 880,
@@ -146,44 +143,41 @@ jQuery(function () {
             //          'ui-dialog-titlebar': 'vid-titlebar'}
         });
         
-        globalVidQnA  = eval(vid);
-        globalVid = globalVidQnA[vid];
+        var startTime = new Date();
+        
 
-        jQuery(vidWithHashTag).on( 'ended', function (eevt, globalVid) {
+        jQuery(vidWithHashTag).on( 'ended', function (eevt) {
             jQuery(vidWithHashTag)[0].pause();
             console.log('ended', eevt, this);
-            console.log('global vid = ', globalVid);
             
             jQuery(this).dialog('close');
             
             var currVidQnA = eval(vid);
             currVidQnA = currVidQnA[vid];
             
-            globalVid = currVidQnA;
-            
-            var data2 = '<form method="post" id="vid_test"><div class="vid-q-n-a"><div class="questions-container"><ol>';
+            var data2 = '<div class="vid-q-n-a"><ol>';
             
             for (key in Object.keys(currVidQnA)) {
                 if (parseInt(key) === 0) {
                     data2 += '<span class="h6">' + currVidQnA[key].title + '</span>';
                 }
                 else {
-                    /// console.log(key, currVidQnA[key]);
+                    console.log(key, currVidQnA[key]);
 
-                    data2 += '<li><div class="vid-question-section"><span class="vid-question">' + currVidQnA[key].question + '</span><span class="vid-answers">';
+                    data2 += '<li class="vid-question-section"><span class="vid-question">' + currVidQnA[key].question + '</span>';
                     for (ans in currVidQnA[key].answers) {
                        var currAns = currVidQnA[key].answers[ans]; 
                        data2 += '<span class="vid-answer"><input type="radio" name="q' + key + '" value="'+currAns+'"/> ' + currAns + '</span>';
                     }
-                    data2 += '</span></div></li>';
+                    data2 += '</li>';
                 }
             }
 
             var qnAToCloseVar = '#' + vid + 'qna';
             
-            data2 += '</ol></div><input type="submit" id="answers_btn" class="submit_qna" name="submit_qna"/></div></form>';
+            data2 += '</ol><button class="submit_qna" name="submit_qna">Submit</button></div>';
 
-            var theModal = jQuery(data2).dialog({
+            jQuery(data2).dialog({
                 show : {
                     effect : 'fade',
                     duration : 500
@@ -201,63 +195,16 @@ jQuery(function () {
                 close : function (event, ui) {
                     console.log('close clicked = ', event);
                 },
-                id : vid + 'qna',
-                option: {vidObject: currVidQnA}
-            }, {option: {vidObject: currVidQnA}});
-            
-            jQuery(theModal).find('input#answers_btn').on('click', function(evtdata, globalVid) {
-                evtdata.preventDefault();
-                console.log('evtdata = ', evtdata);
-                
-                var formData = jQuery('#vid_test').find('input');
-
-                var crct = [];
-                var incrct = [];
-
-                var currAns;
- 
-                var vidKey = Object.keys(parent.globalVidQnA)[0];
-                var currVidQnA = parent.globalVidQnA[vidKey];
-
-                // for (key in Object.keys(currVidQnA[vidKey])) {
-                    
-                    formData.each(function(key, vl) {
-                        if (vl.name !== 'submit_qna') {
-                            var isChecked = jQuery(vl).is(':checked');
-
-                            console.log('isChecked = ', isChecked);
-
-                            // var theAnswer = currVidQnA[key];
-                            var theAnswer = currVidQnA[parseInt(vl.name.split('q')[1])].answer.trim();
-                            console.log('the answer  = ', theAnswer);
-
-                            console.log('name and answer = ', vl.name, vl.value);
-
-                            if (isChecked && (theAnswer === vl.value)) {
-                                crct.push(vl.name);
-                            }
-                            else if (!isChecked && (theAnswer === vl.value)) {
-                                incrct.push(vl.name);
-                            }
-                        }
-                    });
-                    
-                    console.log('correct', crct);
-                    console.log('incorrect', incrct);
-                // }
-
-                return false;
+                id : vid + 'qna'
             });
+
 
         });
     }
-
 });
 
 
-
 jQuery(function () {
-
     this.clickAudios = function (vid, title) {
         return clickAudios(vid, title);
     };

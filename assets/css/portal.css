@@ -15,3 +15,62 @@
     float: right;
     display: block;
 }
+
+/*
+video.portal.vid
+button.portal.vid
+ {
+  width: auto !important;
+  height: auto !important;
+  top: 10%;
+  left: 10%;
+  position: fixed;
+}
+*/
+
+.ui-dialog .ui-dialog-titlebar.vid-titlebar {
+  position: fixed;
+  top: 6% !important;
+  left: 130px;
+  width: 851px !important;
+  height: auto !important;
+}
+
+/*
+.ui-dialog-titlebar-close.vid-titlebar {
+    top: 7%;
+    left: 7%;
+    display: inline-block;
+    position: fixed;
+    width: 77%;
+    height: 8%;
+}
+*/
+
+.vid-question {
+  width: 58%;
+  display: inline-block;
+}
+.vid-answer {
+  vertical-align: top;
+  display: inline-block;
+ }
+
+.vid-answers {
+  margin-left: 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.vid-question-section {
+  padding: 24px;
+  width: 100%;
+  height: 48px;
+  line-height: normal;
+}
+
+ol.questions-container {
+  clear: both;
+  height: auto;
+  width: 700px;
+}

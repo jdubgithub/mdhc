@@ -233,7 +233,7 @@
     
     <div class="hgroup">
        <h4 class="neutralize_links">
-      Psycology & Spirituality
+      Psychology & Spirituality
        </h4>
        <p>The Next Good Step</p> 
     </div>
@@ -779,7 +779,7 @@
 												<div class="content text-center   with_button ">
 
 													<div class="hgroup">
-														<h4>Psychology &amp; Spirituality</h4>
+														<h4>Psychology & Spirituality</h4>
 														<p>The Next Good Step</p>
 													</div>
 

@@ -48,7 +48,7 @@
 <section class="vc_row wpb_row vc_row-fluid">
 	<div class="container">
 		<div class="row">
-            <div class="wpb_column vc_column_container col-sm-12">
+            <div class="wpb_column vc_column_container col-sm-14">
                 <div class="wpb_wrapper">
                         <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span>
                         </div>
@@ -60,11 +60,58 @@
 			            <p style="text-align: center;"><font><b>Don't just rely on typed testimonials.</b></font></p>
 			
                         <p style="text-align: center;"><font><b>Click on a patient and see what they say, in their own words, face to face.</b></font></p>
+                        
+                                                <p style="text-align: center;"><font><b>Which one do you like best?</b></font></p>
 		                </div>
 	                </div>
+	                
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
-                    <div class="team_members_grid row">
-                        <div class="col-sm-6 col-md-3">
+<div class="team_members_grid row">                    
+                        <div class="col-sm-3">
+                            <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+                                <a href="javascript:" 
+                                onClick="clickStaff('Pt2', 'MDHC Patient');" 
+                                style="background-image: url('images/Pt2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                <div class="content boxed  with_button ">
+                                    <div class="hgroup">
+                                    </div>
+                                        <div class="desc"> 
+                                        </div>
+                                    <div class="link">
+                                    <a href="javascript:"
+                                    onClick="clickStaff('Pt2', 'MDHC Patient');"
+                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="col-sm-3">
+                            <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+                                <a href="javascript:" 
+                                onClick="clickStaff('Pt4', 'MDHC Patient');" 
+                                style="background-image: url('images/Pt4.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                <div class="content boxed  with_button ">
+                                    <div class="hgroup">
+                                    </div>
+                                        <div class="desc"> 
+                                        </div>
+                                    <div class="link">
+                                    <a href="javascript:"
+                                    onClick="clickStaff('Pt4', 'MDHC Patient');"
+                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+
+                    
+                        <div class="col-sm-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
                                 <a href="javascript:" 
                                 onClick="clickStaff('JV', 'MDHC Patient');" 
@@ -82,8 +129,161 @@
                                 </div>
                             </div>
                         </div>
+                   
+</div>                    
+                    
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
-                        <div class="col-sm-6 col-md-3">
+<div class="team_members_grid row">                    
+                        <div class="col-sm-3">
+                            <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+                                <a href="javascript:" 
+                                onClick="clickStaff('PtNGS6b', 'MDHC Patient');" 
+                                style="background-image: url('images/PtNGS6.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                <div class="content boxed  with_button ">
+                                    <div class="hgroup">
+                                    </div>
+                                        <div class="desc"> 
+                                        </div>
+                                    <div class="link">
+                                    <a href="javascript:"
+                                    onClick="clickStaff('PtNGS6b', 'MDHC Patient');"
+                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="col-sm-3">
+                            <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+                                <a href="javascript:" 
+                                onClick="clickStaff('PtNGS5', 'MDHC Patient');" 
+                                style="background-image: url('images/PtNGS5.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                <div class="content boxed  with_button ">
+                                    <div class="hgroup">
+                                    </div>
+                                        <div class="desc"> 
+                                        </div>
+                                    <div class="link">
+                                    <a href="javascript:"
+                                    onClick="clickStaff('PtNGS5', 'MDHC Patient');"
+                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+
+                    
+                        <div class="col-sm-3">
+                            <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+                                <a href="javascript:" 
+                                onClick="clickStaff('PtNGS4', 'MDHC Patient');" 
+                                style="background-image: url('images/PtNGS4.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                <div class="content boxed  with_button ">
+                                    <div class="hgroup">
+                                    </div>
+                                        <div class="desc"> 
+                                        </div>
+                                    <div class="link">
+                                    <a href="javascript:"
+                                    onClick="clickStaff('PtNGS4', 'MDHC Patient');" 
+                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+</div>                    
+                    
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+
+
+
+
+<div class="team_members_grid row">                    
+                        <div class="col-sm-3">
+                            <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+                                <a href="javascript:" 
+                                onClick="clickStaff('PtNGS3', 'MDHC Patient');" 
+                                style="background-image: url('images/PtNGS3.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                <div class="content boxed  with_button ">
+                                    <div class="hgroup">
+                                    </div>
+                                        <div class="desc"> 
+                                        </div>
+                                    <div class="link">
+                                    <a href="javascript:"
+                                    onClick="clickStaff('PtNGS3', 'MDHC Patient');"
+                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    
+                        <div class="col-sm-3">
+                            <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+                                <a href="javascript:" 
+                                onClick="clickStaff('PtNGS2b', 'MDHC Patient');" 
+                                style="background-image: url('images/PtNGS2.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                <div class="content boxed  with_button ">
+                                    <div class="hgroup">
+                                    </div>
+                                        <div class="desc"> 
+                                        </div>
+                                    <div class="link">
+                                    <a href="javascript:"
+                                    onClick="clickStaff('PtNGS2b', 'MDHC Patient');"
+                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+
+                    
+                        <div class="col-sm-3">
+                            <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
+                                <a href="javascript:" 
+                                onClick="clickStaff('PtNGS1b', 'MDHC Patient');" 
+                                style="background-image: url('images/PtNGS1.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
+                                <div class="content boxed  with_button ">
+                                    <div class="hgroup">
+                                    </div>
+                                        <div class="desc"> 
+                                        </div>
+                                    <div class="link">
+                                    <a href="javascript:"
+                                    onClick="clickStaff('PtNGS1b', 'MDHC Patient');" 
+                                    data-colorset="white_section" class="linkify btn btn-xs btn-default">Short Video</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+</div>                    
+                    
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+
+
+
+
+
+ <div class="team_members_grid row">                   
+                        <div class="col-sm-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
                                 <a href="javascript:" 
                                 onClick="clickStaff('StacyG', 'MDHC Patient');" 
@@ -102,7 +302,7 @@
                           </div>
                         </div>
                         
-                        <div class="col-sm-6 col-md-3">
+                        <div class="col-sm-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
                                 <a href="javascript:" 
                                 onClick="clickStaff('AB', 'MDHC Patient');" 
@@ -121,7 +321,7 @@
                           </div>
                         </div>
                     
-                        <div class="col-sm-6 col-md-3">
+                        <div class="col-sm-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 356px;">
                                 <a href="javascript:" 
                                 onClick="clickStaff('Ar', 'MDHC Patient');" 
@@ -139,6 +339,19 @@
                             </div>
                           </div>
                         </div>
+                        
+</div>                        
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+ <div class="team_members_grid row"> 
+ </div>
+ 
+ <p>&nbsp;</p>
+<p>&nbsp;</p>
+ 
                     </div>
                 </div>
 		    </div>
@@ -146,21 +359,15 @@
 	</div>
 	
 <div>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
 </div>	
-</div>	
+	
 	
 	
 </section>
 
 
-      <div id="new_comment">
-      <div class="container">        <div class="new_comment">
-                    </div>
-      </div>      </div>
+
 
     
 <!--    << END ========================= MAIN COLUMN ========================  -->
