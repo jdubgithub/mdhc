@@ -2,14 +2,24 @@
 require_once 'src/com/mdhealthclinics/UserData.php';
 
 session_start();
-$sesh = $_SESSION['userData'];
-$patientData = $_SESSION['userData'];
+
+$patientData = null;
+if (isset($_SESSION) && isset($_SESSION['userData'])) {
+    $patientData = $_SESSION['userData'];
+}
+else {
+    header("Location: /PtPortal/index.php");
+    return;
+}
+
 ?>
 <!--
-<?php print_r($patientData); ?>
+<?php print_r($patientData->id); ?>
 -->
 
 <?php include_once 'headerPtPortal.html'; ?>
+
+<script>var user_id = <?php echo $patientData->id; ?>;</script>
 
 <div class="welcome skincolored_section">
 <div class="row"></div>

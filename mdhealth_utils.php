@@ -8,8 +8,68 @@ define('DB_NAME', 'mdhealth_db');
 define('DB_USER', 'mdhealth_rk');
 define('DB_PASS', 'Sevens@7');
 
+function getUserTestData($user_id, $test_name) {
+    $qry = "SELECT test_id, correct_answers, incorrect_answers, score, test_name FROM user_tests where user_id = $user_id";
+    
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, 3306);
+    
+    $result = $conn->query($qry);
+    $outp = $result->fetch_all(MYSQLI_ASSOC);
+    
+    $jsonoutp = null;
+
+    if ($outp) {
+        $jsonoutp = json_encode($outp);
+    }
+    
+    return $jsonoutp;
+
+    /*
+    $testData = [];
+    $testData['score'] = 100;
+    $testData['id'] = 1;
+    $testData['name'] = $testName;
+    */
+}
+
+function getTestsCompleted($user_id) {
+    $qry = "SELECT test_name FROM user_tests where user_id = $user_id";
+    
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, 3306);
+    
+    $result = $conn->query($qry);
+    $outp = $result->fetch_all(MYSQLI_ASSOC);
+    
+    $jsonoutp = null;
+
+    if ($outp) {
+        $jsonoutp = json_encode($outp);
+    }
+    
+    return $jsonoutp;
+}
+
+function recordTestScore() {
+    $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    $stmt = $mysqli->prepare("INSERT INTO user_tests (user_id, test_id, incorrect_answers, correct_answers, score, test_name) VALUES (?, ?, ?, ?, ?, ?)");
+    mysqli_stmt_bind_param($stmt, 'iissds', $userId, $testId, $incorrect, $correct, $score, $testName);
+    
+    $userId = intval($_REQUEST['user_id']);
+    $testId = 0;
+    $correct = $_REQUEST['correct'];
+    $incorrect = $_REQUEST['incorrect'];
+    $score = doubleval($_REQUEST['score']);
+    $testName = $_REQUEST['test_name'];
+    
+    $saved = $stmt->execute();
+    $stmt->close();
+
+    return strval($saved);
+    // return getUserTestData($userId, null);
+}
+
 function loginPatient() {
-    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, 3306);
     
     $email = $_REQUEST['Email'];
     $pass  = $_REQUEST['Password'];
@@ -46,9 +106,11 @@ function registerPatient() {
 
         $returnVal = [];
         $returnVal['error'] = 'Email Address Taken.  Already Registered?';
-        return json_encode($returnVal);
 
-        // throw new Exception("Email Address Taken.  Already Registered?");
+        http_response_code(400);
+        // throw new Exception("Email Address Taken.  Already Registered?", 400);
+
+        return json_encode($returnVal);
     }
     else {
         $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
@@ -74,7 +136,7 @@ function registerPatient() {
 }
 
 function isEmailAvailable($email) {
-    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME, 3306);
     
     $qry = "SELECT id FROM Users where email_address = '$email' LIMIT 1";
     

@@ -54,6 +54,7 @@ button.portal.vid
 .vid-answer {
   vertical-align: top;
   display: inline-block;
+  padding-right: 20px;
  }
 
 .vid-answers {
@@ -73,4 +74,9 @@ ol.questions-container {
   clear: both;
   height: auto;
   width: 700px;
+}
+
+.vid-q-n-a .success {
+  color: #088eff;
+  padding-top: 40px;
 }

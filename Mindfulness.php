@@ -1,4 +1,27 @@
-<?php include_once 'headerPtPortal.html'; ?>
+<?php 
+require_once 'src/com/mdhealthclinics/UserData.php';
+
+session_start();
+$patientData = null;
+if (isset($_SESSION) && isset($_SESSION['userData'])) {
+    $patientData = $_SESSION['userData'];
+}
+else {
+    header("Location: /PtPortal/index.php");
+    return;
+}
+
+include_once 'headerPtPortal.html';
+include_once 'mdhealth_utils.php';
+
+$testCompleted = json_encode(getTestsCompleted($patientData->id));
+
+?>
+
+<script>
+var user_id = <?php echo $patientData->id; ?>;
+var testsCompleted = <?php echo $testCompleted ? $testCompleted : ''; ?>;
+</script>
 
 <span class="progress_ball"><i class="fa fa-refresh"></i></span>
 
@@ -41,10 +64,12 @@
 <p>&nbsp;</p>
 </div>
 
+<?php echo getQandAs('MindfullnessFiveMin'); ?>
+
                         <div class="col-xs-6 col-xs-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 250px;">
                                 <a href="javascript:" 
-                                onClick="clickAudios('MindfullnessFiveMin', '1 - Mindfullness Meditation 5 Minute');" 
+                                onClick="clickVid('MindfullnessFiveMin', '1 - Mindfullness Meditation 5 Minute');" 
                                 style="background-image: url('PtPortal/Images/5MinMindfulness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
                             <div class="content boxed  with_button ">
                                 <div class="hgroup">
@@ -55,7 +80,7 @@
                                     </div>
                                 <div class="link">
                                 <a href="javascript:"
-                                onClick="clickAudios('MindfullnessFiveMin', '1-Mindfullness Meditation 5 Minute');" 
+                                onClick="clickVid('MindfullnessFiveMin', '1-Mindfullness Meditation 5 Minute');" 
                                 data-colorset="white_section" class="linkify btn btn-xs btn-default">1-Mindfullness Meditation 5 Minute</a>
                                 </div>
                             </div>
@@ -65,11 +90,13 @@
 
                         </div>
 
+<?php echo getQandAs('MindfullnessFiveMin'); ?>
+
 
                         <div class="col-xs-6 col-xs-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 250px;">
                                 <a href="javascript:" 
-                                onClick="clickAudios('MindfullnessTwelveMin', '2 - Mindfullness Meditation 12 Minute');" 
+                                onClick="clickVid('MindfullnessTwelveMin', '2 - Mindfullness Meditation 12 Minute');" 
                                 style="background-image: url('PtPortal/Images/12MinMindfulness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
                             <div class="content boxed  with_button ">
                                 <div class="hgroup">
@@ -80,7 +107,7 @@
                                     </div>
                                 <div class="link">
                                 <a href="javascript:"
-                                onClick="clickAudios('MindfullnessTwelveMin', '2-Mindfullness Meditation 12 Minute');" 
+                                onClick="clickVid('MindfullnessTwelveMin', '2-Mindfullness Meditation 12 Minute');" 
                                 data-colorset="white_section" class="linkify btn btn-xs btn-default">2-Mindfullness Meditation 12 Minute</a>
                                 </div>
                             </div>
@@ -90,11 +117,13 @@
 
                         </div>
 
+<?php echo getQandAs('MindfullnessTwentyMin'); ?>
+
 
                         <div class="col-xs-6 col-xs-3">
                             <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 400px;">
                                 <a href="javascript:" 
-                                onClick="clickAudios('MindfullnessTwentyMin', '3-Mindfullness Meditation 20 Minute');" 
+                                onClick="clickVid('MindfullnessTwentyMin', '3-Mindfullness Meditation 20 Minute');" 
                                 style="background-image: url('PtPortal/Images/20MinMindfulness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
                                 <div class="content boxed  with_button ">
                                     <div class="hgroup">
@@ -106,7 +135,7 @@
                                         </div>
                                     <div class="link">
                                     <a href="javascript:"
-                                    onClick="clickAudios('MindfullnessTwentyMin', '3-Mindfullness Meditation 20 Minute');" 
+                                    onClick="clickVid('MindfullnessTwentyMin', '3-Mindfullness Meditation 20 Minute');" 
                                     data-colorset="white_section" class="linkify btn btn-xs btn-default">3-Mindfullness Meditation 20 Minute</a>
                                     </div>
                                 </div>
@@ -114,10 +143,12 @@
                         </div>
 
 
+<?php echo getQandAs('MindfullnessWorkingEmotionsSensations'); ?>
+
                         <div class="col-xs-6 col-xs-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 400px;">
                                 <a href="javascript:" 
-                                onClick="clickAudios('MindfullnessWorkingEmotionsSensations', '4-Difficult Emotions Sensations');" 
+                                onClick="clickVid('MindfullnessWorkingEmotionsSensations', '4-Difficult Emotions Sensations');" 
                                 style="background-image: url('PtPortal/Images/4_WorkingEmotionsSensations.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
                             <div class="content boxed  with_button ">
                                 <div class="hgroup">
@@ -130,17 +161,19 @@
                                     </div>
                                 <div class="link">
                                 <a href="javascript:"
-                                onClick="clickAudios('MindfullnessWorkingEmotionsSensations', '4-Difficult Emotions Sensations');" 
+                                onClick="clickVid('MindfullnessWorkingEmotionsSensations', '4-Difficult Emotions Sensations');" 
                                 data-colorset="white_section" class="linkify btn btn-xs btn-default">4-Difficult Emotions Sensations</a>
                                 </div>
                             </div>
                           </div>
                         </div>
 
+<?php echo getQandAs('MindfullnessFourtyFiveMin'); ?>
+
                         <div class="col-xs-6 col-xs-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 400px;">
                                 <a href="javascript:" 
-                                onClick="clickAudios('MindfullnessFourtyFiveMin', '5-Mindfullness Meditation 45 Minute');" 
+                                onClick="clickVid('MindfullnessFourtyFiveMin', '5-Mindfullness Meditation 45 Minute');" 
                                 style="background-image: url('PtPortal/Images/5_45MinMindfullness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
                             <div class="content boxed  with_button ">
                                 <div class="hgroup">
@@ -153,7 +186,7 @@
                                     </div>
                                 <div class="link">
                                 <a href="javascript:"
-                                onClick="clickAudios('MindfullnessFourtyFiveMin', '5-Mindfullness Meditation 45 Minute');" 
+                                onClick="clickVid('MindfullnessFourtyFiveMin', '5-Mindfullness Meditation 45 Minute');" 
                                 data-colorset="white_section" class="linkify btn btn-xs btn-default">5-Mindfullness Meditation 45 Minute</a>
                                 </div>
                             </div>
@@ -161,11 +194,13 @@
                         </div>
 
 
+<?php echo getQandAs('MindfullnessLovingKindness'); ?>
+
                     
                         <div class="col-xs-6 col-xs-3">
                           <div class="team_member teaser_box centered same_height_col white_section" style="height: auto; min-height: 400px;">
                                 <a href="javascript:" 
-                                onClick="clickAudios('MindfullnessLovingKindness', '6-Loving Kindness');" 
+                                onClick="clickVid('MindfullnessLovingKindness', '6-Loving Kindness');" 
                                 style="background-image: url('PtPortal/Images/LovingKindness.jpg')" data-colorset="white_section" class="linkify figure stretchy_wrapper ratio_1-1"></a>
                             <div class="content boxed  with_button ">
                                 <div class="hgroup">
@@ -178,7 +213,7 @@
                                     </div>
                                 <div class="link">
                                 <a href="javascript:"
-                                onClick="clickAudios('MindfullnessLovingKindness', '6-Loving Kindness');" 
+                                onClick="clickVid('MindfullnessLovingKindness', '6-Loving Kindness');" 
                                 data-colorset="white_section" class="linkify btn btn-xs btn-default">6-Loving Kindness</a>
                                 </div>
                             </div>
@@ -214,48 +249,5 @@
   </section>
 <div><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></div>
 </div>
-
-<div>
-<?php
-  function getQandAs($vid) { 
-    $qnafile = fopen("PtPortal/Docs/$vid.txt", "r") or die("Unable to open file!");
-    while(!feof($qnafile)) {
-        $qnaLine = fgets($qnafile);
-        if ($cntr == 0) {
-            $jsObj[$vid][$cntr]['title'] = $qnaLine;
-        }
-        else {
-            $qnaExploded = explode("~", $qnaLine);
-            
-            $qnaExplodedCount = count($qnaExploded);
-
-            if ($qnaExplodedCount > 1) {
-                $question = $qnaExploded[0];
-                $jsObj[$vid][$cntr]['question'] = $question;
-                $answer = $qnaExploded[($qnaExplodedCount - 1)];
-
-                $answerArray = [];
-    
-                for($i = 1; $i < count($qnaExploded) && $i != count($qnaExploded) - 1; $i++) {
-                   array_push($answerArray, $qnaExploded[$i]);
-                }
-                $jsObj[$vid][$cntr]['answers'] = $answerArray;
-                $jsObj[$vid][$cntr]['answer'] = $answer;
-            }
-        }
-        $cntr += 1;
-    }
-        
-    $jsObjeParsed = json_encode($jsObj);
-    
-    $vidVar = (string)$vid;
-
-    echo("<script type=\"text/javascript\"> var $vidVar = $jsObjeParsed;</script>");
-
-    fclose($qnafile);
-  }
-  ?>
-</div>
-
 
 <?php include_once 'footerPtPortal.html'; ?>

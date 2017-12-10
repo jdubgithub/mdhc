@@ -139,8 +139,7 @@
 
                     <div class="figure">
 
-                      <!-- a href="PtPortal/" title="" target="_blank"> <i class="wmi icon-i-administration"></i>
-                      </a-->
+                      <a href="PtPortal/" title="" target="_blank"> <i class="wmi icon-i-administration"></i></a>
 
                       <i class="wmi icon-i-administration"></i>
 
@@ -158,8 +157,7 @@
                       </div>
 
                       <div class="link centered">
-                        <!-- a href="PtPortal/" _blank="" class="btn btn-xs btn-default"><strong>More</strong></a-->
-                        <span class="btn btn-xs btn-default"><strong>More</strong></span>
+                        <a href="PtPortal/" _blank="" class="btn btn-xs btn-default"><strong>More</strong></a>
                       </div>
 
                     </div>

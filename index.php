@@ -75,16 +75,10 @@
 
        </div> 
 
-      <!-- END========================= SLIDE ==========================-->
-
-
-      <!-- ============================ SLIDE ==========================-->
-
        <div class="stretchy_wrapper ratio_slider"> 
 
         <div style="background-image: url(images/Appointments2.jpg);" aria-hidden="true" class="item    ">
           <div class="container">
-
 
             <div class="caption caption_left caption_fancy  text-left">
 
@@ -110,18 +104,10 @@
 
        </div> 
 
-      <!-- END========================= SLIDE ==========================-->
-
     </div>
   </div>
 </div>
 
-		<!--    ========================= MAIN WRAPPER STARTT ========================  -->
-
-			<!--    >> START ========================= CONTENT AREA ========================  -->
-
-			<!--   START >> ========================= MAIN COLUMN ========================  -->
-			
 				  <div class="main foo" data-colorset="foo">
 <section class="vc_row wpb_row vc_row-fluid no_padding no_cols_padding elevate folded_section transparent">
     
@@ -135,12 +121,10 @@
 		<div class="row">
             <div class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1446619389066">
                 <div class="wpb_wrapper">
-<!-- ========================== TEASER BOX ==========================-->
 
 <div class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button   ">
 
   <div class="figure transparent">
-
 
       <a href="services.php" title="" target=""> 
        
@@ -208,12 +192,10 @@
 
 </div>
 
-<!-- END======================= TEASER BOX ==========================-->
                 </div>
             </div>
             <div class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1447875785935">
                 <div class="wpb_wrapper">
-<!-- ========================== TEASER BOX ==========================-->
 
 <div class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button   ">
 
@@ -247,12 +229,10 @@
 
 </div>
 
-<!-- END======================= TEASER BOX ==========================-->
                 </div>
             </div>
             <div class="wpb_column vc_column_container col-sm-3 col-xs-6 skincolored_section vc_custom_1447875797423">
                 <div class="wpb_wrapper">
-<!-- ========================== TEASER BOX ==========================-->
 
 <div class="teaser_box wpb_content_element text-center  transparent boxed same_height_col  with_button   ">
 
@@ -294,8 +274,9 @@
 </section>
 </div>
 			
+      <!-- sep 1 -->
 			<section
-				class="vc_row wpb_row vc_row-fluid no_top_padding separator_bottom sep_angled_positive_bottom">
+				class="vc_row wpb_row vc_row-fluid no_top_padding sep_angled_positive_bottom">
 				<div class="container">
 					<div class="row">
 						<div class="wpb_column vc_column_container col-sm-12">
@@ -303,10 +284,6 @@
 								<!-- ========================== HEADING SHORTCODE ELEMENT ==========================-->
 
 								<div class="section_header  subtitle_bottom  fancy text-left">
-
-									<!--     
-    -->
-
 
 									<!--  -->
 									<h2>Welcome to MD Health Clinics</h2>
@@ -317,10 +294,6 @@
 										Health</p>
 
 								</div>
-
-								<!-- END======================= HEADING SHORTCODE ELEMENT ==========================-->
-
-
 
 							</div>
 						</div>
@@ -342,11 +315,9 @@
 								</div>
 								<div
 									class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_right vc_sep_color_black vc_separator-has-text">
-									<span class="vc_sep_holder vc_sep_holder_l"><span
-										class="vc_sep_line"></span></span>
+									<span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span>
 									<h4>MODERN MEDICAL FACILITIES</h4>
-									<span class="vc_sep_holder vc_sep_holder_r"><span
-										class="vc_sep_line"></span></span>
+									<span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 								</div>
 								<div class="wpb_text_column wpb_content_element ">
 									<div class="wpb_wrapper">
@@ -410,9 +381,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="separator_bottom">
-					<div></div>
-				</div>
 			</section>
 			
 
@@ -430,14 +398,7 @@
 
 								<div class="section_header  subtitle_bottom  fancy text-left">
 
-									<!--     
-    -->
-
-
-									<!--  -->
 									<h2>Medical Departments</h2>
-
-									<!--  -->
 
 									<p>The Backbone of our Clinic</p>
 
@@ -468,8 +429,7 @@
 														title="" target="">
 
 
-														<div class="figure transparent stretchy_wrapper ratio_4-3"
-															style="background-image: url(images/pain-management.jpg)"></div>
+														<div class="figure transparent stretchy_wrapper ratio_4-3" style="background-image: url(images/pain-management.jpg)"></div>
 
 
 													</a>
@@ -628,293 +588,8 @@
 
 
 			<section
-				class="vc_row wpb_row vc_row-fluid light_section separator_top sep_angled_positive_top separator_bottom sep_angled_positive_bottom">
-			    
-<div><p>&nbsp;</p>
-<p>&nbsp;</p></div>	    
-	    			    
-			    
-				<div class="separator_top">
-					<div></div>
-				</div>
-				<div class="container">
-					<div class="row">
-						<div class="wpb_column vc_column_container col-sm-12">
-							<div class="wpb_wrapper">
-								<!-- ========================== HEADING SHORTCODE ELEMENT ==========================-->
-
-								<div class="section_header  subtitle_bottom  fancy text-left">
-
-									<!--     
-    -->
-
-
-									<!--  -->
-									<h2>Featured Services</h2>
-
-									<!--  -->
-
-									<p>We cover a big variety of medical services</p>
-
-								</div>
-
-								<!-- END======================= HEADING SHORTCODE ELEMENT ==========================-->
-
-
-
-							</div>
-						</div>
-						<div
-							class="wpb_column vc_column_container col-sm-12 col-md-8 margin_bottom_grid text-left">
-							<div class="wpb_wrapper">
-								<div class="vc_row wpb_row vc_inner vc_row-fluid">
-									<div class="wpb_column vc_column_container col-sm-4">
-										<div class="wpb_wrapper">
-											<!-- ========================== TEASER BOX ==========================-->
-
-											<div
-												class="teaser_box wpb_content_element text-center  transparent boxed_special same_height_col  with_button "
-												style="height: auto; min-height: 234px;">
-
-												<div class="figure transparent">
-
-
-													<a href="services.php"
-														title="" target=""> <img
-														src="images/icon_med_book.png"
-														alt="Veterans Choice">
-
-
-
-													</a>
-
-												</div>
-
-
-												<div class="content text-center   with_button ">
-
-													<div class="hgroup">
-														<h4>Veterans Choice</h4>
-														<p>Vets helping Vets</p>
-													</div>
-
-
-
-													<div class="link centered">
-														<a href="services.php"
-															class="btn btn-xs btn-default"><strong>More</strong></a>
-													</div>
-
-												</div>
-
-											</div>
-
-											<!-- END======================= TEASER BOX ==========================-->
-
-										</div>
-									</div>
-									<div class="wpb_column vc_column_container col-sm-4">
-										<div class="wpb_wrapper">
-											<!-- ========================== TEASER BOX ==========================-->
-
-											<div
-												class="teaser_box wpb_content_element text-center  transparent boxed_special same_height_col  with_button "
-												style="height: auto; min-height: 234px;">
-
-
-												<div class="figure secondary_section">
-
-													<a href="pain-management.php"
-														title="" target=""> <i
-														class="wmi icon-i-immunizations"></i>
-
-
-													</a>
-
-
-												</div>
-
-												<div class="content text-center   with_button ">
-
-													<div class="hgroup">
-														<h4>Pain</h4>
-														<p>A Multidisciplinary Approach</p>
-													</div>
-
-
-
-													<div class="link centered">
-														<a href="pain-management.php"
-															class="btn btn-xs btn-default"><strong>More</strong></a>
-													</div>
-
-												</div>
-
-											</div>
-
-											<!-- END======================= TEASER BOX ==========================-->
-
-										</div>
-									</div>
-									<div class="wpb_column vc_column_container col-sm-4">
-										<div class="wpb_wrapper">
-											<!-- ========================== TEASER BOX ==========================-->
-
-											<div
-												class="teaser_box wpb_content_element text-center  transparent boxed_special same_height_col  with_button "
-												style="height: auto; min-height: 234px;">
-
-
-												<div class="figure secondary_section">
-
-													<a href="addiction-medicine.php"
-														title="" target=""> <i class="wmi icon-neurology"></i>
-
-
-													</a>
-
-
-												</div>
-
-												<div class="content text-center   with_button ">
-
-													<div class="hgroup">
-														<h4>Psychology & Spirituality</h4>
-														<p>The Next Good Step</p>
-													</div>
-
-
-
-													<div class="link centered">
-														<a href="addiction-medicine.php"
-															class="btn btn-xs btn-default"><strong>More</strong></a>
-													</div>
-
-												</div>
-
-											</div>
-
-											<!-- END======================= TEASER BOX ==========================-->
-
-										</div>
-									</div>
-								</div>
-								<div class="vc_empty_space" style="height: 24px">
-									<span class="vc_empty_space_inner"></span>
-								</div>
-
-								<div class="wpb_text_column wpb_content_element ">
-									<div class="wpb_wrapper">
-										<p>Our multidisciplinary medical team offers a plan of
-											care designed for each individual patient. With a diverse
-											group of healthcare professionals, such as physicians,
-											nurses, pharmacists, dieticians, health educators, social
-											service and mental health providers there is more certainty
-											that all of the needs of the patient will be met.</p>
-
-									</div>
-								</div>
-								<div class="plethora_button wpb_content_element text-left ">
-									<a href="services.php"
-										class="btn btn-primary with-icon icon-left" title=""
-										target="_self"> <i class="wmi icon-i-pathology"></i>
-										Checkout All Medical Services
-
-
-									</a>
-								</div>
-							</div>
-						</div>
-						<div
-							class="wpb_column vc_column_container col-sm-12 col-md-4 text-left">
-							<div class="wpb_wrapper">
-								<div
-									class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_right vc_sep_color_black x_bold vc_separator-has-text">
-									<span class="vc_sep_holder vc_sep_holder_l"><span
-										class="vc_sep_line"></span></span>
-									<h4>Working Hours</h4>
-									<span class="vc_sep_holder vc_sep_holder_r"><span
-										class="vc_sep_line"></span></span>
-								</div>
-								<div class="wpb_raw_code wpb_content_element wpb_raw_html">
-									<div class="wpb_wrapper">
-										<div class="timetable">
-											<table>
-												<tbody>
-													<tr>
-														<td>MONDAY</td>
-														<td>9:00 AM - 6:00 PM</td>
-													</tr>
-													<tr>
-														<td>TUESDAY</td>
-														<td>9:00 AM - 6:00 PM</td>
-													</tr>
-													<tr>
-														<td>WEDNESDAY</td>
-														<td>9:00 AM - 6:00 PM</td>
-													</tr>
-													<tr>
-														<td>THURSDAY</td>
-														<td>9:00 AM - 6:00 PM</td>
-													</tr>
-													<tr>
-														<td>FRIDAY</td>
-														<td>9:00 AM - 6:00 PM</td>
-													</tr>
-													<tr>
-														<td>SATURDAY</td>
-														<td>CLOSED</td>
-													</tr>
-													<tr>
-														<td>SUNDAY</td>
-														<td>CLOSED</td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
-									</div>
-								</div>
-								<div
-									class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_pos_align_right vc_sep_color_black x_bold vc_separator-has-text">
-									<span class="vc_sep_holder vc_sep_holder_l"><span
-										class="vc_sep_line"></span></span>
-									<h4>Fees &amp; Insurance</h4>
-									<span class="vc_sep_holder vc_sep_holder_r"><span
-										class="vc_sep_line"></span></span>
-								</div>
-								<div class="wpb_text_column wpb_content_element ">
-									<div class="wpb_wrapper">
-										<p>
-											For the convenience of our clients&nbsp;<strong>MD
-												Health Clinics</strong>&nbsp;provides direct insurance billing
-											with&nbsp;most&nbsp;major insurance providers and assistance
-											companies.
-										</p>
-
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="separator_bottom">
-					<div></div>
-				</div>
-				<div><p>&nbsp;</p>
-<p>&nbsp;</p></div>	
-			</section>
-			
-			
-
-
-			<section
 				style="background-image: url(images/doctor_blue_left.jpg)"
 				class="vc_row wpb_row vc_row-fluid secondary_section text-center transparent_film vcenter bgimage bg_vcenter">
-			    
-<div><p>&nbsp;</p>
-<p>&nbsp;</p></div>	    
-	    			    
 			    
 				<div class="container">
 					<div class="row">
@@ -968,10 +643,4 @@
 			</div>
 
 
-			<!--    << END ========================= MAIN COLUMN ========================  -->
-
-			<!--    << END ========================= CONTENT AREA ========================  -->
-		</div>
-		<!--    END ========================= MAIN WRAPPER FINISH ========================  -->
-		
 		<?php include_once('footer.html'); ?>

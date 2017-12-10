@@ -1,7 +1,31 @@
 <?php 
+require_once 'src/com/mdhealthclinics/UserData.php';
+
+session_start();
+
+$patientData = null;
+if (isset($_SESSION) && isset($_SESSION['userData'])) {
+    $patientData = $_SESSION['userData'];
+}
+else {
+    header("Location: /PtPortal/index.php");
+    return;
+}
+
 include_once 'headerPtPortal.html';
 include_once 'mdhealth_utils.php';
+
+// $userTestData = getUserTestData($patientData->id, null);
+// echo print_r($userTestData);
+
+$testCompleted = json_encode(getTestsCompleted($patientData->id));
+
 ?>
+
+<script>
+var user_id = <?php echo $patientData->id; ?>;
+var testsCompleted = <?php echo $testCompleted ? $testCompleted : ''; ?>;
+</script>
 
 <span class="progress_ball"><i class="fa fa-refresh"></i></span>
 
